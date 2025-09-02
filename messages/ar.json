@@ -1,0 +1,4226 @@
+{
+  "Breadcrumbs": {
+    "home": "الرئيسية",
+    "dashboard": "لوحة المعلومات",
+    "reports": "التقارير",
+    "products": "المنتجات",
+    "new product": "منتج جديد",
+    "edit product": "تعديل المنتج",
+    "categories": "التصنيفات",
+    "edit category": "تعديل التصنيف",
+    "new category": "تصنيف جديد",
+    "import-products": "استيراد المنتجات",
+    "purchases": "المشتريات",
+    "new purchase": "شراء جديد",
+    "edit purchase": "تعديل الشراء",
+    "bills": "الفواتير",
+    "new bill": "فاتورة جديدة",
+    "edit bill": "تعديل الفاتورة",
+    "debit-notes": "إشعارات الخصم",
+    "debit notes": "إشعارات الخصم",
+    "new debit note": "إشعار خصم جديد",
+    "edit debit note": "تعديل إشعار الخصم",
+    "purchase-estimate": "تقديرات الشراء",
+    "purchase estimate": "تقديرات الشراء",
+    "new purchase estimate": "تقدير شراء جديد",
+    "edit purchase estimate": "تعديل تقدير الشراء",
+    "warehouses": "المستودعات",
+    "new warehouse": "مستودع جديد",
+    "edit warehouse": "تعديل المستودع",
+    "storage": "التخزين والمستودعات",
+    "vendors": "الموردون",
+    "suppliers": "الموردون",
+    "new supplier": "مورد جديد",
+    "edit supplier": "تعديل المورد",
+    "import-suppliers": "استيراد الموردين",
+    "settings": "الإعدادات",
+    "help": "المساعدة والدعم",
+    "sales": "المبيعات",
+    "new sale": "بيع جديد",
+    "edit sale": "تعديل البيع",
+    "invoices": "الفواتير",
+    "process payment": "معالجة الدفع",
+    "credit note": "إشعار دائن",
+    "new credit note": "إشعار دائن جديد",
+    "edit credit note": "تعديل الإشعار الدائن",
+    "estimated sale": "تقدير البيع",
+    "new estimated sale": "تقدير بيع جديد",
+    "edit estimated sale": "تعديل تقدير البيع",
+    "customers": "العملاء",
+    "new customer": "عميل جديد",
+    "edit customer": "تعديل العميل",
+    "expenses": "المصاريف",
+    "expense categories": "تصنيفات المصاريف",
+    "expense subcategories": "التصنيفات الفرعية للمصاريف",
+    "running expenses": "المصاريف الجارية",
+    "employees": "الموظفون",
+    "create employee": "إنشاء موظف",
+    "edit employee": "تعديل الموظف",
+    "payrolls": "كشوف الرواتب",
+    "pay": "الدفع",
+    "sales tax": "ضريبة المبيعات",
+    "sales-taxes": "ضرائب المبيعات",
+    "taxes": "الضرائب",
+    "accounting": "المحاسبة",
+    "fixed assets": "الأصول الثابتة",
+    "fixed-assets": "الأصول الثابتة",
+    "new asset": "أصل جديد",
+    "coa": "دليل الحسابات",
+    "chart of accounts": "دليل الحسابات",
+    "users": "المستخدمون",
+    "access denied": "تم رفض الوصول",
+    "bank statement": "كشف حساب",
+    "revenue": "الإيرادات"
+  },
+  "Labels": {
+    "analytics": "التحليلات",
+    "products_and_services": "المنتجات والخدمات",
+    "inventory": "المخزون",
+    "purchases": "المشتريات",
+    "vendors": "الموردون",
+    "business_analytics": "تحليلات الأعمال",
+    "warehouse_management": "إدارة المستودعات",
+    "procurement_management": "إدارة المشتريات",
+    "financial_management": "الإدارة المالية",
+    "system": "النظام",
+    "sales": "المبيعات",
+    "sales_management": "إدارة المبيعات",
+    "invoices": "الفواتير",
+    "credit note": "إشعار دائن",
+    "estimated sales": "تقديرات المبيعات",
+    "customers": "خدمة العملاء",
+    "expenses": "إدارة المصاريف",
+    "employees": "إدارة الموظفين",
+    "payroll": "إدارة الرواتب",
+    "taxes": "إدارة الضرائب",
+    "accounting": "إدارة المحاسبة",
+    "fixed-assets": "الأصول الثابتة",
+    "coa": "دليل الحسابات",
+    "users": "إدارة المستخدمين",
+    "sales_and_revenue": "المبيعات والإيرادات",
+    "purchases_and_procurement": "المشتريات والتوريد",
+    "inventory_management": "إدارة المخزون",
+    "expenses_and_costs": "المصاريف والتكاليف",
+    "human_resources": "الموارد البشرية",
+    "financial_accounting": "المحاسبة المالية",
+    "sales_and_revenue": "المبيعات والإيرادات",
+    "purchases_and_procurement": "المشتريات والتوريد",
+    "inventory_management": "إدارة المخزون",
+    "expenses_and_costs": "المصاريف والتكاليف",
+    "human_resources": "الموارد البشرية",
+    "financial_accounting": "المحاسبة المالية"
+  },
+  "Dashboard": {
+    "title": "لوحة المعلومات",
+    "subtitle": "نظرة عامة على أداء عملك والتحليلات.",
+    "profit": "الربح",
+    "total_sales": "إجمالي المبيعات",
+    "total_purchase": "إجمالي المشتريات",
+    "products": "المنتجات",
+    "invoices": "الفواتير",
+    "customers": "العملاء"
+  },
+  "Charts": {
+    "new_customers": "عملاء جدد",
+    "new_customers_period": "يناير - يونيو 2025",
+    "customer_trend": "اتجاه تصاعدي بنسبة 5.2% هذا الشهر",
+    "customer_summary": "عرض إجمالي العملاء الجدد خلال الـ 6 أشهر الأخيرة",
+    "product_performance": "أداء المنتج",
+    "product_subtitle": "المبيعات والإيرادات حسب المنتج",
+    "sales": "المبيعات",
+    "revenue": "الإيرادات",
+    "revenue_profit": "الإيرادات والأرباح",
+    "revenue_subtitle": "تفصيل الإيرادات والأرباح الشهرية",
+    "top_products": "أفضل المنتجات",
+    "traffic_distribution": "توزيع حركة المرور حسب المصدر"
+  },
+  "UserMenu": {
+    "upgrade": "الترقية إلى النسخة المتميزة",
+    "account": "الحساب",
+    "billing": "الفواتير",
+    "notifications": "الإشعارات",
+    "logout": "تسجيل الخروج",
+    "changeOrgnaization": "تغيير المؤسسة"
+  },
+  "Error": {
+    "title": "حدث خطأ ما!",
+    "description": "واجهنا خطأ أثناء معالجة طلبك",
+    "message": "لا تقلق، الخطأ ليس من جانبك. حاول تحديث الصفحة أو العودة إلى لوحة المعلومات.",
+    "error_code": "رمز الخطأ:",
+    "try_again": "حاول مرة أخرى",
+    "back_to_dashboard": "العودة إلى لوحة المعلومات"
+  },
+  "NotFound": {
+    "title": "الصفحة غير موجودة",
+    "description": "لم نتمكن من العثور على الصفحة التي تبحث عنها",
+    "message": "قد تكون الصفحة التي تحاول الوصول إليها قد تم نقلها أو حذفها أو ربما لم تكن موجودة أبدًا.",
+    "search": "بحث",
+    "back_to_dashboard": "العودة إلى لوحة المعلومات"
+  },
+  "Products": {
+    "title": "المنتجات",
+    "subtitle": "إدارة منتجاتك، عرض المخزون، وتحديث معلومات المنتج.",
+    "columns": {
+      "uuid": "المعرف",
+      "name": "الاسم",
+      "sku": "رمز المنتج",
+      "barcode": "الباركود",
+      "category": "التصنيف",
+      "warehouse": "المستودع",
+      "quantity": "الكمية",
+      "description": "الوصف",
+      "purchasePrice": "سعر الشراء",
+      "salePrice": "سعر البيع",
+      "tax": "الضريبة",
+      "taxCode": "رمز الضريبة",
+      "total": "المجموع"
+    },
+    "actions": {
+      "title": "الإجراءات",
+      "copyId": "نسخ المعرف",
+      "view": "عرض المنتج",
+      "edit": "تعديل المنتج",
+      "delete": "حذف المنتج"
+    },
+    "dialogs": {
+      "view": {
+        "description": "عرض معلومات مفصلة عن هذا المنتج",
+        "close": "إغلاق"
+      },
+      "delete": {
+        "title": "حذف المنتج",
+        "description": "هل أنت متأكد من أنك تريد حذف {productName}؟ لا يمكن التراجع عن هذا الإجراء.",
+        "permanentAction": "هذا الإجراء دائم ولا يمكن التراجع عنه.",
+        "cancel": "إلغاء",
+        "confirm": "حذف",
+        "deleting": "جاري الحذف..."
+      }
+    },
+    "sections": {
+      "pricing": "التسعير",
+      "margin": "هامش الربح",
+      "noDescription": "لم يتم تقديم وصف"
+    },
+    "table": {
+      "new": "منتج جديد",
+      "searchPlaceholder": "البحث في المنتجات...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على نتائج.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "newRevenue": {
+      "title": "إيراد جديد",
+      "outOfStock": "نفذ من المخزون",
+      "lowStock": "مخزون منخفض",
+      "inStock": "متوفر بالمخزون",
+      "undefined": "غير محدد"
+    }
+  },
+  "NewProduct": {
+    "title": {
+      "product": "منتج جديد",
+      "service": "خدمة جديدة"
+    },
+    "subtitle": {
+      "product": "إضافة منتج جديد إلى المخزون",
+      "service": "إضافة خدمة جديدة إلى المخزون"
+    },
+    "back": "رجوع",
+    "sections": {
+      "productType": {
+        "title": "نوع المنتج",
+        "description": "اختر ما إذا كنت تضيف منتجًا أو خدمة"
+      },
+      "generalInfo": {
+        "title": "معلومات عامة",
+        "description": "تفاصيل أساسية حول {productType}"
+      },
+      "inventory": {
+        "title": "المخزون",
+        "description": "إدارة مخزون المنتج الخاص بك"
+      },
+      "taxInfo": {
+        "title": "معلومات الضريبة",
+        "description": "تكوين إعدادات الضريبة لهذا {productType}"
+      },
+      "pricing": {
+        "title": "التسعير",
+        "description": "تعيين أسعار هذا {productType}"
+      }
+    },
+    "fields": {
+      "productType": {
+        "product": "منتج",
+        "service": "خدمة"
+      },
+      "name": "الاسم",
+      "category": "التصنيف",
+      "warehouse": "المستودع",
+      "sku": "رمز المنتج",
+      "barcode": "الباركود",
+      "description": "الوصف",
+      "initialQuantity": {
+        "label": "الكمية الأولية",
+        "description": "كمية المخزون الأولية لهذا المنتج"
+      },
+      "taxType": {
+        "label": "نوع الضريبة",
+        "taxable": "خاضع للضريبة",
+        "nonTaxable": "غير خاضع للضريبة"
+      },
+      "taxCode": "رمز الضريبة",
+      "purchasePrice": "سعر الشراء",
+      "salesPrice": "سعر البيع"
+    },
+    "placeholders": {
+      "name": "أدخل الاسم",
+      "selectCategory": "اختر التصنيف",
+      "selectWarehouse": "اختر المستودع",
+      "sku": "أدخل رمز المنتج",
+      "barcode": "أدخل الباركود",
+      "description": "أدخل الوصف",
+      "selectTaxCode": "اختر رمز الضريبة"
+    },
+    "buttons": {
+      "cancel": "إلغاء",
+      "save": "حفظ {productType}"
+    },
+    "notifications": {
+      "success": "تم الحفظ بنجاح"
+    }
+  },
+  "Categories": {
+    "title": "التصنيفات",
+    "subtitle": "إدارة تصنيفات المنتجات وعرض المنتجات المرتبطة.",
+    "categoryNotFound": "لم يتم العثور على التصنيف",
+    "breadcrumb": {
+      "home": "الرئيسية",
+      "categories": "التصنيفات",
+      "newCategory": "تصنيف جديد",
+      "editCategory": "تعديل التصنيف"
+    },
+    "columns": {
+      "id": "المعرف",
+      "name": "الاسم",
+      "numberOfProducts": "المنتجات"
+    },
+    "actions": {
+      "viewProducts": "عرض المنتجات",
+      "edit": "تعديل التصنيف",
+      "delete": "حذف التصنيف"
+    },
+    "deleteDialog": {
+      "title": "حذف التصنيف",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا التصنيف؟",
+      "confirmText": "أنت على وشك حذف التصنيف:",
+      "warning": "يحتوي هذا التصنيف على",
+      "product": "منتج",
+      "products": "منتجات",
+      "cancel": "إلغاء",
+      "confirm": "حذف",
+      "deleting": "جاري الحذف..."
+    },
+    "newCategory": {
+      "title": "تصنيف جديد",
+      "description": "إنشاء تصنيف جديد للمنتجات"
+    },
+    "editCategory": {
+      "title": "تعديل التصنيف",
+      "description": "تحديث معلومات التصنيف"
+    },
+    "table": {
+      "new": "تصنيف جديد",
+      "searchPlaceholder": "البحث في التصنيفات...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على تصنيفات.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    }
+  },
+  "Warehouses": {
+    "title": "المستودعات",
+    "subtitle": "إدارة المستودعات وعرض المنتجات المخزنة.",
+    "warehouseNotFound": "لم يتم العثور على المستودع",
+    "breadcrumb": {
+      "home": "الرئيسية",
+      "warehouses": "المستودعات",
+      "newWarehouse": "مستودع جديد",
+      "editWarehouse": "تعديل المستودع"
+    },
+    "columns": {
+      "id": "المعرف",
+      "name": "الاسم",
+      "numberOfProducts": "المنتجات"
+    },
+    "actions": {
+      "viewProducts": "عرض المنتجات",
+      "edit": "تعديل المستودع",
+      "delete": "حذف المستودع"
+    },
+    "deleteDialog": {
+      "title": "حذف المستودع",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا المستودع؟",
+      "confirmText": "أنت على وشك حذف المستودع:",
+      "warning": "يحتوي هذا المستودع على",
+      "product": "منتج",
+      "products": "منتجات",
+      "cancel": "إلغاء",
+      "confirm": "حذف",
+      "deleting": "جاري الحذف..."
+    },
+    "newWarehouse": {
+      "title": "مستودع جديد",
+      "description": "إنشاء مستودع جديد لتخزين المنتجات"
+    },
+    "editWarehouse": {
+      "title": "تعديل المستودع",
+      "description": "تحديث معلومات المستودع"
+    },
+    "viewProducts": {
+      "title": "منتجات المستودع",
+      "description": "عرض المنتجات المخزنة في هذا المستودع",
+      "product": "منتج",
+      "products": "منتجات",
+      "noProducts": "لم يتم العثور على منتجات في هذا المستودع"
+    },
+    "form": {
+      "warehouseName": "اسم المستودع",
+      "warehouseNamePlaceholder": "أدخل اسم المستودع",
+      "warehouseNameDescription": "اسم المستودع الذي سيتم عرضه في جميع أنحاء النظام",
+      "createWarehouse": "إنشاء مستودع",
+      "updateWarehouse": "تحديث المستودع"
+    },
+    "table": {
+      "new": "مستودع جديد",
+      "searchPlaceholder": "البحث في المستودعات...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على مستودعات.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    }
+  },
+  "Bills": {
+    "title": "الفواتير",
+    "subtitle": "إدارة فواتيرك ومورديك وتتبع الشحنات.",
+    "back": "رجوع",
+    "columns": {
+      "uuid": "المعرف",
+      "supplier": "المورد",
+      "billDate": "تاريخ الفاتورة",
+      "expectedShipmentDate": "الشحن المتوقع",
+      "grandTotal": "المجموع الكلي",
+      "paymentRemaining": "الدفع المتبقي",
+      "terms": "الشروط",
+      "status": "الحالة",
+      "openMenu": "فتح القائمة",
+      "info": "عرض التفاصيل",
+      "processPayment": "معالجة الدفع",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "table": {
+      "new": "فاتورة جديدة",
+      "searchPlaceholder": "البحث في الفواتير...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على فواتير.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "deleteDialog": {
+      "title": "حذف الفاتورة",
+      "description": "هل أنت متأكد من أنك تريد حذف هذه الفاتورة؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف"
+    },
+    "infoDrawer": {
+      "title": "تفاصيل الفاتورة",
+      "description": "معلومات كاملة عن هذه الفاتورة",
+      "supplierInfo": "معلومات المورد",
+      "supplierEmail": "البريد الإلكتروني للمورد",
+      "terms": "الشروط",
+      "dates": "التواريخ",
+      "billDate": "تاريخ الفاتورة",
+      "expectedShipmentDate": "الشحن المتوقع",
+      "addresses": "العناوين",
+      "billingAddress": "عنوان الفاتورة",
+      "shippingAddress": "عنوان الشحن",
+      "items": "عناصر الفاتورة",
+      "productName": "المنتج",
+      "quantity": "الكمية",
+      "unitPrice": "سعر الوحدة",
+      "total": "المجموع",
+      "summary": "الملخص",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "grandTotal": "المجموع الكلي",
+      "notes": "الملاحظات",
+      "close": "إغلاق"
+    },
+    "export": {
+      "title": "تقرير الفواتير",
+      "sheetName": "الفواتير",
+      "fileName": "تقرير-الفواتير",
+      "supplier": "المورد",
+      "billDate": "تاريخ الفاتورة",
+      "expectedShipmentDate": "الشحن المتوقع",
+      "terms": "الشروط",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "grandTotal": "المجموع الكلي",
+      "status": "الحالة"
+    },
+    "newBill": {
+      "title": "فاتورة جديدة",
+      "subtitle": "إنشاء فاتورة جديدة",
+      "sections": {
+        "supplierInfo": "معلومات المورد",
+        "dates": "تواريخ الفاتورة",
+        "addresses": "العناوين",
+        "items": "عناصر الفاتورة",
+        "summary": "ملخص الفاتورة",
+        "additionalInfo": "معلومات إضافية",
+        "itemsDescription": "إضافة منتجات إلى فاتورتك"
+      },
+      "fields": {
+        "supplierId": "معرف المورد",
+        "supplierEmail": "البريد الإلكتروني للمورد",
+        "terms": "شروط الدفع",
+        "billDate": "تاريخ الفاتورة",
+        "expectedShipmentDate": "تاريخ الشحن المتوقع",
+        "billingAddress": "عنوان الفاتورة",
+        "billingStreet": "عنوان الشارع",
+        "billingCity": "المدينة",
+        "billingState": "الولاية/المقاطعة",
+        "billingZip": "الرمز البريدي",
+        "billingCountry": "البلد",
+        "shippingAddress": "عنوان الشحن",
+        "shippingStreet": "عنوان الشارع",
+        "shippingCity": "المدينة",
+        "shippingState": "الولاية/المقاطعة",
+        "shippingZip": "الرمز البريدي",
+        "shippingCountry": "البلد",
+        "copyBillingAddress": "نفس عنوان الفاتورة",
+        "items": "العناصر",
+        "productName": "اسم المنتج",
+        "quantity": "الكمية",
+        "unitPrice": "سعر الوحدة",
+        "itemTotal": "المجموع",
+        "addItem": "إضافة عنصر",
+        "removeItem": "إزالة",
+        "subtotal": "المجموع الفرعي",
+        "salesTax": "ضريبة المبيعات (%)",
+        "salesTaxAmount": "مبلغ ضريبة المبيعات",
+        "discount": "الخصم (%)",
+        "discountAmount": "مبلغ الخصم",
+        "grandTotal": "المجموع الكلي",
+        "notes": "ملاحظات إضافية",
+        "status": "الحالة",
+        "product": "المنتج",
+        "total": "المجموع"
+      },
+      "placeholders": {
+        "supplierId": "أدخل معرف المورد",
+        "supplierEmail": "أدخل البريد الإلكتروني للمورد",
+        "selectTerms": "اختر شروط الدفع",
+        "billingStreet": "أدخل عنوان الشارع",
+        "billingCity": "أدخل المدينة",
+        "billingState": "أدخل الولاية/المقاطعة",
+        "billingZip": "أدخل الرمز البريدي",
+        "billingCountry": "أدخل البلد",
+        "shippingStreet": "أدخل عنوان الشارع",
+        "shippingCity": "أدخل المدينة",
+        "shippingState": "أدخل الولاية/المقاطعة",
+        "shippingZip": "أدخل الرمز البريدي",
+        "shippingCountry": "أدخل البلد",
+        "productName": "أدخل اسم المنتج",
+        "quantity": "0",
+        "unitPrice": "0.00",
+        "notes": "أدخل أي ملاحظات أو معلومات إضافية",
+        "selectProduct": "اختر منتج",
+        "searchProducts": "البحث عن منتجات..."
+      },
+      "buttons": {
+        "save": "إنشاء فاتورة",
+        "cancel": "إلغاء"
+      },
+      "validation": {
+        "supplierEmailRequired": "البريد الإلكتروني للمورد مطلوب",
+        "termsRequired": "شروط الدفع مطلوبة",
+        "purchaseDateRequired": "تاريخ الفاتورة مطلوب",
+        "expectedShipmentDateRequired": "تاريخ الشحن المتوقع مطلوب",
+        "billingStreetRequired": "عنوان الشارع للفاتورة مطلوب",
+        "billingCityRequired": "مدينة الفاتورة مطلوبة",
+        "billingStateRequired": "ولاية/مقاطعة الفاتورة مطلوبة",
+        "billingZipRequired": "الرمز البريدي للفاتورة مطلوب",
+        "billingCountryRequired": "بلد الفاتورة مطلوب",
+        "shippingStreetRequired": "عنوان الشارع للشحن مطلوب",
+        "shippingCityRequired": "مدينة الشحن مطلوبة",
+        "shippingStateRequired": "ولاية/مقاطعة الشحن مطلوبة",
+        "shippingZipRequired": "الرمز البريدي للشحن مطلوب",
+        "shippingCountryRequired": "بلد الشحن مطلوب",
+        "itemsRequired": "مطلوب عنصر واحد على الأقل",
+        "productNameRequired": "اسم المنتج مطلوب",
+        "quantityRequired": "الكمية مطلوبة",
+        "quantityPositive": "يجب أن تكون الكمية أكبر من 0",
+        "unitPriceRequired": "سعر الوحدة مطلوب",
+        "unitPricePositive": "يجب أن يكون سعر الوحدة أكبر من 0",
+        "taxRateRange": "يجب أن يكون معدل الضريبة بين 0 و 100",
+        "discountRateRange": "يجب أن يكون معدل الخصم بين 0 و 100"
+      },
+      "successMessage": "تم إنشاء الفاتورة بنجاح",
+      "errorMessage": "خطأ في إنشاء الفاتورة",
+      "messages": {
+        "noProductsFound": "لم يتم العثور على منتجات"
+      },
+      "actions": {
+        "addItem": "إضافة عنصر"
+      }
+    },
+    "editBill": {
+      "title": "تعديل الفاتورة",
+      "subtitle": "تحديث تفاصيل الفاتورة",
+      "buttons": {
+        "save": "تحديث الفاتورة",
+        "cancel": "إلغاء"
+      },
+      "successMessage": "تم تحديث الفاتورة بنجاح",
+      "errorMessage": "خطأ في تحديث الفاتورة"
+    },
+    "processPayment": {
+      "title": "معالجة الدفع",
+      "paymentDetails": "تفاصيل الدفع",
+      "completePayment": "إكمال عملية الدفع لهذه الفاتورة",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "totalDue": "المبلغ المستحق",
+      "status": "الحالة",
+      "dueDate": "تاريخ الاستحقاق",
+      "paid": "مدفوع",
+      "print": "طباعة الفاتورة",
+      "exportPDF": "تصدير PDF",
+      "confirmPayment": "تأكيد الدفع",
+      "processing": "جاري المعالجة...",
+      "paymentComplete": "اكتمل الدفع",
+      "returnToList": "العودة إلى قائمة الفواتير"
+    },
+    "invoice": {
+      "title": "الفاتورة",
+      "number": "رقم الفاتورة",
+      "date": "تاريخ الفاتورة",
+      "due": "تاريخ الاستحقاق",
+      "from": "من",
+      "to": "إلى",
+      "items": "العناصر",
+      "item": "العنصر",
+      "quantity": "الكمية",
+      "unitPrice": "سعر الوحدة",
+      "amount": "المبلغ",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "total": "المجموع",
+      "notes": "الملاحظات",
+      "terms": "الشروط والأحكام",
+      "termsText": "يجب الدفع في غضون الشروط المحددة. يرجى الدفع عبر التحويل المصرفي إلى تفاصيل الحساب المقدمة بشكل منفصل.",
+      "footer": "شكرا لتعاملك معنا"
+    }
+  },
+  "Purchases": {
+    "title": "المشتريات",
+    "subtitle": "إدارة مشترياتك ومورديك وتتبع الشحنات.",
+    "back": "رجوع",
+    "columns": {
+      "uuid": "المعرف",
+      "supplier": "المورد",
+      "purchaseDate": "تاريخ الشراء",
+      "expectedShipmentDate": "الشحن المتوقع",
+      "grandTotal": "المجموع الكلي",
+      "paymentRemaining": "الدفع المتبقي",
+      "terms": "الشروط",
+      "status": "الحالة",
+      "openMenu": "فتح القائمة",
+      "info": "عرض التفاصيل",
+      "processPayment": "معالجة الدفع",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "table": {
+      "new": "شراء جديد",
+      "searchPlaceholder": "البحث في المشتريات...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على مشتريات.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "deleteDialog": {
+      "title": "حذف الشراء",
+      "description": "هل أنت متأكد من أنك تريد حذف عملية الشراء هذه؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف"
+    },
+    "infoDrawer": {
+      "title": "تفاصيل الشراء",
+      "description": "معلومات كاملة عن عملية الشراء هذه",
+      "supplierInfo": "معلومات المورد",
+      "supplierEmail": "البريد الإلكتروني للمورد",
+      "terms": "الشروط",
+      "dates": "التواريخ",
+      "purchaseDate": "تاريخ الشراء",
+      "expectedShipmentDate": "الشحن المتوقع",
+      "addresses": "العناوين",
+      "billingAddress": "عنوان الفاتورة",
+      "shippingAddress": "عنوان الشحن",
+      "items": "عناصر الشراء",
+      "productName": "المنتج",
+      "quantity": "الكمية",
+      "unitPrice": "سعر الوحدة",
+      "total": "المجموع",
+      "summary": "الملخص",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "grandTotal": "المجموع الكلي",
+      "notes": "الملاحظات",
+      "close": "إغلاق"
+    },
+    "export": {
+      "title": "تقرير المشتريات",
+      "sheetName": "المشتريات",
+      "fileName": "تقرير-المشتريات",
+      "supplier": "المورد",
+      "purchaseDate": "تاريخ الشراء",
+      "expectedShipmentDate": "الشحن المتوقع",
+      "terms": "الشروط",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "grandTotal": "المجموع الكلي",
+      "status": "الحالة"
+    },
+    "newPurchase": {
+      "title": "شراء جديد",
+      "subtitle": "إنشاء طلب شراء جديد",
+      "sections": {
+        "supplierInfo": "معلومات المورد",
+        "dates": "تواريخ الشراء",
+        "addresses": "العناوين",
+        "items": "عناصر الشراء",
+        "summary": "ملخص الشراء",
+        "additionalInfo": "معلومات إضافية",
+        "itemsDescription": "إضافة منتجات إلى طلب الشراء الخاص بك"
+      },
+      "fields": {
+        "supplierId": "معرف المورد",
+        "supplierEmail": "البريد الإلكتروني للمورد",
+        "terms": "شروط الدفع",
+        "purchaseDate": "تاريخ الشراء",
+        "expectedShipmentDate": "تاريخ الشحن المتوقع",
+        "billingAddress": "عنوان الفاتورة",
+        "billingStreet": "عنوان الشارع",
+        "billingCity": "المدينة",
+        "billingState": "الولاية/المقاطعة",
+        "billingZip": "الرمز البريدي",
+        "billingCountry": "البلد",
+        "shippingAddress": "عنوان الشحن",
+        "shippingStreet": "عنوان الشارع",
+        "shippingCity": "المدينة",
+        "shippingState": "الولاية/المقاطعة",
+        "shippingZip": "الرمز البريدي",
+        "shippingCountry": "البلد",
+        "copyBillingAddress": "نفس عنوان الفاتورة",
+        "items": "العناصر",
+        "productName": "اسم المنتج",
+        "quantity": "الكمية",
+        "unitPrice": "سعر الوحدة",
+        "itemTotal": "المجموع",
+        "addItem": "إضافة عنصر",
+        "removeItem": "إزالة",
+        "subtotal": "المجموع الفرعي",
+        "salesTax": "ضريبة المبيعات (%)",
+        "salesTaxAmount": "مبلغ ضريبة المبيعات",
+        "discount": "الخصم (%)",
+        "discountAmount": "مبلغ الخصم",
+        "grandTotal": "المجموع الكلي",
+        "notes": "ملاحظات إضافية",
+        "status": "الحالة",
+        "product": "المنتج",
+        "total": "المجموع"
+      },
+      "placeholders": {
+        "supplierId": "أدخل معرف المورد",
+        "supplierEmail": "أدخل البريد الإلكتروني للمورد",
+        "selectTerms": "اختر شروط الدفع",
+        "billingStreet": "أدخل عنوان الشارع",
+        "billingCity": "أدخل المدينة",
+        "billingState": "أدخل الولاية/المقاطعة",
+        "billingZip": "أدخل الرمز البريدي",
+        "billingCountry": "أدخل البلد",
+        "shippingStreet": "أدخل عنوان الشارع",
+        "shippingCity": "أدخل المدينة",
+        "shippingState": "أدخل الولاية/المقاطعة",
+        "shippingZip": "أدخل الرمز البريدي",
+        "shippingCountry": "أدخل البلد",
+        "productName": "أدخل اسم المنتج",
+        "quantity": "0",
+        "unitPrice": "0.00",
+        "notes": "أدخل أي ملاحظات أو معلومات إضافية",
+        "selectProduct": "اختر منتج",
+        "searchProducts": "البحث عن منتجات..."
+      },
+      "buttons": {
+        "save": "إنشاء",
+        "cancel": "إلغاء"
+      },
+      "validation": {
+        "supplierEmailRequired": "البريد الإلكتروني للمورد مطلوب",
+        "termsRequired": "شروط الدفع مطلوبة",
+        "purchaseDateRequired": "تاريخ الشراء مطلوب",
+        "expectedShipmentDateRequired": "تاريخ الشحن المتوقع مطلوب",
+        "billingStreetRequired": "عنوان الشارع للفاتورة مطلوب",
+        "billingCityRequired": "مدينة الفاتورة مطلوبة",
+        "billingStateRequired": "ولاية/مقاطعة الفاتورة مطلوبة",
+        "billingZipRequired": "الرمز البريدي للفاتورة مطلوب",
+        "billingCountryRequired": "بلد الفاتورة مطلوب",
+        "shippingStreetRequired": "عنوان الشارع للشحن مطلوب",
+        "shippingCityRequired": "مدينة الشحن مطلوبة",
+        "shippingStateRequired": "ولاية/مقاطعة الشحن مطلوبة",
+        "shippingZipRequired": "الرمز البريدي للشحن مطلوب",
+        "shippingCountryRequired": "بلد الشحن مطلوب",
+        "itemsRequired": "مطلوب عنصر واحد على الأقل",
+        "productNameRequired": "اسم المنتج مطلوب",
+        "quantityRequired": "الكمية مطلوبة",
+        "quantityPositive": "يجب أن تكون الكمية أكبر من 0",
+        "unitPriceRequired": "سعر الوحدة مطلوب",
+        "unitPricePositive": "يجب أن يكون سعر الوحدة أكبر من 0",
+        "taxRateRange": "يجب أن يكون معدل الضريبة بين 0 و 100",
+        "discountRateRange": "يجب أن يكون معدل الخصم بين 0 و 100"
+      },
+      "successMessage": "تم إنشاء الشراء بنجاح",
+      "errorMessage": "خطأ في إنشاء الشراء",
+      "messages": {
+        "noProductsFound": "لم يتم العثور على منتجات"
+      },
+      "actions": {
+        "addItem": "إضافة عنصر"
+      }
+    },
+    "editPurchase": {
+      "title": "تعديل",
+      "subtitle": "تحديث تفاصيل طلب الشراء",
+      "buttons": {
+        "save": "تحديث",
+        "cancel": "إلغاء"
+      },
+      "successMessage": "تم تحديث الشراء بنجاح",
+      "errorMessage": "خطأ في تحديث الشراء"
+    },
+    "processPayment": {
+      "title": "معالجة الدفع",
+      "paymentDetails": "تفاصيل الدفع",
+      "completePayment": "إكمال عملية الدفع لهذا الشراء",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "totalDue": "المبلغ المستحق",
+      "status": "الحالة",
+      "dueDate": "تاريخ الشحن المتوقع",
+      "paid": "مدفوع",
+      "print": "طباعة الفاتورة",
+      "exportPDF": "تصدير PDF",
+      "confirmPayment": "تأكيد الدفع",
+      "processing": "جاري المعالجة...",
+      "paymentComplete": "اكتمل الدفع",
+      "returnToList": "العودة إلى قائمة المشتريات"
+    },
+    "invoice": {
+      "title": "الفاتورة",
+      "number": "رقم الفاتورة",
+      "date": "تاريخ الشراء",
+      "due": "تاريخ الشحن المتوقع",
+      "from": "من",
+      "to": "إلى",
+      "items": "العناصر",
+      "item": "العنصر",
+      "quantity": "الكمية",
+      "unitPrice": "سعر الوحدة",
+      "amount": "المبلغ",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "total": "المجموع",
+      "notes": "الملاحظات",
+      "terms": "الشروط والأحكام",
+      "termsText": "يجب الدفع في غضون الشروط المحددة. يرجى الدفع عبر التحويل المصرفي إلى تفاصيل الحساب المقدمة بشكل منفصل.",
+      "footer": "شكرا لتعاملك معنا"
+    }
+  },
+  "DebitNotes": {
+    "title": "إشعارات الخصم",
+    "subtitle": "إدارة إشعارات الخصم والموردين وتتبع الشحنات.",
+    "back": "رجوع",
+    "columns": {
+      "uuid": "المعرف",
+      "supplier": "المورد",
+      "purchaseDate": "تاريخ إشعار الخصم",
+      "expectedShipmentDate": "الشحن المتوقع",
+      "grandTotal": "المجموع الكلي",
+      "paymentRemaining": "الدفع المتبقي",
+      "terms": "شروط الدفع",
+      "status": "الحالة",
+      "openMenu": "فتح القائمة",
+      "info": "عرض التفاصيل",
+      "processPayment": "معالجة الدفع",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "table": {
+      "new": "إشعار خصم جديد",
+      "searchPlaceholder": "البحث في إشعارات الخصم...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على إشعارات خصم.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "deleteDialog": {
+      "title": "حذف إشعار الخصم",
+      "description": "هل أنت متأكد من أنك تريد حذف إشعار الخصم هذا؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف"
+    },
+    "infoDrawer": {
+      "title": "تفاصيل إشعار الخصم",
+      "description": "معلومات كاملة عن إشعار الخصم هذا",
+      "supplierInfo": "معلومات المورد",
+      "supplierEmail": "البريد الإلكتروني للمورد",
+      "terms": "شروط الدفع",
+      "dates": "التواريخ",
+      "billingAddress": "عنوان الفاتورة",
+      "purchaseDate": "تاريخ إشعار الخصم",
+      "expectedShipmentDate": "الشحن المتوقع",
+      "addresses": "العناوين",
+      "debitNoteAddress": "عنوان إشعار الخصم",
+      "shippingAddress": "عنوان الشحن",
+      "items": "عناصر إشعار الخصم",
+      "productName": "المنتج",
+      "quantity": "الكمية",
+      "unitPrice": "سعر الوحدة",
+      "total": "المجموع",
+      "summary": "الملخص",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "grandTotal": "المجموع الكلي",
+      "notes": "الملاحظات",
+      "close": "إغلاق"
+    },
+    "export": {
+      "title": "تقرير إشعارات الخصم",
+      "sheetName": "إشعارات الخصم",
+      "fileName": "تقرير-إشعارات-الخصم",
+      "supplier": "المورد",
+      "debitNoteDate": "تاريخ إشعار الخصم",
+      "expectedShipmentDate": "الشحن المتوقع",
+      "paymentTerms": "شروط الدفع",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "grandTotal": "المجموع الكلي",
+      "status": "الحالة"
+    },
+    "newDebitNote": {
+      "title": "إشعار خصم جديد",
+      "subtitle": "إنشاء إشعار خصم جديد",
+      "sections": {
+        "supplierInfo": "معلومات المورد",
+        "dates": "تواريخ إشعار الخصم",
+        "addresses": "العناوين",
+        "items": "عناصر إشعار الخصم",
+        "summary": "ملخص إشعار الخصم",
+        "additionalInfo": "معلومات إضافية",
+        "itemsDescription": "إضافة منتجات إلى إشعار الخصم الخاص بك"
+      },
+      "fields": {
+        "supplierId": "معرف المورد",
+        "supplierEmail": "البريد الإلكتروني للمورد",
+        "paymentTerms": "شروط الدفع",
+        "debitNoteDate": "تاريخ إشعار الخصم",
+        "expectedShipmentDate": "تاريخ الشحن المتوقع",
+        "debitNoteAddress": "عنوان إشعار الخصم",
+        "debitNoteStreet": "عنوان الشارع",
+        "debitNoteCity": "المدينة",
+        "debitNoteState": "الولاية/المقاطعة",
+        "debitNoteZip": "الرمز البريدي",
+        "debitNoteCountry": "البلد",
+        "shippingAddress": "عنوان الشحن",
+        "shippingStreet": "عنوان الشارع",
+        "shippingCity": "المدينة",
+        "shippingState": "الولاية/المقاطعة",
+        "shippingZip": "الرمز البريدي",
+        "shippingCountry": "البلد",
+        "copyDebitNoteAddress": "نفس عنوان إشعار الخصم",
+        "items": "العناصر",
+        "productName": "اسم المنتج",
+        "quantity": "الكمية",
+        "unitPrice": "سعر الوحدة",
+        "itemTotal": "المجموع",
+        "addItem": "إضافة عنصر",
+        "removeItem": "إزالة",
+        "subtotal": "المجموع الفرعي",
+        "salesTax": "ضريبة المبيعات (%)",
+        "salesTaxAmount": "مبلغ ضريبة المبيعات",
+        "discount": "الخصم (%)",
+        "discountAmount": "مبلغ الخصم",
+        "grandTotal": "المجموع الكلي",
+        "notes": "ملاحظات إضافية",
+        "status": "الحالة",
+        "product": "المنتج",
+        "total": "المجموع"
+      },
+      "placeholders": {
+        "supplierId": "أدخل معرف المورد",
+        "supplierEmail": "أدخل البريد الإلكتروني للمورد",
+        "selectTerms": "اختر شروط الدفع",
+        "debitNoteStreet": "أدخل عنوان الشارع",
+        "debitNoteCity": "أدخل المدينة",
+        "debitNoteState": "أدخل الولاية/المقاطعة",
+        "debitNoteZip": "أدخل الرمز البريدي",
+        "debitNoteCountry": "أدخل البلد",
+        "shippingStreet": "أدخل عنوان الشارع",
+        "shippingCity": "أدخل المدينة",
+        "shippingState": "أدخل الولاية/المقاطعة",
+        "shippingZip": "أدخل الرمز البريدي",
+        "shippingCountry": "أدخل البلد",
+        "productName": "أدخل اسم المنتج",
+        "quantity": "0",
+        "unitPrice": "0.00",
+        "notes": "أدخل أي ملاحظات أو معلومات إضافية",
+        "selectProduct": "اختر منتج",
+        "searchProducts": "البحث عن منتجات..."
+      },
+      "buttons": {
+        "save": "إنشاء إشعار خصم",
+        "cancel": "إلغاء"
+      },
+      "validation": {
+        "supplierEmailRequired": "البريد الإلكتروني للمورد مطلوب",
+        "termsRequired": "شروط الدفع مطلوبة",
+        "debitNoteDateRequired": "تاريخ إشعار الخصم مطلوب",
+        "expectedShipmentDateRequired": "تاريخ الشحن المتوقع مطلوب",
+        "debitNoteStreetRequired": "عنوان الشارع لإشعار الخصم مطلوب",
+        "debitNoteCityRequired": "مدينة إشعار الخصم مطلوبة",
+        "debitNoteStateRequired": "ولاية/مقاطعة إشعار الخصم مطلوبة",
+        "debitNoteZipRequired": "الرمز البريدي لإشعار الخصم مطلوب",
+        "debitNoteCountryRequired": "بلد إشعار الخصم مطلوب",
+        "shippingStreetRequired": "عنوان الشارع للشحن مطلوب",
+        "shippingCityRequired": "مدينة الشحن مطلوبة",
+        "shippingStateRequired": "ولاية/مقاطعة الشحن مطلوبة",
+        "shippingZipRequired": "الرمز البريدي للشحن مطلوب",
+        "shippingCountryRequired": "بلد الشحن مطلوب",
+        "itemsRequired": "مطلوب عنصر واحد على الأقل",
+        "productNameRequired": "اسم المنتج مطلوب",
+        "quantityRequired": "الكمية مطلوبة",
+        "quantityPositive": "يجب أن تكون الكمية أكبر من 0",
+        "unitPriceRequired": "سعر الوحدة مطلوب",
+        "unitPricePositive": "يجب أن يكون سعر الوحدة أكبر من 0",
+        "taxRateRange": "يجب أن يكون معدل الضريبة بين 0 و 100",
+        "discountRateRange": "يجب أن يكون معدل الخصم بين 0 و 100"
+      },
+      "successMessage": "تم إنشاء إشعار الخصم بنجاح",
+      "errorMessage": "خطأ في إنشاء إشعار الخصم",
+      "messages": {
+        "noProductsFound": "لم يتم العثور على منتجات"
+      },
+      "actions": {
+        "addItem": "إضافة عنصر"
+      }
+    },
+    "editDebitNote": {
+      "title": "تعديل إشعار الخصم",
+      "subtitle": "تحديث تفاصيل إشعار الخصم",
+      "buttons": {
+        "save": "تحديث إشعار الخصم",
+        "cancel": "إلغاء"
+      },
+      "successMessage": "تم تحديث إشعار الخصم بنجاح",
+      "errorMessage": "خطأ في تحديث إشعار الخصم"
+    },
+    "processPayment": {
+      "title": "معالجة الدفع",
+      "paymentDetails": "تفاصيل الدفع",
+      "completePayment": "إكمال عملية الدفع لإشعار الخصم هذا",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "totalDue": "المبلغ المستحق",
+      "status": "الحالة",
+      "dueDate": "تاريخ الاستحقاق",
+      "paid": "مدفوع",
+      "print": "طباعة الفاتورة",
+      "exportPDF": "تصدير PDF",
+      "confirmPayment": "تأكيد الدفع",
+      "processing": "جاري المعالجة...",
+      "paymentComplete": "اكتمل الدفع",
+      "returnToList": "العودة إلى قائمة إشعارات الخصم"
+    },
+    "invoice": {
+      "title": "الفاتورة",
+      "number": "رقم الفاتورة",
+      "date": "تاريخ الفاتورة",
+      "due": "تاريخ الاستحقاق",
+      "from": "من",
+      "to": "إلى",
+      "items": "العناصر",
+      "item": "العنصر",
+      "quantity": "الكمية",
+      "unitPrice": "سعر الوحدة",
+      "amount": "المبلغ",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "total": "المجموع",
+      "notes": "الملاحظات",
+      "terms": "الشروط والأحكام",
+      "termsText": "يجب الدفع في غضون الشروط المحددة. يرجى الدفع عبر التحويل المصرفي إلى تفاصيل الحساب المقدمة بشكل منفصل.",
+      "footer": "شكرا لتعاملك معنا"
+    }
+  },
+  "OrganizationManager": {
+    "title": "إدارة المؤسسات",
+    "loading": "جاري تحميل المؤسسات",
+    "error": {
+      "title": "عذراً! حدث خطأ ما",
+      "retry": "حاول مرة أخرى"
+    },
+    "emptyState": {
+      "title": "المؤسسات",
+      "subtitle": "مساحة العمل الخاصة بك في انتظارك",
+      "heading": "دعنا نبني شيئًا مذهلاً",
+      "description": "قم بإنشاء مؤسستك الأولى للبدء في التعاون مع فريقك، وإدارة أعمالك، وفتح ميزات قوية ستحول سير عملك.",
+      "cta": "إنشاء مؤسستك",
+      "footer": "مجاني للبدء • لا تحتاج إلى بطاقة ائتمان • الإعداد في دقائق"
+    },
+    "filters": {
+      "all": "الكل",
+      "owner": "المملوكة",
+      "member": "عضو",
+      "searchPlaceholder": "البحث عن مؤسسات..."
+    },
+    "card": {
+      "ownerBadge": "مالك",
+      "memberBadge": "عضو",
+      "members": "{count, plural, one {عضو} other {أعضاء}}",
+      "active": "نشط",
+      "manageButton": "إدارة المؤسسة",
+      "settingsTooltip": "إعدادات {name}",
+      "demo": "وضع العرض التوضيحي",
+      "expired": "منتهية الصلاحية",
+      "subscriptionExpired": "انتهت صلاحية اشتراكك. يرجى التجديد للوصول إلى هذه المؤسسة.",
+      "subscriptionRequired": "الاشتراك مطلوب",
+      "demoMode": "وضع العرض التوضيحي",
+      "expiresOn": "تنتهي في {date}",
+      "expiredOn": "انتهت في {date}"
+    },
+    "createButton": "إنشاء مؤسسة"
+  },
+  "Common": {
+    "active": "نشط",
+    "products": "المنتجات",
+    "productsInCategory": "يحتوي هذا التصنيف على {count} من المنتجات",
+    "id": "المعرف",
+    "name": "الاسم",
+    "sku": "رمز المنتج",
+    "price": "السعر",
+    "noProductsFound": "لم يتم العثور على منتجات في هذا التصنيف",
+    "close": "إغلاق",
+    "categoryName": "اسم التصنيف",
+    "categoryNamePlaceholder": "أدخل اسم التصنيف",
+    "categoryNameDescription": "اسم التصنيف الذي سيتم عرضه في جميع أنحاء النظام",
+    "createCategory": "إنشاء تصنيف",
+    "updateCategory": "تحديث التصنيف",
+    "subCategoriesCount": "عدد التصنيفات الفرعية {count}",
+    "expenses": "المصاريف",
+    "expenseCategories": "تصنيفات المصاريف",
+    "expenseSubCategories": "التصنيفات الفرعية للمصاريف",
+    "noExpensesFound": "لم يتم العثور على مصاريف في هذا التصنيف الفرعي",
+    "noSubCategoriesFound": "لم يتم العثور على تصنيفات فرعية في هذا التصنيف"
+  },
+  "Customers": {
+    "title": "العملاء",
+    "subtitle": "إدارة العملاء ومعلوماتهم.",
+    "columns": {
+      "deposit": "الوديعة",
+      "depositHistory": "تاريخ الودائع",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "country": "البلد",
+      "openMenu": "فتح القائمة",
+      "currency": "العملة",
+      "taxNumber": "الرقم الضريبي",
+      "info": "عرض التفاصيل",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "table": {
+      "new": "عميل جديد",
+      "searchPlaceholder": "البحث في العملاء...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على موردين.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "deleteDialog": {
+      "title": "حذف العميل",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا العميل؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف"
+    },
+    "infoDrawer": {
+      "title": "تفاصيل العميل",
+      "description": "معلومات كاملة عن هذا العميل",
+      "basicInfo": "المعلومات الأساسية",
+      "name": "الاسم",
+      "contact": "الاتصال",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "country": "البلد",
+      "currency": "العملة",
+      "taxInfo": "المعلومات الضريبية",
+      "antityCode": "رمز الكيان",
+      "exemptionNumber": "رقم الإعفاء",
+      "taxNumber": "الرقم الضريبي",
+      "addressInfo": "معلومات العنوان",
+      "address": "العنوان",
+      "city": "المدينة",
+      "state": "الولاية",
+      "postCode": "الرمز البريدي",
+      "close": "إغلاق",
+      "edit": "تعديل"
+    },
+    "export": {
+      "title": "تقرير الموردين",
+      "sheetName": "الموردون",
+      "fileName": "تقرير-الموردين",
+      "name": "الاسم",
+      "contact": "الاتصال",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "country": "البلد",
+      "currency": "العملة",
+      "antityCode": "رمز الكيان",
+      "exemptionNumber": "رقم الإعفاء",
+      "taxNumber": "الرقم الضريبي",
+      "openingBalance": "الرصيد الافتتاحي",
+      "outstandingBalance": "الرصيد المستحق",
+      "address": "العنوان",
+      "postCode": "الرمز البريدي",
+      "state": "الولاية",
+      "city": "المدينة"
+    },
+    "newCustomer": {
+      "title": "عميل جديد",
+      "subtitle": "إنشاء عميل جديد"
+    },
+    "editCustomer": {
+      "title": "تعديل العميل",
+      "subtitle": "تحديث معلومات العميل",
+      "notFound": "لم يتم العثور على العميل.",
+      "backToList": "العودة إلى قائمة العملاء"
+    },
+    "depositHistoryForm": {
+      "title": "تاريخ الودائع",
+      "subtitle": "عرض تاريخ الودائع"
+    },
+    "depositForm": {
+      "title": "وديعة",
+      "subtitle": "إنشاء وديعة جديدة",
+      "success": {
+        "title": "تم إنشاء الوديعة بنجاح",
+        "description": "تم إنشاء الوديعة بنجاح"
+      },
+      "error": {
+        "title": "فشل في إنشاء الوديعة",
+        "description": "فشل في إنشاء الوديعة"
+      },
+      "paymentDate": {
+        "label": "تاريخ الدفع",
+        "placeholder": "أدخل تاريخ الدفع",
+        "required": "تاريخ الدفع مطلوب"
+      },
+      "paidBy": {
+        "label": "دفع بواسطة",
+        "placeholder": "أدخل من دفع",
+        "required": "من دفع مطلوب"
+      },
+      "amount": {
+        "label": "المبلغ",
+        "placeholder": "أدخل المبلغ",
+        "min": "يجب أن يكون المبلغ على الأقل 0.01"
+      },
+      "note": {
+        "label": "ملاحظة",
+        "placeholder": "أدخل ملاحظة"
+      },
+      "buttons": {
+        "save": "حفظ",
+        "cancel": "إلغاء"
+      }
+    },
+    "form": {
+      "tabs": {
+        "basic": "المعلومات الأساسية",
+        "tax": "المعلومات الضريبية",
+        "address": "معلومات العنوان"
+      },
+      "name": {
+        "label": "الاسم",
+        "placeholder": "أدخل اسم العميل",
+        "description": "الاسم الكامل للعميل."
+      },
+      "website": {
+        "label": "الموقع الإلكتروني",
+        "placeholder": "أدخل عنوان الموقع الإلكتروني",
+        "description": "عنوان الموقع الإلكتروني الرئيسي للعميل."
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل عنوان البريد الإلكتروني",
+        "description": "عنوان البريد الإلكتروني الرئيسي للعميل."
+      },
+      "phone": {
+        "label": "الهاتف",
+        "placeholder": "أدخل رقم الهاتف",
+        "description": "رقم الهاتف الرئيسي للعميل."
+      },
+      "taxNumber": {
+        "label": "الرقم الضريبي",
+        "placeholder": "أدخل الرقم الضريبي",
+        "description": "الرقم الضريبي لهذا العميل (إن وجد)."
+      },
+      "address": {
+        "label": "العنوان",
+        "placeholder": "أدخل العنوان",
+        "description": "العنوان الرئيسي لهذا العميل."
+      },
+      "currency": {
+        "label": "العملة",
+        "placeholder": "أدخل العملة",
+        "description": "العملة لهذا العميل (إن وجدت)."
+      },
+      "antityCode": {
+        "label": "رمز الكيان",
+        "placeholder": "أدخل رمز الكيان",
+        "description": "رمز الكيان لهذا العميل (إن وجد)."
+      },
+      "exemptionNumber": {
+        "label": "رقم الإعفاء",
+        "placeholder": "أدخل رقم الإعفاء",
+        "description": "رقم الإعفاء لهذا العميل (إن وجد)."
+      },
+      "city": {
+        "label": "المدينة",
+        "placeholder": "أدخل المدينة"
+      },
+      "state": {
+        "label": "الولاية",
+        "placeholder": "أدخل الولاية"
+      },
+      "postCode": {
+        "label": "الرمز البريدي",
+        "placeholder": "أدخل الرمز البريدي"
+      },
+      "country": {
+        "label": "البلد",
+        "placeholder": "أدخل البلد"
+      },
+      "buttons": {
+        "cancel": "إلغاء",
+        "create": "إنشاء عميل",
+        "update": "تحديث العميل"
+      }
+    },
+    "oldForm": {
+      "form": {
+        "firstName": "الاسم الأول",
+        "firstNamePlaceholder": "أدخل الاسم الأول",
+        "lastName": "اسم العائلة",
+        "lastNamePlaceholder": "أدخل اسم العائلة",
+        "email": "البريد الإلكتروني",
+        "emailPlaceholder": "أدخل البريد الإلكتروني",
+        "phone": "رقم الهاتف",
+        "phonePlaceholder": "أدخل رقم الهاتف",
+        "companyName": "اسم الشركة",
+        "companyNamePlaceholder": "أدخل اسم الشركة (اختياري)",
+        "address": "العنوان",
+        "addressLine1": "سطر العنوان 1",
+        "addressLine1Placeholder": "أدخل سطر العنوان 1",
+        "addressLine2": "سطر العنوان 2",
+        "addressLine2Placeholder": "أدخل سطر العنوان 2 (اختياري)",
+        "city": "المدينة",
+        "cityPlaceholder": "أدخل المدينة",
+        "state": "الولاية/المقاطعة",
+        "statePlaceholder": "أدخل الولاية/المقاطعة",
+        "zipCode": "الرمز البريدي",
+        "zipCodePlaceholder": "أدخل الرمز البريدي",
+        "country": "البلد",
+        "countryPlaceholder": "أدخل البلد"
+      },
+      "validation": {
+        "firstNameRequired": "الاسم الأول مطلوب",
+        "lastNameRequired": "اسم العائلة مطلوب",
+        "emailRequired": "البريد الإلكتروني مطلوب",
+        "emailInvalid": "البريد الإلكتروني غير صالح",
+        "phoneRequired": "رقم الهاتف مطلوب",
+        "phoneInvalid": "رقم الهاتف غير صالح",
+        "addressLine1Required": "سطر العنوان 1 مطلوب",
+        "cityRequired": "المدينة مطلوبة",
+        "stateRequired": "الولاية/المقاطعة مطلوبة",
+        "zipCodeRequired": "الرمز البريدي مطلوب",
+        "countryRequired": "البلد مطلوب"
+      },
+      "success": "تم إنشاء العميل بنجاح",
+      "error": "حدث خطأ أثناء إنشاء العميل"
+    },
+    "editCustomer": {
+      "title": "تعديل العميل",
+      "description": "تحديث معلومات العميل",
+      "submit": "تحديث العميل",
+      "cancel": "إلغاء",
+      "success": "تم تحديث العميل بنجاح",
+      "error": "حدث خطأ أثناء تحديث العميل"
+    },
+    "table": {
+      "new": "عميل جديد",
+      "searchPlaceholder": "البحث في العملاء...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على عملاء.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "columns": {
+      "id": "المعرف",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "company": "الشركة",
+      "address": "العنوان",
+      "city": "المدينة",
+      "state": "الولاية/المقاطعة",
+      "country": "البلد",
+      "zipCode": "الرمز البريدي",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث"
+    },
+    "actions": {
+      "view": "عرض العميل",
+      "edit": "تعديل العميل",
+      "delete": "حذف العميل"
+    },
+    "deleteDialog": {
+      "title": "حذف العميل",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا العميل؟ سيتم حذف جميع البيانات المرتبطة به أيضًا.",
+      "cancel": "إلغاء",
+      "confirm": "حذف",
+      "deleting": "جاري الحذف..."
+    },
+    "viewCustomer": {
+      "title": "تفاصيل العميل",
+      "tabs": {
+        "overview": "نظرة عامة",
+        "invoices": "الفواتير",
+        "transactions": "المعاملات"
+      },
+      "contactInfo": "معلومات الاتصال",
+      "billingInfo": "معلومات الفوترة",
+      "invoices": {
+        "title": "الفواتير",
+        "columns": {
+          "id": "المعرف",
+          "date": "التاريخ",
+          "dueDate": "تاريخ الاستحقاق",
+          "amount": "المبلغ",
+          "status": "الحالة",
+          "actions": "الإجراءات"
+        },
+        "noInvoices": "لا توجد فواتير لهذا العميل",
+        "viewInvoice": "عرض الفاتورة"
+      },
+      "transactions": {
+        "title": "المعاملات",
+        "columns": {
+          "id": "المعرف",
+          "date": "التاريخ",
+          "amount": "المبلغ",
+          "type": "النوع",
+          "status": "الحالة",
+          "actions": "الإجراءات"
+        },
+        "noTransactions": "لا توجد معاملات لهذا العميل",
+        "viewTransaction": "عرض المعاملة",
+        "types": {
+          "sale": "مبيعات",
+          "payment": "دفع",
+          "refund": "استرداد"
+        }
+      }
+    }
+  },
+  "Sales": {
+    "title": "المبيعات",
+    "subtitle": "إدارة مبيعاتك والعملاء وتتبع التسليمات.",
+    "back": "رجوع",
+    "columns": {
+      "customer": "العميل",
+      "saleDate": "تاريخ البيع",
+      "expectedDeliveryDate": "التسليم المتوقع",
+      "grandTotal": "المجموع الكلي",
+      "terms": "الشروط",
+      "status": "الحالة",
+      "openMenu": "فتح القائمة",
+      "info": "عرض التفاصيل",
+      "processPayment": "معالجة الدفع",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "table": {
+      "new": "بيع جديد",
+      "searchPlaceholder": "البحث في المبيعات...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على مبيعات.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "deleteDialog": {
+      "title": "حذف البيع",
+      "description": "هل أنت متأكد من أنك تريد حذف عملية البيع هذه؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف"
+    },
+    "infoDrawer": {
+      "title": "تفاصيل البيع",
+      "description": "معلومات كاملة عن عملية البيع هذه",
+      "customerInfo": "معلومات العميل",
+      "customerEmail": "البريد الإلكتروني للعميل",
+      "terms": "شروط الدفع",
+      "dates": "التواريخ",
+      "saleDate": "تاريخ البيع",
+      "expectedDeliveryDate": "التسليم المتوقع",
+      "addresses": "العناوين",
+      "billingAddress": "عنوان الفاتورة",
+      "shippingAddress": "عنوان الشحن",
+      "items": "عناصر البيع",
+      "productName": "المنتج",
+      "quantity": "الكمية",
+      "unitPrice": "سعر الوحدة",
+      "total": "المجموع",
+      "summary": "الملخص",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "grandTotal": "المجموع الكلي",
+      "notes": "الملاحظات",
+      "close": "إغلاق"
+    },
+    "export": {
+      "title": "تقرير المبيعات",
+      "sheetName": "المبيعات",
+      "fileName": "تقرير-المبيعات",
+      "customer": "العميل",
+      "saleDate": "تاريخ البيع",
+      "expectedDeliveryDate": "التسليم المتوقع",
+      "terms": "الشروط",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "grandTotal": "المجموع الكلي",
+      "status": "الحالة"
+    },
+    "newSale": {
+      "title": "بيع جديد",
+      "subtitle": "إنشاء عملية بيع جديدة",
+      "sections": {
+        "customerInfo": "معلومات العميل",
+        "dates": "تواريخ البيع",
+        "addresses": "العناوين",
+        "items": "عناصر البيع",
+        "summary": "ملخص البيع",
+        "additionalInfo": "معلومات إضافية",
+        "itemsDescription": "إضافة منتجات إلى عملية البيع الخاصة بك"
+      },
+      "fields": {
+        "customerId": "معرف العميل",
+        "customerEmail": "البريد الإلكتروني للعميل",
+        "terms": "شروط الدفع",
+        "saleDate": "تاريخ البيع",
+        "expectedDeliveryDate": "تاريخ التسليم المتوقع",
+        "expectedShipmentDate": "تاريخ الشحن المتوقع",
+        "billingAddress": "عنوان الفاتورة",
+        "billingStreet": "عنوان الشارع",
+        "billingCity": "المدينة",
+        "billingState": "الولاية/المقاطعة",
+        "billingZip": "الرمز البريدي",
+        "billingCountry": "البلد",
+        "shippingAddress": "عنوان الشحن",
+        "shippingStreet": "عنوان الشارع",
+        "shippingCity": "المدينة",
+        "shippingState": "الولاية/المقاطعة",
+        "shippingZip": "الرمز البريدي",
+        "shippingCountry": "البلد",
+        "copyBillingAddress": "نفس عنوان الفاتورة",
+        "items": "العناصر",
+        "productName": "اسم المنتج",
+        "quantity": "الكمية",
+        "unitPrice": "سعر الوحدة",
+        "itemTotal": "المجموع",
+        "addItem": "إضافة عنصر",
+        "removeItem": "إزالة",
+        "subtotal": "المجموع الفرعي",
+        "salesTax": "ضريبة المبيعات (%)",
+        "salesTaxAmount": "مبلغ ضريبة المبيعات",
+        "discount": "الخصم (%)",
+        "discountAmount": "مبلغ الخصم",
+        "grandTotal": "المجموع الكلي",
+        "notes": "ملاحظات إضافية",
+        "status": "الحالة",
+        "product": "المنتج",
+        "total": "المجموع"
+      },
+      "placeholders": {
+        "customerId": "أدخل معرف العميل",
+        "customerEmail": "أدخل البريد الإلكتروني للعميل",
+        "selectTerms": "اختر شروط الدفع",
+        "billingStreet": "أدخل عنوان الشارع",
+        "billingCity": "أدخل المدينة",
+        "billingState": "أدخل الولاية/المقاطعة",
+        "billingZip": "أدخل الرمز البريدي",
+        "billingCountry": "أدخل البلد",
+        "shippingStreet": "أدخل عنوان الشارع",
+        "shippingCity": "أدخل المدينة",
+        "shippingState": "أدخل الولاية/المقاطعة",
+        "shippingZip": "أدخل الرمز البريدي",
+        "shippingCountry": "أدخل البلد",
+        "productName": "أدخل اسم المنتج",
+        "quantity": "0",
+        "unitPrice": "0.00",
+        "notes": "أدخل أي ملاحظات أو معلومات إضافية",
+        "selectProduct": "اختر منتج",
+        "searchProducts": "البحث عن منتجات..."
+      },
+      "buttons": {
+        "save": "إنشاء بيع",
+        "cancel": "إلغاء"
+      },
+      "validation": {
+        "customerEmailRequired": "البريد الإلكتروني للعميل مطلوب",
+        "termsRequired": "شروط الدفع مطلوبة",
+        "saleDateRequired": "تاريخ البيع مطلوب",
+        "expectedDeliveryDateRequired": "تاريخ التسليم المتوقع مطلوب",
+        "billingStreetRequired": "عنوان الشارع للفاتورة مطلوب",
+        "billingCityRequired": "مدينة الفاتورة مطلوبة",
+        "billingStateRequired": "ولاية/مقاطعة الفاتورة مطلوبة",
+        "billingZipRequired": "الرمز البريدي للفاتورة مطلوب",
+        "billingCountryRequired": "بلد الفاتورة مطلوب",
+        "shippingStreetRequired": "عنوان الشارع للشحن مطلوب",
+        "shippingCityRequired": "مدينة الشحن مطلوبة",
+        "shippingStateRequired": "ولاية/مقاطعة الشحن مطلوبة",
+        "shippingZipRequired": "الرمز البريدي للشحن مطلوب",
+        "shippingCountryRequired": "بلد الشحن مطلوب",
+        "itemsRequired": "مطلوب عنصر واحد على الأقل",
+        "productNameRequired": "اسم المنتج مطلوب",
+        "quantityRequired": "الكمية مطلوبة",
+        "quantityPositive": "يجب أن تكون الكمية أكبر من 0",
+        "unitPriceRequired": "سعر الوحدة مطلوب",
+        "unitPricePositive": "يجب أن يكون سعر الوحدة أكبر من 0",
+        "taxRateRange": "يجب أن يكون معدل الضريبة بين 0 و 100",
+        "discountRateRange": "يجب أن يكون معدل الخصم بين 0 و 100"
+      },
+      "successMessage": "تم إنشاء البيع بنجاح",
+      "errorMessage": "خطأ في إنشاء البيع",
+      "messages": {
+        "noProductsFound": "لم يتم العثور على منتجات"
+      },
+      "actions": {
+        "addItem": "إضافة عنصر"
+      }
+    },
+    "editSale": {
+      "title": "تعديل البيع",
+      "subtitle": "تحديث تفاصيل عملية البيع",
+      "buttons": {
+        "save": "تحديث البيع",
+        "cancel": "إلغاء"
+      },
+      "successMessage": "تم تحديث البيع بنجاح",
+      "errorMessage": "خطأ في تحديث البيع"
+    },
+    "processPayment": {
+      "title": "معالجة الدفع",
+      "paymentDetails": "تفاصيل الدفع",
+      "completePayment": "إكمال عملية الدفع لهذا البيع",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "totalDue": "المبلغ المستحق",
+      "status": "الحالة",
+      "dueDate": "تاريخ الاستحقاق",
+      "paid": "مدفوع",
+      "print": "طباعة الفاتورة",
+      "exportPDF": "تصدير PDF",
+      "confirmPayment": "تأكيد الدفع",
+      "processing": "جاري المعالجة...",
+      "paymentComplete": "اكتمل الدفع",
+      "returnToList": "العودة إلى قائمة المبيعات"
+    },
+    "invoice": {
+      "title": "الفاتورة",
+      "number": "رقم الفاتورة",
+      "date": "تاريخ البيع",
+      "due": "تاريخ الاستحقاق",
+      "from": "من",
+      "to": "إلى",
+      "items": "العناصر",
+      "item": "العنصر",
+      "quantity": "الكمية",
+      "unitPrice": "سعر الوحدة",
+      "amount": "المبلغ",
+      "subtotal": "المجموع الفرعي",
+      "salesTax": "ضريبة المبيعات",
+      "discount": "الخصم",
+      "total": "المجموع",
+      "notes": "الملاحظات",
+      "terms": "الشروط والأحكام",
+      "termsText": "يجب الدفع في غضون الشروط المحددة. يرجى الدفع عبر التحويل المصرفي إلى تفاصيل الحساب المقدمة بشكل منفصل.",
+      "footer": "شكرا لتعاملك معنا"
+    }
+  },
+  "Invoices": {
+    "title": "الفواتير",
+    "subtitle": "إدارة فواتير المبيعات وتتبع المدفوعات.",
+    "columns": {
+      "uuid": "المعرف",
+      "customer": "العميل",
+      "invoiceDate": "تاريخ الفاتورة",
+      "dueDate": "تاريخ الاستحقاق",
+      "grandTotal": "المجموع الكلي",
+      "paymentRemaining": "الدفع المتبقي",
+      "status": "الحالة",
+      "openMenu": "فتح القائمة",
+      "info": "عرض التفاصيل",
+      "processPayment": "معالجة الدفع",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "table": {
+      "searchPlaceholder": "البحث في الفواتير...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على فواتير.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من"
+    },
+    "status": {
+      "paid": "مدفوع",
+      "pending": "معلق",
+      "overdue": "متأخر",
+      "partiallyPaid": "مدفوع جزئيًا",
+      "draft": "مسودة",
+      "cancelled": "ملغى"
+    },
+    "viewInvoice": {
+      "title": "تفاصيل الفاتورة",
+      "print": "طباعة الفاتورة",
+      "download": "تحميل PDF",
+      "sendToCustomer": "إرسال إلى العميل",
+      "processPayment": "معالجة الدفع",
+      "edit": "تعديل الفاتورة"
+    },
+    "processPayment": {
+      "title": "معالجة الدفع",
+      "paymentMethod": "طريقة الدفع",
+      "amount": "المبلغ",
+      "date": "تاريخ الدفع",
+      "notes": "ملاحظات",
+      "record": "تسجيل الدفع",
+      "cancel": "إلغاء"
+    }
+  },
+  "CreditNote": {
+    "title": "إشعار دائن",
+    "subtitle": "إدارة إشعارات الدائن وتتبع الاستردادات.",
+    "columns": {
+      "uuid": "المعرف",
+      "customer": "العميل",
+      "creditNoteDate": "تاريخ الإشعار",
+      "amount": "المبلغ",
+      "status": "الحالة",
+      "reason": "السبب",
+      "openMenu": "فتح القائمة",
+      "info": "عرض التفاصيل",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "table": {
+      "new": "إشعار دائن جديد",
+      "searchPlaceholder": "البحث في إشعارات الدائن...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على إشعارات دائنة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من"
+    },
+    "newCreditNote": {
+      "title": "إشعار دائن جديد",
+      "subtitle": "إنشاء إشعار دائن جديد",
+      "sections": {
+        "customerInfo": "معلومات العميل",
+        "invoiceInfo": "معلومات الفاتورة",
+        "items": "العناصر",
+        "summary": "الملخص",
+        "additionalInfo": "معلومات إضافية"
+      },
+      "fields": {
+        "customerId": "العميل",
+        "invoiceId": "الفاتورة",
+        "creditNoteDate": "تاريخ الإشعار",
+        "reason": "سبب الإشعار الدائن",
+        "items": "العناصر",
+        "productName": "المنتج",
+        "quantity": "الكمية",
+        "unitPrice": "سعر الوحدة",
+        "discount": "الخصم",
+        "itemTotal": "المجموع",
+        "subtotal": "المجموع الفرعي",
+        "salesTax": "ضريبة المبيعات",
+        "total": "المجموع الكلي",
+        "notes": "ملاحظات"
+      },
+      "placeholders": {
+        "selectCustomer": "اختر العميل",
+        "selectInvoice": "اختر الفاتورة",
+        "enterReason": "أدخل سبب الإشعار الدائن",
+        "enterNotes": "أدخل أي ملاحظات إضافية هنا"
+      },
+      "buttons": {
+        "save": "إنشاء إشعار دائن",
+        "cancel": "إلغاء"
+      },
+      "success": "تم إنشاء الإشعار الدائن بنجاح",
+      "error": "حدث خطأ أثناء إنشاء الإشعار الدائن"
+    },
+    "editCreditNote": {
+      "title": "تعديل إشعار دائن",
+      "subtitle": "تحديث تفاصيل الإشعار الدائن",
+      "buttons": {
+        "save": "تحديث الإشعار الدائن",
+        "cancel": "إلغاء"
+      },
+      "success": "تم تحديث الإشعار الدائن بنجاح",
+      "error": "حدث خطأ أثناء تحديث الإشعار الدائن"
+    },
+    "viewCreditNote": {
+      "title": "تفاصيل الإشعار الدائن",
+      "print": "طباعة الإشعار الدائن",
+      "download": "تحميل PDF",
+      "edit": "تعديل الإشعار الدائن"
+    }
+  },
+  "EstimatedSale": {
+    "title": "تقديرات البيع",
+    "subtitle": "إدارة عروض الأسعار وتقديرات المبيعات.",
+    "columns": {
+      "uuid": "المعرف",
+      "customer": "العميل",
+      "estimateDate": "تاريخ التقدير",
+      "expiryDate": "تاريخ الانتهاء",
+      "amount": "المبلغ",
+      "status": "الحالة",
+      "openMenu": "فتح القائمة",
+      "info": "عرض التفاصيل",
+      "convertToSale": "تحويل إلى بيع",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "table": {
+      "new": "تقدير بيع جديد",
+      "searchPlaceholder": "البحث في تقديرات البيع...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على تقديرات بيع.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من"
+    },
+    "status": {
+      "draft": "مسودة",
+      "sent": "مرسل",
+      "accepted": "مقبول",
+      "rejected": "مرفوض",
+      "expired": "منتهي الصلاحية",
+      "converted": "تم التحويل"
+    },
+    "newEstimate": {
+      "title": "تقدير بيع جديد",
+      "subtitle": "إنشاء تقدير بيع جديد",
+      "sections": {
+        "customerInfo": "معلومات العميل",
+        "dates": "التواريخ",
+        "items": "العناصر",
+        "summary": "الملخص",
+        "additionalInfo": "معلومات إضافية"
+      },
+      "fields": {
+        "customerId": "العميل",
+        "estimateDate": "تاريخ التقدير",
+        "expiryDate": "تاريخ الانتهاء",
+        "items": "العناصر",
+        "productName": "المنتج",
+        "quantity": "الكمية",
+        "unitPrice": "سعر الوحدة",
+        "discount": "الخصم",
+        "itemTotal": "المجموع",
+        "subtotal": "المجموع الفرعي",
+        "salesTax": "ضريبة المبيعات",
+        "total": "المجموع الكلي",
+        "notes": "ملاحظات",
+        "status": "الحالة"
+      },
+      "placeholders": {
+        "selectCustomer": "اختر العميل",
+        "enterNotes": "أدخل أي ملاحظات إضافية هنا"
+      },
+      "buttons": {
+        "save": "إنشاء تقدير",
+        "saveAndSend": "إنشاء وإرسال",
+        "cancel": "إلغاء"
+      },
+      "success": "تم إنشاء تقدير البيع بنجاح",
+      "error": "حدث خطأ أثناء إنشاء تقدير البيع"
+    },
+    "editEstimate": {
+      "title": "تعديل تقدير البيع",
+      "subtitle": "تحديث تفاصيل تقدير البيع",
+      "buttons": {
+        "save": "تحديث التقدير",
+        "cancel": "إلغاء"
+      },
+      "success": "تم تحديث تقدير البيع بنجاح",
+      "error": "حدث خطأ أثناء تحديث تقدير البيع"
+    },
+    "viewEstimate": {
+      "title": "تفاصيل تقدير البيع",
+      "print": "طباعة التقدير",
+      "download": "تحميل PDF",
+      "send": "إرسال إلى العميل",
+      "convertToSale": "تحويل إلى بيع",
+      "edit": "تعديل التقدير"
+    },
+    "convertToSale": {
+      "title": "تحويل إلى بيع",
+      "message": "هل أنت متأكد من أنك تريد تحويل هذا التقدير إلى عملية بيع؟",
+      "confirm": "تحويل",
+      "cancel": "إلغاء",
+      "success": "تم تحويل التقدير إلى بيع بنجاح",
+      "error": "حدث خطأ أثناء تحويل التقدير إلى بيع"
+    }
+  },
+  "Suppliers": {
+    "title": "الموردون",
+    "subtitle": "إدارة الموردين ومعلوماتهم.",
+    "columns": {
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "contact": "الاتصال",
+      "country": "البلد",
+      "openingBalance": "الرصيد الافتتاحي",
+      "outstandingBalance": "الرصيد المستحق",
+      "openMenu": "فتح القائمة",
+      "addPayment": "إضافة دفعة",
+      "info": "عرض التفاصيل",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "table": {
+      "new": "مورد جديد",
+      "searchPlaceholder": "البحث في الموردين...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على موردين.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "deleteDialog": {
+      "title": "حذف المورد",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا المورد؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف"
+    },
+    "infoDrawer": {
+      "title": "تفاصيل المورد",
+      "description": "معلومات كاملة عن هذا المورد",
+      "basicInfo": "المعلومات الأساسية",
+      "name": "الاسم",
+      "contact": "الاتصال",
+      "email": "البريد الإلكتروني",
+      "openingBalance": "الرصيد الافتتاحي",
+      "outstandingBalance": "الرصيد المستحق",
+      "taxInfo": "المعلومات الضريبية",
+      "gstNumber": "رقم ضريبة السلع والخدمات",
+      "taxNumber": "الرقم الضريبي",
+      "addressInfo": "معلومات العنوان",
+      "address": "العنوان",
+      "city": "المدينة",
+      "state": "الولاية",
+      "postCode": "الرمز البريدي",
+      "country": "البلد",
+      "close": "إغلاق",
+      "edit": "تعديل"
+    },
+    "export": {
+      "title": "تقرير الموردين",
+      "sheetName": "الموردون",
+      "fileName": "تقرير-الموردين",
+      "name": "الاسم",
+      "contact": "الاتصال",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "country": "البلد",
+      "currency": "العملة",
+      "antityCode": "رمز الكيان",
+      "exemptionNumber": "رقم الإعفاء",
+      "taxNumber": "الرقم الضريبي",
+      "openingBalance": "الرصيد الافتتاحي",
+      "outstandingBalance": "الرصيد المستحق",
+      "address": "العنوان",
+      "postCode": "الرمز البريدي",
+      "state": "الولاية",
+      "city": "المدينة"
+    },
+    "newSupplier": {
+      "title": "مورد جديد",
+      "subtitle": "إنشاء مورد جديد"
+    },
+    "editSupplier": {
+      "title": "تعديل المورد",
+      "subtitle": "تحديث معلومات المورد",
+      "notFound": "لم يتم العثور على المورد.",
+      "backToList": "العودة إلى قائمة الموردين"
+    },
+    "form": {
+      "tabs": {
+        "basic": "المعلومات الأساسية",
+        "tax": "المعلومات الضريبية",
+        "address": "معلومات العنوان"
+      },
+      "name": {
+        "label": "الاسم",
+        "placeholder": "أدخل اسم المورد",
+        "description": "الاسم الكامل للمورد."
+      },
+      "contact": {
+        "label": "الاتصال",
+        "placeholder": "أدخل رقم الاتصال",
+        "description": "رقم الاتصال الرئيسي للمورد."
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "أدخل عنوان البريد الإلكتروني",
+        "description": "عنوان البريد الإلكتروني الرئيسي للمورد."
+      },
+      "openingBalance": {
+        "label": "الرصيد الافتتاحي",
+        "placeholder": "0.00",
+        "description": "الرصيد الافتتاحي لهذا المورد."
+      },
+      "outstandingBalance": {
+        "label": "الرصيد المستحق",
+        "placeholder": "0.00",
+        "description": "الرصيد المستحق لهذا المورد."
+      },
+      "gstNumber": {
+        "label": "رقم ضريبة السلع والخدمات",
+        "placeholder": "أدخل رقم ضريبة السلع والخدمات",
+        "description": "رقم ضريبة السلع والخدمات لهذا المورد (إن وجد)."
+      },
+      "taxNumber": {
+        "label": "الرقم الضريبي",
+        "placeholder": "أدخل الرقم الضريبي",
+        "description": "الرقم الضريبي لهذا المورد (إن وجد)."
+      },
+      "address": {
+        "label": "العنوان",
+        "placeholder": "أدخل العنوان",
+        "description": "العنوان الرئيسي لهذا المورد."
+      },
+      "city": {
+        "label": "المدينة",
+        "placeholder": "أدخل المدينة"
+      },
+      "state": {
+        "label": "الولاية",
+        "placeholder": "أدخل الولاية"
+      },
+      "postCode": {
+        "label": "الرمز البريدي",
+        "placeholder": "أدخل الرمز البريدي"
+      },
+      "country": {
+        "label": "البلد",
+        "placeholder": "أدخل البلد"
+      },
+      "buttons": {
+        "cancel": "إلغاء",
+        "create": "إنشاء مورد",
+        "update": "تحديث المورد"
+      }
+    },
+    "paymentForm": {
+      "title": "إضافة دفعة",
+      "subtitle": "إضافة دفعة لهذا المورد",
+      "paymentDate": {
+        "label": "تاريخ الدفع",
+        "placeholder": "اختر تاريخ الدفع",
+        "required": "تاريخ الدفع مطلوب"
+      },
+      "reference": {
+        "label": "رقم المرجع",
+        "placeholder": "أدخل رقم المرجع",
+        "required": "رقم المرجع مطلوب"
+      },
+      "amount": {
+        "label": "مبلغ الدفع",
+        "placeholder": "أدخل المبلغ",
+        "required": "المبلغ مطلوب",
+        "min": "يجب أن يكون المبلغ أكبر من 0"
+      },
+      "paymentType": {
+        "label": "نوع الدفع",
+        "placeholder": "اختر نوع الدفع",
+        "required": "نوع الدفع مطلوب",
+        "cash": "نقدي",
+        "paytm": "باي تي إم",
+        "card": "بطاقة",
+        "finance": "تمويل"
+      },
+      "note": {
+        "label": "ملاحظة",
+        "placeholder": "أضف أي ملاحظات (اختياري)"
+      },
+      "buttons": {
+        "save": "حفظ",
+        "cancel": "إلغاء"
+      }
+    },
+    "oldForm": {
+      "form": {
+        "name": "اسم الشركة",
+        "namePlaceholder": "أدخل اسم الشركة",
+        "contactPerson": "الشخص المسؤول",
+        "contactPersonPlaceholder": "أدخل اسم الشخص المسؤول",
+        "email": "البريد الإلكتروني",
+        "emailPlaceholder": "أدخل البريد الإلكتروني",
+        "phone": "رقم الهاتف",
+        "phonePlaceholder": "أدخل رقم الهاتف",
+        "website": "الموقع الإلكتروني",
+        "websitePlaceholder": "أدخل الموقع الإلكتروني",
+        "taxNumber": "الرقم الضريبي",
+        "taxNumberPlaceholder": "أدخل الرقم الضريبي",
+        "address": "العنوان",
+        "addressLine1": "سطر العنوان 1",
+        "addressLine1Placeholder": "أدخل سطر العنوان 1",
+        "addressLine2": "سطر العنوان 2",
+        "addressLine2Placeholder": "أدخل سطر العنوان 2 (اختياري)",
+        "city": "المدينة",
+        "cityPlaceholder": "أدخل المدينة",
+        "state": "الولاية/المقاطعة",
+        "statePlaceholder": "أدخل الولاية/المقاطعة",
+        "zipCode": "الرمز البريدي",
+        "zipCodePlaceholder": "أدخل الرمز البريدي",
+        "country": "البلد",
+        "countryPlaceholder": "أدخل البلد",
+        "notes": "ملاحظات",
+        "notesPlaceholder": "أدخل أي ملاحظات إضافية"
+      },
+      "validation": {
+        "nameRequired": "اسم الشركة مطلوب",
+        "contactPersonRequired": "الشخص المسؤول مطلوب",
+        "emailRequired": "البريد الإلكتروني مطلوب",
+        "emailInvalid": "البريد الإلكتروني غير صالح",
+        "phoneRequired": "رقم الهاتف مطلوب",
+        "phoneInvalid": "رقم الهاتف غير صالح",
+        "websiteInvalid": "الموقع الإلكتروني غير صالح",
+        "addressLine1Required": "سطر العنوان 1 مطلوب",
+        "cityRequired": "المدينة مطلوبة",
+        "stateRequired": "الولاية/المقاطعة مطلوبة",
+        "zipCodeRequired": "الرمز البريدي مطلوب",
+        "countryRequired": "البلد مطلوب"
+      },
+      "success": "تم إنشاء المورد بنجاح",
+      "error": "حدث خطأ أثناء إنشاء المورد"
+    },
+    "editSupplier": {
+      "title": "تعديل المورد",
+      "description": "تحديث معلومات المورد",
+      "submit": "تحديث المورد",
+      "cancel": "إلغاء",
+      "success": "تم تحديث المورد بنجاح",
+      "error": "حدث خطأ أثناء تحديث المورد"
+    },
+    "table": {
+      "new": "مورد جديد",
+      "searchPlaceholder": "البحث في الموردين...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على موردين.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "columns": {
+      "id": "المعرف",
+      "name": "الاسم",
+      "contactPerson": "الشخص المسؤول",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "address": "العنوان",
+      "city": "المدينة",
+      "state": "الولاية/المقاطعة",
+      "country": "البلد",
+      "zipCode": "الرمز البريدي",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث"
+    },
+    "actions": {
+      "view": "عرض المورد",
+      "edit": "تعديل المورد",
+      "delete": "حذف المورد"
+    },
+    "deleteDialog": {
+      "title": "حذف المورد",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا المورد؟ سيتم حذف جميع البيانات المرتبطة به أيضًا.",
+      "cancel": "إلغاء",
+      "confirm": "حذف",
+      "deleting": "جاري الحذف..."
+    },
+    "viewSupplier": {
+      "title": "تفاصيل المورد",
+      "tabs": {
+        "overview": "نظرة عامة",
+        "purchases": "المشتريات",
+        "transactions": "المعاملات"
+      },
+      "contactInfo": "معلومات الاتصال",
+      "addressInfo": "معلومات العنوان",
+      "purchases": {
+        "title": "المشتريات",
+        "columns": {
+          "id": "المعرف",
+          "date": "التاريخ",
+          "dueDate": "تاريخ الاستحقاق",
+          "amount": "المبلغ",
+          "status": "الحالة",
+          "actions": "الإجراءات"
+        },
+        "noPurchases": "لا توجد مشتريات لهذا المورد",
+        "viewPurchase": "عرض المشتريات"
+      },
+      "transactions": {
+        "title": "المعاملات",
+        "columns": {
+          "id": "المعرف",
+          "date": "التاريخ",
+          "amount": "المبلغ",
+          "type": "النوع",
+          "status": "الحالة",
+          "actions": "الإجراءات"
+        },
+        "noTransactions": "لا توجد معاملات لهذا المورد",
+        "viewTransaction": "عرض المعاملة",
+        "types": {
+          "purchase": "مشتريات",
+          "payment": "دفع",
+          "refund": "استرداد"
+        }
+      }
+    }
+  },
+  "Expenses": {
+    "title": "المصاريف",
+    "subtitle": "إدارة مصاريفك ومعلوماتها.",
+    "runningExpenses": {
+      "title": "المصاريف الجارية",
+      "subtitle": "إدارة مصاريفك الجارية ومعلوماتها."
+    },
+    "columns": {
+      "run": "تشغيل",
+      "reference": "المرجع",
+      "type": "النوع",
+      "expenseFor": "مصروف لـ",
+      "amount": "المبلغ",
+      "category": "التصنيف",
+      "repeatEvery": "تكرار كل",
+      "startDate": "تاريخ البداية",
+      "lastGenerated": "آخر إنشاء",
+      "instances": "إجمالي الحالات",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "delete": "حذف",
+      "openMenu": "فتح القائمة",
+      "edit": "تعديل",
+      "date": "التاريخ",
+      "info": "معلومات"
+    },
+    "actions": {
+      "openMenu": "التفاصيل",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "infoDrawer": {
+      "title": "تفاصيل المصروف",
+      "description": "معلومات كاملة عن هذا المصروف",
+      "basicInfo": "المعلومات الأساسية",
+      "reference": "المرجع",
+      "type": "النوع",
+      "expenseFor": "مصروف لـ",
+      "amount": "المبلغ",
+      "category": "التصنيف",
+      "repeatEvery": "تكرار كل",
+      "startDate": "تاريخ البداية",
+      "lastGenerated": "آخر إنشاء",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "edit": "تعديل",
+      "close": "إغلاق"
+    },
+    "table": {
+      "new": "مصروف جديد",
+      "searchPlaceholder": "البحث في المصاريف...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على مصاريف.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "categories": {
+      "title": "تصنيفات المصاريف",
+      "subtitle": "إدارة تصنيفات المصاريف",
+      "columns": {
+        "id": "المعرف",
+        "name": "الاسم",
+        "description": "الوصف",
+        "subCategoriesCount": "عدد التصنيفات الفرعية",
+        "createdAt": "تاريخ الإنشاء",
+        "updatedAt": "تاريخ التحديث"
+      },
+      "actions": {
+        "viewSubcategories": "عرض التصنيفات الفرعية",
+        "edit": "تعديل التصنيف",
+        "delete": "حذف التصنيف"
+      },
+      "table": {
+        "new": "تصنيف جديد",
+        "searchPlaceholder": "البحث في التصنيفات...",
+        "noResults": "لم يتم العثور على تصنيفات."
+      },
+      "deleteDialog": {
+        "title": "حذف تصنيف المصاريف",
+        "description": "هل أنت متأكد من أنك تريد حذف هذا التصنيف؟ سيتم حذف جميع التصنيفات الفرعية المرتبطة به أيضًا.",
+        "cancel": "إلغاء",
+        "confirm": "حذف",
+        "deleting": "جاري الحذف..."
+      },
+      "newCategory": {
+        "title": "تصنيف جديد",
+        "description": "إنشاء تصنيف مصاريف جديد",
+        "form": {
+          "name": "اسم التصنيف",
+          "description": "الوصف"
+        },
+        "placeholders": {
+          "name": "أدخل اسم التصنيف",
+          "description": "أدخل وصف التصنيف"
+        },
+        "validation": {
+          "nameRequired": "اسم التصنيف مطلوب"
+        },
+        "buttons": {
+          "save": "حفظ التصنيف",
+          "cancel": "إلغاء"
+        }
+      },
+      "editCategory": {
+        "title": "تعديل التصنيف",
+        "description": "تحديث تصنيف المصاريف",
+        "buttons": {
+          "save": "تحديث التصنيف",
+          "cancel": "إلغاء"
+        }
+      }
+    },
+    "subcategories": {
+      "title": "التصنيفات الفرعية للمصاريف",
+      "subtitle": "إدارة التصنيفات الفرعية للمصاريف",
+      "columns": {
+        "id": "المعرف",
+        "name": "الاسم",
+        "description": "الوصف",
+        "category": "التصنيف الرئيسي",
+        "expensesCount": "عدد المصاريف",
+        "createdAt": "تاريخ الإنشاء",
+        "updatedAt": "تاريخ التحديث"
+      },
+      "actions": {
+        "viewExpenses": "عرض المصاريف",
+        "edit": "تعديل التصنيف الفرعي",
+        "delete": "حذف التصنيف الفرعي"
+      },
+      "table": {
+        "new": "تصنيف فرعي جديد",
+        "searchPlaceholder": "البحث في التصنيفات الفرعية...",
+        "noResults": "لم يتم العثور على تصنيفات فرعية."
+      },
+      "deleteDialog": {
+        "title": "حذف التصنيف الفرعي للمصاريف",
+        "description": "هل أنت متأكد من أنك تريد حذف هذا التصنيف الفرعي؟ سيتم حذف جميع المصاريف المرتبطة به أيضًا.",
+        "cancel": "إلغاء",
+        "confirm": "حذف",
+        "deleting": "جاري الحذف..."
+      },
+      "newSubcategory": {
+        "title": "تصنيف فرعي جديد",
+        "description": "إنشاء تصنيف فرعي للمصاريف",
+        "form": {
+          "name": "اسم التصنيف الفرعي",
+          "description": "الوصف",
+          "category": "التصنيف الرئيسي"
+        },
+        "placeholders": {
+          "name": "أدخل اسم التصنيف الفرعي",
+          "description": "أدخل وصف التصنيف الفرعي",
+          "selectCategory": "اختر التصنيف الرئيسي"
+        },
+        "validation": {
+          "nameRequired": "اسم التصنيف الفرعي مطلوب",
+          "categoryRequired": "التصنيف الرئيسي مطلوب"
+        },
+        "buttons": {
+          "save": "حفظ التصنيف الفرعي",
+          "cancel": "إلغاء"
+        }
+      },
+      "editSubcategory": {
+        "title": "تعديل التصنيف الفرعي",
+        "description": "تحديث التصنيف الفرعي للمصاريف",
+        "buttons": {
+          "save": "تحديث التصنيف الفرعي",
+          "cancel": "إلغاء"
+        }
+      }
+    },
+    "newExpense": {
+      "title": "مصروف جديد",
+      "description": "إنشاء مصروف جديد",
+      "form": {
+        "date": "تاريخ المصروف",
+        "category": "التصنيف",
+        "subcategory": "التصنيف الفرعي",
+        "amount": "المبلغ",
+        "paymentMethod": "طريقة الدفع",
+        "reference": "المرجع",
+        "description": "الوصف",
+        "status": "الحالة",
+        "receipt": "إيصال"
+      },
+      "placeholders": {
+        "selectDate": "اختر التاريخ",
+        "selectCategory": "اختر التصنيف",
+        "selectSubcategory": "اختر التصنيف الفرعي",
+        "amount": "أدخل المبلغ",
+        "selectPaymentMethod": "اختر طريقة الدفع",
+        "reference": "أدخل رقم المرجع",
+        "description": "أدخل وصف المصروف",
+        "selectStatus": "اختر الحالة",
+        "uploadReceipt": "رفع إيصال"
+      },
+      "validation": {
+        "dateRequired": "تاريخ المصروف مطلوب",
+        "categoryRequired": "التصنيف مطلوب",
+        "subcategoryRequired": "التصنيف الفرعي مطلوب",
+        "amountRequired": "المبلغ مطلوب",
+        "amountPositive": "يجب أن يكون المبلغ أكبر من 0",
+        "paymentMethodRequired": "طريقة الدفع مطلوبة",
+        "descriptionRequired": "الوصف مطلوب"
+      },
+      "buttons": {
+        "save": "حفظ المصروف",
+        "cancel": "إلغاء"
+      },
+      "status": {
+        "pending": "معلق",
+        "approved": "معتمد",
+        "rejected": "مرفوض",
+        "paid": "مدفوع"
+      },
+      "paymentMethods": {
+        "cash": "نقدي",
+        "bankTransfer": "تحويل بنكي",
+        "creditCard": "بطاقة ائتمان",
+        "debitCard": "بطاقة خصم",
+        "cheque": "شيك",
+        "other": "أخرى"
+      }
+    },
+    "editExpense": {
+      "title": "تعديل المصروف",
+      "description": "تحديث تفاصيل المصروف",
+      "buttons": {
+        "save": "تحديث المصروف",
+        "cancel": "إلغاء"
+      }
+    },
+    "viewExpense": {
+      "title": "تفاصيل المصروف",
+      "generalInfo": "معلومات عامة",
+      "financialDetails": "التفاصيل المالية",
+      "receipt": "الإيصال",
+      "viewReceipt": "عرض الإيصال",
+      "noReceipt": "لم يتم رفع إيصال",
+      "buttons": {
+        "edit": "تعديل المصروف",
+        "delete": "حذف المصروف",
+        "close": "إغلاق"
+      }
+    },
+    "deleteDialog": {
+      "title": "حذف المصروف",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا المصروف؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف",
+      "deleting": "جاري الحذف..."
+    },
+    "form": {
+      "title": "مصروف جديد",
+      "subtitle": "إنشاء مصروف جديد",
+      "reference": "المرجع",
+      "type": "النوع",
+      "expenseFor": "مصروف لـ",
+      "amount": "المبلغ",
+      "category": "التصنيف",
+      "subCategory": "التصنيف الفرعي",
+      "repeatEvery": "تكرار كل",
+      "startDate": "تاريخ البداية",
+      "save": "حفظ",
+      "edit": "تعديل",
+      "cancel": "إلغاء"
+    },
+    "editForm": {
+      "title": "تعديل المصروف",
+      "subtitle": "تحديث معلومات المصروف"
+    },
+    "runDialog": {
+      "title": "تشغيل المصروف",
+      "description": "هل أنت متأكد من أنك تريد تشغيل هذا المصروف؟",
+      "cancel": "إلغاء",
+      "confirm": "تشغيل"
+    }
+  },
+  "ExpenseCategories": {
+    "title": "تصنيفات المصاريف",
+    "subtitle": "إدارة تصنيفات مصاريفك ومعلوماتها.",
+    "subCategoriesCount": "عدد التصنيفات الفرعية {count}",
+    "columns": {
+      "name": "الاسم",
+      "total": "إجمالي التصنيفات الفرعية",
+      "createdAt": "تاريخ الإنشاء"
+    },
+    "actions": {
+      "openMenu": "التفاصيل",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "viewSubCategories": "عرض التصنيفات الفرعية"
+    },
+    "infoDrawer": {
+      "title": "تفاصيل تصنيف المصاريف",
+      "description": "معلومات كاملة عن هذا التصنيف",
+      "basicInfo": "المعلومات الأساسية",
+      "name": "الاسم",
+      "total": "إجمالي التصنيفات الفرعية",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "edit": "تعديل",
+      "close": "إغلاق"
+    },
+    "table": {
+      "new": "تصنيف جديد",
+      "searchPlaceholder": "البحث في التصنيفات...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على تصنيفات.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "form": {
+      "title": "تصنيف جديد",
+      "subtitle": "إنشاء تصنيف جديد",
+      "name": "الاسم",
+      "save": "حفظ",
+      "edit": "تعديل",
+      "cancel": "إلغاء"
+    },
+    "editForm": {
+      "title": "تعديل التصنيف",
+      "subtitle": "تحديث معلومات التصنيف"
+    },
+    "deleteDialog": {
+      "title": "حذف التصنيف",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا التصنيف؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف"
+    }
+  },
+  "ExpenseSubCategories": {
+    "title": "التصنيفات الفرعية للمصاريف",
+    "subtitle": "إدارة التصنيفات الفرعية لمصاريفك ومعلوماتها.",
+    "expensesCount": "عدد المصاريف {count}",
+    "noExpensesFound": "لم يتم العثور على مصاريف في هذا التصنيف الفرعي",
+    "ExpenseView": {
+      "amount": "المبلغ",
+      "reference": "المرجع",
+      "startDate": "تاريخ البداية",
+      "expenseFor": "مصروف لـ",
+      "repeatEvery": "تكرار كل",
+      "type": "النوع",
+      "expenses": "المصاريف",
+      "close": "إغلاق"
+    },
+    "columns": {
+      "parentCategory": "التصنيف الأصلي",
+      "name": "الاسم",
+      "total": "إجمالي المصاريف",
+      "createdAt": "تاريخ الإنشاء"
+    },
+    "actions": {
+      "openMenu": "التفاصيل",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "viewExpenses": "عرض المصاريف"
+    },
+    "infoDrawer": {
+      "title": "تفاصيل التصنيف الفرعي للمصاريف",
+      "description": "معلومات كاملة عن هذا التصنيف الفرعي",
+      "basicInfo": "المعلومات الأساسية",
+      "name": "الاسم",
+      "total": "إجمالي التصنيفات الفرعية",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "edit": "تعديل",
+      "close": "إغلاق"
+    },
+    "table": {
+      "new": "تصنيف فرعي جديد",
+      "searchPlaceholder": "البحث في التصنيفات الفرعية...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على تصنيفات.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "form": {
+      "title": "تصنيف فرعي جديد",
+      "subtitle": "إنشاء تصنيف فرعي جديد",
+      "category": "التصنيف",
+      "name": "الاسم",
+      "save": "حفظ",
+      "edit": "تعديل",
+      "cancel": "إلغاء"
+    },
+    "editForm": {
+      "title": "تعديل التصنيف الفرعي",
+      "subtitle": "تحديث معلومات التصنيف الفرعي"
+    },
+    "deleteDialog": {
+      "title": "حذف التصنيف الفرعي",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا التصنيف الفرعي؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف"
+    }
+  },
+  "Revenue": {
+    "title": "الإيرادات",
+    "subtitle": "إدارة الإيرادات ومصادر الدخل",
+    "columns": {
+      "amount": "المبلغ",
+      "date": "التاريخ",
+      "description": "الوصف",
+      "category": "الفئة",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "actions": "الإجراءات",
+      "delete": "حذف",
+      "openMenu": "فتح القائمة",
+      "edit": "تعديل"
+    },
+    "actions": {
+      "openMenu": "التفاصيل",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "table": {
+      "new": "إيراد جديد",
+      "searchPlaceholder": "البحث في الإيرادات...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على إيرادات.",
+      "rowsSelected": "من الصفوف المحددة.",
+      "rowsPerPage": "صفوف لكل صفحة",
+      "page": "صفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "form": {
+      "title": "إيراد جديد",
+      "subtitle": "إنشاء إدخال إيراد جديد",
+      "amount": "المبلغ",
+      "date": "التاريخ",
+      "description": "الوصف",
+      "descriptionPlaceholder": "أدخل وصف الإيراد (اختياري)",
+      "mainCategory": "الفئة الرئيسية",
+      "mainCategoryPlaceholder": "اختر الفئة الرئيسية (اختياري)",
+      "subCategory": "الفئة الفرعية",
+      "subCategoryPlaceholder": "اختر الفئة الفرعية (اختياري)",
+      "category": "الفئة",
+      "categoryPlaceholder": "اختر الفئة (اختياري)",
+      "save": "حفظ",
+      "saving": "جاري الحفظ...",
+      "cancel": "إلغاء",
+      "new": "إيراد جديد",
+      "validation": {
+        "amountMin": "يجب أن يكون المبلغ على الأقل 0.01",
+        "dateRequired": "التاريخ مطلوب"
+      }
+    },
+    "deleteDialog": {
+      "title": "حذف الإيراد",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا الإيراد؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف"
+    }
+  },
+  "Employee": {
+    "title": "الموظفون",
+    "subtitle": "إدارة معلومات الموظفين وسجلات الرواتب",
+    "payroll": {
+      "title": "كشوف الرواتب",
+      "subtitle": "إدارة كشوف رواتب الموظفين ومعلوماتهم.",
+      "new": {
+        "title": "كشف راتب جديد",
+        "subtitle": "إنشاء كشف راتب جديد"
+      }
+    },
+    "columns": {
+      "id": "المعرف",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "position": "المنصب",
+      "department": "القسم",
+      "joiningDate": "تاريخ التعيين",
+      "salary": "الراتب",
+      "status": "الحالة",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "employeeId": "معرف الموظف",
+      "SSN": "رقم الضمان الاجتماعي",
+      "hireDate": "تاريخ التوظيف",
+      "workLocation": "موقع العمل",
+      "jobTitle": "المسمى الوظيفي",
+      "workerCompClass": "فئة تعويض العامل",
+      "address": "العنوان",
+      "city": "المدينة",
+      "postCode": "الرمز البريدي",
+      "country": "البلد",
+      "state": "الولاية",
+      "info": "عرض التفاصيل",
+      "openMenu": "فتح القائمة",
+      "total": "إجمالي الموظفين",
+      "run": "تشغيل كشف الرواتب",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "actions": {
+      "view": "عرض الموظف",
+      "edit": "تعديل الموظف",
+      "delete": "حذف الموظف"
+    },
+    "table": {
+      "new": "موظف جديد",
+      "searchPlaceholder": "البحث في الموظفين...",
+      "searchPlaceholderPayroll": "البحث في كشوف الرواتب...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على موظفين.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "deleteDialog": {
+      "title": "حذف الموظف",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا الموظف؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف"
+    },
+    "infoDrawer": {
+      "title": "تفاصيل الموظف",
+      "description": "معلومات كاملة عن هذا الموظف",
+      "basicInfo": "المعلومات الأساسية",
+      "employeeId": "معرف الموظف",
+      "name": "الاسم",
+      "email": "البريد الإلكتروني",
+      "phone": "الهاتف",
+      "SSN": "رقم الضمان الاجتماعي",
+      "status": "الحالة",
+      "hireDate": "تاريخ التوظيف",
+      "workLocation": "موقع العمل",
+      "jobTitle": "المسمى الوظيفي",
+      "workerCompClass": "فئة تعويض العامل",
+      "address": "العنوان",
+      "city": "المدينة",
+      "postCode": "الرمز البريدي",
+      "country": "البلد",
+      "state": "الولاية",
+      "paymentInformation": "معلومات الدفع",
+      "paySchedule": "جدول الدفع",
+      "payType": "نوع الدفع",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "close": "إغلاق",
+      "edit": "تعديل"
+    },
+    "export": {
+      "title": "تقرير الموظفين",
+      "sheetName": "الموظفون",
+      "fileName": "تقرير-الموظفين",
+      "name": "الاسم",
+      "contact": "الاتصال",
+      "email": "البريد الإلكتروني",
+      "gstNumber": "رقم ضريبة السلع والخدمات",
+      "taxNumber": "الرقم الضريبي",
+      "openingBalance": "الرصيد الافتتاحي",
+      "outstandingBalance": "الرصيد المستحق",
+      "address": "العنوان",
+      "postCode": "الرمز البريدي",
+      "country": "البلد",
+      "state": "الولاية",
+      "city": "المدينة"
+    },
+    "createEmployee": {
+      "title": "موظف جديد",
+      "subtitle": "إنشاء موظف جديد"
+    },
+    "form": {
+      "title": {
+        "edit": "تعديل الموظف",
+        "create": "إنشاء موظف"
+      },
+      "taxes": {
+        "label": "الضرائب",
+        "placeholder": "أدخل الضرائب",
+        "description": "أدخل الضرائب"
+      },
+
+      "tabs": {
+        "details": "التفاصيل",
+        "payment": "الدفع",
+        "payType": "نوع الدفع",
+        "payTypes": "أنواع الدفع الإضافية"
+      },
+
+      "buttons": {
+        "cancel": "إلغاء",
+        "update": "تحديث",
+        "create": "إنشاء"
+      },
+
+      "sections": {
+        "address": "العنوان",
+        "paySchedule": "جدول الدفع",
+        "payType": "نوع الدفع",
+        "commonPayTypes": "أنواع الدفع الشائعة",
+        "additionalPayTypes": "أنواع الدفع الإضافية",
+        "paymentDeposit": "طريقة إيداع الدفع",
+        "directDeposit": "تفاصيل الإيداع المباشر"
+      },
+
+      "hourPerDay": {
+        "label": "ساعات العمل في اليوم",
+        "placeholder": "مثال: 8",
+        "description": "عدد ساعات العمل في اليوم"
+      },
+      "dayPerWeek": {
+        "label": "أيام العمل في الأسبوع",
+        "placeholder": "مثال: 5",
+        "description": "عدد أيام العمل في الأسبوع"
+      },
+
+      "paymentDeposit": {
+        "label": "طريقة إيداع الدفع",
+        "placeholder": "اختر طريقة إيداع الدفع",
+        "description": "طريقة إيداع الدفع",
+        "options": {
+          "directDeposit": "إيداع مباشر",
+          "paperCheck": "شيك ورقي"
+        }
+      },
+
+      "directDepositMethod": {
+        "label": "تفاصيل الإيداع المباشر",
+        "placeholder": "اختر تفاصيل الإيداع المباشر",
+        "description": "تفاصيل الإيداع المباشر",
+        "options": {
+          "oneAccount": "حساب واحد",
+          "multipleAccounts": "حسابات متعددة"
+        }
+      },
+
+      "accountType": {
+        "label": "نوع الحساب",
+        "placeholder": "اختر نوع الحساب",
+        "description": "نوع الحساب",
+        "options": {
+          "saving": "توفير",
+          "checking": "جاري"
+        }
+      },
+
+      "routingNumber": {
+        "label": "رقم التوجيه",
+        "placeholder": "مثال: 123456789",
+        "description": "رقم التوجيه"
+      },
+
+      "accountNumber": {
+        "label": "رقم الحساب",
+        "placeholder": "مثال: 123456789",
+        "description": "رقم الحساب"
+      },
+      "employeeId": {
+        "label": "معرف الموظف",
+        "placeholder": "مثال: EMP-001",
+        "description": "معرف الموظف الفريد في الشركة"
+      },
+      "name": {
+        "label": "الاسم الكامل",
+        "placeholder": "محمد سعيد",
+        "description": "الاسم القانوني للموظف"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "name@example.com",
+        "description": "عنوان البريد الإلكتروني للعمل أو الشخصي"
+      },
+      "phone": {
+        "label": "رقم الهاتف",
+        "placeholder": "0501234567",
+        "description": "رقم الاتصال الأساسي"
+      },
+      "ssn": {
+        "label": "رقم الضمان الاجتماعي",
+        "placeholder": "123-45-6789",
+        "description": "رقم الضمان الاجتماعي الأمريكي"
+      },
+      "status": {
+        "label": "حالة التوظيف",
+        "placeholder": "اختر الحالة",
+        "description": "حالة التوظيف الحالية",
+        "options": {
+          "active": "نشط",
+          "draft": "مسودة",
+          "terminated": "منتهي"
+        }
+      },
+      "hireDate": {
+        "label": "تاريخ التوظيف",
+        "placeholder": "اختر تاريخ التوظيف",
+        "description": "أول يوم عمل"
+      },
+      "jobTitle": {
+        "label": "المسمى الوظيفي",
+        "placeholder": "مهندس برمجيات",
+        "description": "المنصب الرسمي"
+      },
+      "workLocation": {
+        "label": "موقع العمل",
+        "placeholder": "المقر الرئيسي - الرياض",
+        "description": "مكان العمل الأساسي"
+      },
+      "workerCompClass": {
+        "label": "فئة تعويض العامل",
+        "placeholder": "رمز الفئة",
+        "description": "تصنيف التأمين"
+      },
+      "commonPayTypes": {
+        "label": "أنواع الدفع الشائعة",
+        "placeholder": "اختر أنواع الدفع الشائعة",
+        "description": "أنواع الدفع الشائعة",
+        "options": {
+          "overtimePay": "أجر العمل الإضافي",
+          "doubleOvertimePay": "أجر العمل الإضافي المضاعف",
+          "holidayBonus": "مكافأة العطلات",
+          "bonus": "مكافأة",
+          "commission": "عمولة"
+        }
+      },
+      "additionalPayTypes": {
+        "label": "أنواع الدفع الإضافية",
+        "placeholder": "اختر أنواع الدفع الإضافية",
+        "description": "أنواع الدفع الإضافية",
+        "options": {
+          "allowance": "بدل",
+          "reimbursement": "تعويض",
+          "cashTips": "إكراميات نقدية",
+          "payCheckTips": "إكراميات الشيك",
+          "clergyHousingCash": "سكن نقدي للموظفين الدينيين",
+          "clergyHousingInHand": "سكن عيني للموظفين الدينيين",
+          "nontaxablePerDiem": "بدل يومي غير خاضع للضريبة",
+          "groupTermLifeInsurance": "تأمين على الحياة جماعي محدد المدة",
+          "sCorpOwnerHealthInsurance": "تأمين صحي لمالك الشركة",
+          "companyHSAContributions": "مساهمات الشركة في حساب التوفير الصحي",
+          "personalUseOfCompanyCar": "الاستخدام الشخصي لسيارة الشركة",
+          "bereavementPay": "أجر الحداد"
+        }
+      },
+      "address": {
+        "label": "عنوان الشارع",
+        "placeholder": "123 شارع الرئيسي",
+        "description": "العنوان السكني أو البريدي"
+      },
+      "city": { "label": "المدينة", "placeholder": "المدينة" },
+      "state": { "label": "الولاية / المقاطعة", "placeholder": "الولاية" },
+      "postCode": { "label": "الرمز البريدي", "placeholder": "الرمز البريدي" },
+      "country": { "label": "البلد", "placeholder": "البلد" },
+      "payFrequency": {
+        "label": "تكرار الدفع",
+        "placeholder": "اختر التكرار",
+        "description": "كم مرة يتم دفع راتب الموظف",
+        "options": {
+          "weekly": "أسبوعي",
+          "twice_a_month": "مرتين في الشهر",
+          "monthly": "شهري"
+        }
+      },
+      "nextPayDate": {
+        "label": "تاريخ الدفع التالي",
+        "placeholder": "اختر التاريخ",
+        "description": "تاريخ الشيك القادم"
+      },
+      "isDefault": {
+        "label": "جدول افتراضي",
+        "description": "جعل هذا جدول الدفع الافتراضي"
+      },
+      "payType": {
+        "label": "نوع الدفع",
+        "placeholder": "اختر نوع الدفع",
+        "description": "طريقة الدفع الأساسية",
+        "options": {
+          "hourly": "بالساعة",
+          "salary": "راتب",
+          "commission_only": "عمولة فقط"
+        }
+      },
+      "ratePerHour": {
+        "label": "المعدل في الساعة",
+        "placeholder": "0.00",
+        "description": "الأجر بالساعة"
+      },
+      "salary": {
+        "label": "الراتب",
+        "placeholder": "0.00",
+        "description": "الراتب السنوي"
+      }
+    },
+    "newEmployee": {
+      "title": "موظف جديد",
+      "description": "إنشاء سجل موظف جديد",
+      "sections": {
+        "personalInfo": "المعلومات الشخصية",
+        "contactInfo": "معلومات الاتصال",
+        "employmentInfo": "معلومات العمل",
+        "bankInfo": "المعلومات البنكية",
+        "additionalInfo": "معلومات إضافية"
+      },
+      "form": {
+        "firstName": "الاسم الأول",
+        "lastName": "اسم العائلة",
+        "email": "البريد الإلكتروني",
+        "phone": "رقم الهاتف",
+        "dateOfBirth": "تاريخ الميلاد",
+        "gender": "الجنس",
+        "address": "العنوان",
+        "city": "المدينة",
+        "state": "الولاية/المقاطعة",
+        "zipCode": "الرمز البريدي",
+        "country": "البلد",
+        "position": "المنصب",
+        "department": "القسم",
+        "joiningDate": "تاريخ التعيين",
+        "employeeId": "رقم الموظف",
+        "employmentType": "نوع التوظيف",
+        "salary": "الراتب الأساسي",
+        "bankName": "اسم البنك",
+        "accountNumber": "رقم الحساب",
+        "iban": "رقم الآيبان",
+        "swiftCode": "رمز SWIFT",
+        "taxId": "الرقم الضريبي",
+        "emergencyContact": "جهة اتصال في حالات الطوارئ",
+        "emergencyPhone": "هاتف الطوارئ",
+        "notes": "ملاحظات",
+        "status": "الحالة"
+      },
+      "placeholders": {
+        "firstName": "أدخل الاسم الأول",
+        "lastName": "أدخل اسم العائلة",
+        "email": "أدخل البريد الإلكتروني",
+        "phone": "أدخل رقم الهاتف",
+        "address": "أدخل العنوان",
+        "city": "أدخل المدينة",
+        "state": "أدخل الولاية/المقاطعة",
+        "zipCode": "أدخل الرمز البريدي",
+        "country": "أدخل البلد",
+        "position": "أدخل المنصب",
+        "department": "أدخل القسم",
+        "employeeId": "أدخل رقم الموظف",
+        "salary": "أدخل الراتب الأساسي",
+        "bankName": "أدخل اسم البنك",
+        "accountNumber": "أدخل رقم الحساب",
+        "iban": "أدخل رقم الآيبان",
+        "swiftCode": "أدخل رمز SWIFT",
+        "taxId": "أدخل الرقم الضريبي",
+        "emergencyContact": "أدخل اسم جهة اتصال الطوارئ",
+        "emergencyPhone": "أدخل رقم هاتف الطوارئ",
+        "notes": "أدخل أي ملاحظات إضافية",
+        "selectGender": "اختر الجنس",
+        "selectEmploymentType": "اختر نوع التوظيف",
+        "selectStatus": "اختر الحالة"
+      },
+      "validation": {
+        "firstNameRequired": "الاسم الأول مطلوب",
+        "lastNameRequired": "اسم العائلة مطلوب",
+        "emailRequired": "البريد الإلكتروني مطلوب",
+        "emailInvalid": "البريد الإلكتروني غير صالح",
+        "phoneRequired": "رقم الهاتف مطلوب",
+        "phoneInvalid": "رقم الهاتف غير صالح",
+        "positionRequired": "المنصب مطلوب",
+        "departmentRequired": "القسم مطلوب",
+        "joiningDateRequired": "تاريخ التعيين مطلوب",
+        "salaryRequired": "الراتب مطلوب",
+        "salaryPositive": "يجب أن يكون الراتب أكبر من 0"
+      },
+      "buttons": {
+        "save": "حفظ الموظف",
+        "cancel": "إلغاء"
+      },
+      "employmentTypes": {
+        "fullTime": "دوام كامل",
+        "partTime": "دوام جزئي",
+        "contract": "عقد",
+        "temporary": "مؤقت",
+        "intern": "متدرب"
+      },
+      "genders": {
+        "male": "ذكر",
+        "female": "أنثى",
+        "other": "آخر",
+        "preferNotToSay": "أفضل عدم الذكر"
+      },
+      "status": {
+        "active": "نشط",
+        "onLeave": "في إجازة",
+        "terminated": "منتهي",
+        "suspended": "معلق"
+      }
+    },
+    "editEmployee": {
+      "title": "تعديل الموظف",
+      "description": "تحديث معلومات الموظف",
+      "buttons": {
+        "save": "تحديث الموظف",
+        "cancel": "إلغاء"
+      },
+      "success": "تم تحديث الموظف بنجاح",
+      "error": "حدث خطأ أثناء تحديث الموظف"
+    },
+    "viewEmployee": {
+      "title": "تفاصيل الموظف",
+      "tabs": {
+        "overview": "نظرة عامة",
+        "payroll": "الرواتب",
+        "documents": "المستندات",
+        "attendance": "الحضور"
+      },
+      "personalInfo": "المعلومات الشخصية",
+      "contactInfo": "معلومات الاتصال",
+      "employmentInfo": "معلومات العمل",
+      "bankInfo": "المعلومات البنكية",
+      "additionalInfo": "معلومات إضافية",
+      "payrollHistory": "سجل الرواتب",
+      "documents": {
+        "title": "المستندات",
+        "upload": "رفع مستند",
+        "noDocuments": "لا توجد مستندات لهذا الموظف",
+        "documentName": "اسم المستند",
+        "documentType": "نوع المستند",
+        "uploadDate": "تاريخ الرفع",
+        "actions": "الإجراءات",
+        "view": "عرض",
+        "download": "تحميل",
+        "delete": "حذف"
+      },
+      "attendance": {
+        "title": "الحضور",
+        "date": "التاريخ",
+        "checkIn": "تسجيل الدخول",
+        "checkOut": "تسجيل الخروج",
+        "hoursWorked": "ساعات العمل",
+        "status": "الحالة",
+        "noAttendance": "لا توجد سجلات حضور لهذا الموظف",
+        "statuses": {
+          "present": "حاضر",
+          "absent": "غائب",
+          "late": "متأخر",
+          "halfDay": "نصف يوم",
+          "leave": "إجازة"
+        }
+      },
+      "buttons": {
+        "edit": "تعديل الموظف",
+        "delete": "حذف الموظف",
+        "newPayroll": "راتب جديد",
+        "close": "إغلاق"
+      }
+    },
+    "deleteDialog": {
+      "title": "حذف الموظف",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا الموظف؟ سيتم حذف جميع البيانات المرتبطة به أيضًا.",
+      "cancel": "إلغاء",
+      "confirm": "حذف",
+      "deleting": "جاري الحذف..."
+    }
+  },
+  "Payrolls": {
+    "title": "كشوف الرواتب",
+    "subtitle": "إدارة رواتب الموظفين والمدفوعات",
+    "columns": {
+      "id": "المعرف",
+      "employee": "الموظف",
+      "payrollDate": "تاريخ الراتب",
+      "payPeriod": "فترة الدفع",
+      "basicSalary": "الراتب الأساسي",
+      "allowances": "البدلات",
+      "deductions": "الخصومات",
+      "netSalary": "صافي الراتب",
+      "status": "الحالة",
+      "paymentMethod": "طريقة الدفع",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث"
+    },
+    "actions": {
+      "view": "عرض الراتب",
+      "edit": "تعديل الراتب",
+      "pay": "دفع الراتب",
+      "delete": "حذف الراتب",
+      "bulkPay": "دفع مجمع",
+      "export": "تصدير"
+    },
+    "table": {
+      "searchPlaceholder": "البحث في الرواتب...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على رواتب.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "newPayroll": {
+      "title": "راتب جديد",
+      "description": "إنشاء كشف راتب جديد",
+      "sections": {
+        "employeeInfo": "معلومات الموظف",
+        "payPeriod": "فترة الدفع",
+        "earnings": "الإيرادات",
+        "deductions": "الخصومات",
+        "summary": "الملخص",
+        "paymentDetails": "تفاصيل الدفع",
+        "notes": "ملاحظات"
+      },
+      "form": {
+        "employee": "الموظف",
+        "payrollDate": "تاريخ الراتب",
+        "payPeriodStart": "بداية فترة الدفع",
+        "payPeriodEnd": "نهاية فترة الدفع",
+        "basicSalary": "الراتب الأساسي",
+        "allowances": "البدلات",
+        "allowanceType": "نوع البدل",
+        "allowanceAmount": "مبلغ البدل",
+        "addAllowance": "إضافة بدل",
+        "deductions": "الخصومات",
+        "deductionType": "نوع الخصم",
+        "deductionAmount": "مبلغ الخصم",
+        "addDeduction": "إضافة خصم",
+        "grossSalary": "إجمالي الراتب",
+        "totalAllowances": "إجمالي البدلات",
+        "totalDeductions": "إجمالي الخصومات",
+        "netSalary": "صافي الراتب",
+        "paymentMethod": "طريقة الدفع",
+        "bankTransferDetails": "تفاصيل التحويل البنكي",
+        "chequeNumber": "رقم الشيك",
+        "cashDetails": "تفاصيل النقدية",
+        "notes": "ملاحظات",
+        "status": "الحالة"
+      },
+      "placeholders": {
+        "selectEmployee": "اختر الموظف",
+        "selectPaymentMethod": "اختر طريقة الدفع",
+        "allowanceType": "أدخل نوع البدل",
+        "allowanceAmount": "أدخل المبلغ",
+        "deductionType": "أدخل نوع الخصم",
+        "deductionAmount": "أدخل المبلغ",
+        "notes": "أدخل أي ملاحظات إضافية"
+      },
+      "validation": {
+        "employeeRequired": "الموظف مطلوب",
+        "payrollDateRequired": "تاريخ الراتب مطلوب",
+        "payPeriodStartRequired": "تاريخ بداية فترة الدفع مطلوب",
+        "payPeriodEndRequired": "تاريخ نهاية فترة الدفع مطلوب",
+        "basicSalaryRequired": "الراتب الأساسي مطلوب",
+        "basicSalaryPositive": "يجب أن يكون الراتب الأساسي أكبر من 0",
+        "allowanceAmountPositive": "يجب أن يكون مبلغ البدل أكبر من 0",
+        "deductionAmountPositive": "يجب أن يكون مبلغ الخصم أكبر من 0",
+        "paymentMethodRequired": "طريقة الدفع مطلوبة"
+      },
+      "buttons": {
+        "save": "حفظ الراتب",
+        "saveAndPay": "حفظ ودفع",
+        "cancel": "إلغاء"
+      },
+      "paymentMethods": {
+        "bankTransfer": "تحويل بنكي",
+        "cash": "نقدي",
+        "cheque": "شيك"
+      },
+      "status": {
+        "draft": "مسودة",
+        "pending": "معلق",
+        "paid": "مدفوع",
+        "cancelled": "ملغى"
+      },
+      "allowanceTypes": {
+        "transportation": "مواصلات",
+        "housing": "سكن",
+        "meals": "وجبات",
+        "medical": "طبي",
+        "bonus": "مكافأة",
+        "other": "أخرى"
+      },
+      "deductionTypes": {
+        "tax": "ضريبة",
+        "insurance": "تأمين",
+        "loan": "قرض",
+        "absence": "غياب",
+        "other": "أخرى"
+      }
+    },
+    "editPayroll": {
+      "title": "تعديل الراتب",
+      "description": "تحديث تفاصيل كشف الراتب",
+      "buttons": {
+        "save": "تحديث الراتب",
+        "cancel": "إلغاء"
+      },
+      "success": "تم تحديث الراتب بنجاح",
+      "error": "حدث خطأ أثناء تحديث الراتب"
+    },
+    "viewPayroll": {
+      "title": "تفاصيل الراتب",
+      "payslip": "إيصال الراتب",
+      "employeeDetails": "تفاصيل الموظف",
+      "payPeriod": "فترة الدفع",
+      "earnings": "الإيرادات",
+      "deductions": "الخصومات",
+      "summary": "الملخص",
+      "paymentDetails": "تفاصيل الدفع",
+      "notes": "ملاحظات",
+      "buttons": {
+        "edit": "تعديل الراتب",
+        "delete": "حذف الراتب",
+        "pay": "دفع الراتب",
+        "print": "طباعة إيصال الراتب",
+        "export": "تصدير إلى PDF",
+        "close": "إغلاق"
+      }
+    },
+    "payslip": {
+      "title": "إيصال الراتب",
+      "companyName": "اسم الشركة",
+      "employeeName": "اسم الموظف",
+      "employeeId": "رقم الموظف",
+      "payPeriod": "فترة الدفع",
+      "payDate": "تاريخ الدفع",
+      "department": "القسم",
+      "position": "المنصب",
+      "bankAccount": "الحساب البنكي",
+      "earnings": "الإيرادات",
+      "description": "الوصف",
+      "amount": "المبلغ",
+      "basicSalary": "الراتب الأساسي",
+      "allowances": "البدلات",
+      "deductions": "الخصومات",
+      "grossEarnings": "إجمالي الإيرادات",
+      "totalDeductions": "إجمالي الخصومات",
+      "netPay": "صافي الراتب",
+      "paymentMethod": "طريقة الدفع",
+      "notes": "ملاحظات",
+      "footer": "هذا إيصال تم إنشاؤه إلكترونيًا ولا يتطلب توقيعًا",
+      "print": "طباعة",
+      "close": "إغلاق"
+    },
+    "deleteDialog": {
+      "title": "حذف الراتب",
+      "description": "هل أنت متأكد من أنك تريد حذف كشف الراتب هذا؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف",
+      "deleting": "جاري الحذف..."
+    },
+    "bulkPay": {
+      "title": "دفع مجمع للرواتب",
+      "description": "دفع رواتب متعددة في وقت واحد",
+      "selectPayrolls": "اختر كشوف الرواتب",
+      "selectedCount": "تم اختيار {count} كشف",
+      "totalAmount": "المبلغ الإجمالي",
+      "paymentMethod": "طريقة الدفع",
+      "paymentDate": "تاريخ الدفع",
+      "notes": "ملاحظات",
+      "buttons": {
+        "pay": "دفع الرواتب المحددة",
+        "cancel": "إلغاء"
+      },
+      "success": "تم دفع الرواتب بنجاح",
+      "error": "حدث خطأ أثناء دفع الرواتب"
+    },
+    "payProcess": {
+      "title": "عملية الدفع",
+      "description": "إكمال عملية دفع الراتب",
+      "paymentDetails": "تفاصيل الدفع",
+      "employeeName": "اسم الموظف",
+      "payPeriod": "فترة الدفع",
+      "amount": "المبلغ",
+      "paymentMethod": "طريقة الدفع",
+      "paymentDate": "تاريخ الدفع",
+      "reference": "المرجع",
+      "notes": "ملاحظات",
+      "buttons": {
+        "confirm": "تأكيد الدفع",
+        "cancel": "إلغاء"
+      },
+      "success": "تم دفع الراتب بنجاح",
+      "error": "حدث خطأ أثناء دفع الراتب",
+      "processing": "جاري معالجة الدفع..."
+    }
+  },
+  "coa": {
+    "title": "دليل الحسابات",
+    "form": {
+      "accountType": {
+        "label": "نوع الحساب",
+        "placeholder": "اختر نوع الحساب",
+        "options": {
+          "asset": "أصول",
+          "liability": "خصوم",
+          "equity": "حقوق ملكية",
+          "revenue": "إيرادات",
+          "expense": "مصروفات"
+        }
+      },
+      "accountDetail": {
+        "label": "تفاصيل الحساب",
+        "placeholder": "اختر تفاصيل الحساب",
+        "options": {
+          "cash": "نقدي",
+          "bank": "بنك",
+          "credit": "بطاقة ائتمان"
+        }
+      },
+      "accountName": {
+        "label": "اسم الحساب",
+        "placeholder": "أدخل اسم الحساب"
+      },
+      "description": {
+        "label": "الوصف",
+        "placeholder": "أدخل الوصف"
+      },
+      "balance": {
+        "label": "الرصيد",
+        "placeholder": "0.00"
+      },
+      "payOf": {
+        "label": "تاريخ الدفع",
+        "placeholder": "اختر التاريخ"
+      },
+      "buttons": {
+        "save": "حفظ",
+        "saving": "جاري الحفظ...",
+        "cancel": "إلغاء"
+      },
+      "validation": {
+        "required": "هذا الحقل مطلوب",
+        "invalidNumber": "يرجى إدخال رقم صحيح"
+      }
+    },
+    "success": {
+      "created": "تم إنشاء الحساب بنجاح",
+      "updated": "تم تحديث الحساب بنجاح",
+      "deleted": "تم حذف الحساب بنجاح"
+    },
+    "error": {
+      "notFound": "لم يتم العثور على الحساب",
+      "fetchError": "خطأ في جلب الحسابات",
+      "createError": "خطأ في إنشاء الحساب",
+      "updateError": "خطأ في تحديث الحساب",
+      "deleteError": "خطأ في حذف الحساب"
+    }
+  },
+  "fixedAssets": {
+    "title": "الأصول الثابتة",
+    "description": "إدارة الأصول الثابتة والاستهلاك",
+    "addAsset": "إضافة أصل",
+    "editAsset": "تعديل أصل",
+    "viewAsset": "عرض أصل",
+    "deleteAsset": "حذف أصل",
+    "confirmDelete": "هل أنت متأكد من أنك تريد حذف هذا الأصل؟ لا يمكن التراجع عن هذا الإجراء.",
+    "noAssets": "لم يتم العثور على أصول",
+    "table": {
+      "search": "البحث عن أصول...",
+      "showing": "عرض {from} إلى {to} من {total} نتيجة",
+      "to": "إلى",
+      "of": "من",
+      "results": "نتائج",
+      "previous": "السابق",
+      "next": "التالي",
+      "noResults": "لم يتم العثور على نتائج.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "rowsSelected": "صف (صفوف) محددة",
+      "filters": "المرشحات",
+      "clearFilters": "مسح المرشحات",
+      "view": "عرض",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "copyId": "نسخ المعرف",
+      "assetName": "اسم الأصل",
+      "assetCategory": "الفئة",
+      "purchaseDate": "تاريخ الشراء",
+      "purchaseCost": "تكلفة الشراء",
+      "currentValue": "القيمة الحالية",
+      "status": "الحالة",
+      "actions": "الإجراءات"
+    },
+    "form": {
+      "generalDetails": "التفاصيل العامة",
+      "depreciationDetails": "تفاصيل الاستهلاك",
+      "assetName": {
+        "label": "اسم الأصل",
+        "placeholder": "أدخل اسم الأصل"
+      },
+      "description": {
+        "label": "الوصف",
+        "placeholder": "أدخل الوصف"
+      },
+      "purchaseDate": {
+        "label": "تاريخ الشراء",
+        "placeholder": "اختر تاريخ الشراء"
+      },
+      "purchaseCost": {
+        "label": "تكلفة الشراء",
+        "placeholder": "0.00"
+      },
+      "assetCategory": {
+        "label": "فئة الأصل",
+        "placeholder": "اختر الفئة",
+        "options": {
+          "buildings": "مباني",
+          "equipment": "معدات",
+          "vehicles": "مركبات",
+          "furniture": "أثاث وتجهيزات",
+          "computers": "أجهزة كمبيوتر وبرامج",
+          "machinery": "آلات",
+          "land": "أراضي",
+          "other": "أخرى"
+        }
+      },
+      "depreciationMethod": {
+        "label": "طريقة الاستهلاك",
+        "placeholder": "اختر الطريقة",
+        "options": {
+          "straight-line": "القسط الثابت",
+          "declining-balance": "الرصيد المتناقص",
+          "double-declining": "الرصيد المتناقص المضاعف",
+          "units-of-production": "وحدات الإنتاج",
+          "sum-of-years": "مجموع سنوات الأرقام"
+        }
+      },
+      "usefulLife": {
+        "label": "العمر المفيد (سنوات)",
+        "placeholder": "مثال: 5"
+      },
+      "salvageValue": {
+        "label": "القيمة التخريدية",
+        "placeholder": "0.00"
+      },
+      "currentValue": {
+        "label": "القيمة الحالية",
+        "placeholder": "0.00"
+      },
+      "location": {
+        "label": "الموقع",
+        "placeholder": "أدخل الموقع"
+      },
+      "status": {
+        "label": "الحالة",
+        "placeholder": "اختر الحالة",
+        "options": {
+          "active": "نشط",
+          "inactive": "غير نشط",
+          "disposed": "تم التخلص منه",
+          "lost": "مفقود/مسروق",
+          "sold": "تم البيع"
+        }
+      },
+      "notes": {
+        "label": "ملاحظات",
+        "placeholder": "أدخل ملاحظات إضافية"
+      },
+      "buttons": {
+        "save": "حفظ الأصل",
+        "saving": "جاري الحفظ...",
+        "cancel": "إلغاء",
+        "delete": "حذف الأصل",
+        "deleting": "جاري الحذف...",
+        "close": "إغلاق"
+      }
+    },
+    "success": {
+      "created": "تم إنشاء الأصل بنجاح",
+      "updated": "تم تحديث الأصل بنجاح",
+      "deleted": "تم حذف الأصل بنجاح"
+    },
+    "error": {
+      "fetchError": "خطأ في جلب الأصول",
+      "createError": "خطأ في إنشاء الأصل",
+      "updateError": "خطأ في تحديث الأصل",
+      "deleteError": "خطأ في حذف الأصل"
+    }
+  },
+  "SalesTax": {
+    "title": "ضريبة المبيعات",
+    "subtitle": "إدارة معدلات الضريبة والإعدادات",
+    "cardTitle": "معدلات الضريبة",
+    "cardDescription": "تكوين معدلات الضريبة للمنتجات الخاصة بك",
+    "columns": {
+      "name": "اسم الضريبة",
+      "rate": "معدل الضريبة",
+      "applyOn": "تطبيق على",
+      "description": "الوصف"
+    },
+    "actions": {
+      "new": "ضريبة جديدة",
+      "edit": "تعديل",
+      "delete": "حذف"
+    },
+    "deleteDialog": {
+      "title": "حذف الضريبة",
+      "description": "هل أنت متأكد من أنك تريد حذف الضريبة \"{name}\"؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف",
+      "deleting": "جاري الحذف..."
+    },
+    "form": {
+      "title": "ضريبة جديدة",
+      "subtitle": "إنشاء معدل ضريبة جديد",
+      "name": "اسم الضريبة",
+      "rate": "معدل الضريبة (%)",
+      "description": "الوصف",
+      "applyOn": "تطبيق على",
+      "allProducts": "جميع المنتجات",
+      "specificProducts": "منتجات محددة",
+      "selectProducts": "اختر المنتجات",
+      "save": "حفظ",
+      "saving": "جاري الحفظ...",
+      "cancel": "إلغاء"
+    },
+    "editForm": {
+      "title": "تعديل الضريبة",
+      "subtitle": "تحديث معلومات الضريبة"
+    },
+    "table": {
+      "new": "ضريبة جديدة",
+      "searchPlaceholder": "البحث عن الضرائب...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على ضرائب.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    }
+  },
+  "Users": {
+    "title": "إدارة المستخدمين",
+    "subtitle": "إدارة المستخدمين وصلاحياتهم لهذه المؤسسة",
+    "backToUsers": "العودة إلى المستخدمين",
+
+    "columns": {
+      "id": "المعرف",
+      "username": "اسم المستخدم",
+      "email": "البريد الإلكتروني",
+      "permissions": "الصلاحيات"
+    },
+
+    "actions": {
+      "edit": "تعديل المستخدم",
+      "delete": "حذف المستخدم"
+    },
+
+    "deleteDialog": {
+      "title": "حذف المستخدم",
+      "description": "سيؤدي هذا إلى إزالة المستخدم من هذه المؤسسة وإلغاء جميع صلاحياته.",
+      "confirmText": "هل أنت متأكد من أنك تريد إزالة",
+      "warning": "لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "delete": "إزالة المستخدم",
+      "deleting": "جاري الإزالة..."
+    },
+
+    "form": {
+      "email": "البريد الإلكتروني للمستخدم",
+      "emailDesc": "ابحث عن مستخدم موجود لإضافته إلى هذه المؤسسة.",
+      "emailEditDesc": "لا يمكن تغيير عنوان البريد الإلكتروني.",
+      "searchUser": "بحث",
+      "permissionsTitle": "صلاحيات المستخدم",
+      "quickActions": "إجراءات سريعة:",
+      "selectAll": "تحديد الكل",
+      "selectNone": "عدم تحديد أي شيء",
+      "allView": "عرض الكل",
+      "allCreate": "إنشاء الكل",
+      "allEdit": "تعديل الكل",
+      "allDelete": "حذف الكل",
+      "feature": "الميزة",
+      "view": "عرض",
+      "create": "إنشاء",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "saving": "جاري الحفظ...",
+      "updatePermissions": "تحديث الصلاحيات",
+      "addUser": "إضافة مستخدم"
+    },
+
+    "newUser": {
+      "title": "إضافة مستخدم جديد",
+      "subtitle": "إضافة مستخدم موجود إلى هذه المؤسسة وتعيين الصلاحيات"
+    },
+
+    "editUser": {
+      "title": "تعديل صلاحيات المستخدم",
+      "subtitle": "تحديث وصول المستخدم وصلاحياته لهذه المؤسسة",
+      "userNotFound": "المستخدم غير موجود",
+      "userNotFoundDescription": "تعذر العثور على المستخدم المطلوب أو أنه لا ينتمي إلى هذه المؤسسة.",
+      "returnToUsers": "العودة إلى قائمة المستخدمين"
+    },
+
+    "table": {
+      "noResults": "لم يتم العثور على مستخدمين",
+      "new": "إضافة مستخدم",
+      "searchPlaceholder": "البحث عن المستخدمين...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "rowsSelected": "صفوف محددة",
+      "rowsPerPage": "الصفوف لكل صفحة:",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الصفحة الأولى",
+      "previousPage": "الصفحة السابقة",
+      "nextPage": "الصفحة التالية",
+      "lastPage": "الصفحة الأخيرة"
+    }
+  },
+  "Permissions": {
+    "access_denied": "تم رفض الوصول",
+    "no_permission_description": "ليس لديك إذن للوصول إلى هذه الميزة",
+    "contact_admin": "يرجى الاتصال بمسؤول المؤسسة إذا كنت بحاجة إلى الوصول إلى هذه الميزة.",
+    "go_back": "رجوع",
+    "go_to_dashboard": "الذهاب إلى لوحة المعلومات"
+  },
+  "ExpenseSubCategories": {
+    "title": "التصنيفات الفرعية للمصاريف",
+    "subtitle": "إدارة التصنيفات الفرعية لمصاريفك ومعلوماتها.",
+    "expensesCount": "عدد المصاريف {count}",
+    "noExpensesFound": "لم يتم العثور على مصاريف في هذا التصنيف الفرعي",
+    "ExpenseView": {
+      "amount": "المبلغ",
+      "reference": "المرجع",
+      "startDate": "تاريخ البداية",
+      "expenseFor": "مصروف لـ",
+      "repeatEvery": "تكرار كل",
+      "type": "النوع",
+      "expenses": "المصاريف",
+      "close": "إغلاق"
+    },
+    "columns": {
+      "parentCategory": "التصنيف الأصلي",
+      "name": "الاسم",
+      "total": "إجمالي المصاريف",
+      "createdAt": "تاريخ الإنشاء"
+    },
+    "actions": {
+      "openMenu": "التفاصيل",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "viewExpenses": "عرض المصاريف"
+    },
+    "infoDrawer": {
+      "title": "تفاصيل التصنيف الفرعي للمصاريف",
+      "description": "معلومات كاملة عن هذا التصنيف الفرعي",
+      "basicInfo": "المعلومات الأساسية",
+      "name": "الاسم",
+      "total": "إجمالي التصنيفات الفرعية",
+      "createdAt": "تاريخ الإنشاء",
+      "updatedAt": "تاريخ التحديث",
+      "edit": "تعديل",
+      "close": "إغلاق"
+    },
+    "table": {
+      "new": "تصنيف فرعي جديد",
+      "searchPlaceholder": "البحث في التصنيفات الفرعية...",
+      "filters": "المرشحات",
+      "filterColumns": "تصفية الأعمدة",
+      "reset": "إعادة تعيين",
+      "print": "طباعة",
+      "export": "تصدير",
+      "excel": "إكسل",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "لم يتم العثور على تصنيفات.",
+      "rowsSelected": "من الصف (الصفوف) المحددة.",
+      "rowsPerPage": "الصفوف لكل صفحة",
+      "page": "الصفحة",
+      "of": "من",
+      "firstPage": "الانتقال إلى الصفحة الأولى",
+      "previousPage": "الانتقال إلى الصفحة السابقة",
+      "nextPage": "الانتقال إلى الصفحة التالية",
+      "lastPage": "الانتقال إلى الصفحة الأخيرة"
+    },
+    "form": {
+      "title": "تصنيف فرعي جديد",
+      "subtitle": "إنشاء تصنيف فرعي جديد",
+      "category": "التصنيف",
+      "name": "الاسم",
+      "save": "حفظ",
+      "edit": "تعديل",
+      "cancel": "إلغاء"
+    },
+    "editForm": {
+      "title": "تعديل التصنيف الفرعي",
+      "subtitle": "تحديث معلومات التصنيف الفرعي"
+    },
+    "deleteDialog": {
+      "title": "حذف التصنيف الفرعي",
+      "description": "هل أنت متأكد من أنك تريد حذف هذا التصنيف الفرعي؟ لا يمكن التراجع عن هذا الإجراء.",
+      "cancel": "إلغاء",
+      "confirm": "حذف"
+    }
+  },
+  "Subscription": {
+    "unknown": "حالة غير معروفة",
+    "demoMode": "وضع العرض التوضيحي",
+    "expired": "انتهت صلاحية الاشتراك",
+    "activePlan": "اشتراك نشط",
+    "expiringIn": "تنتهي الصلاحية خلال {days} أيام",
+    "expiringTitle": "الاشتراك سينتهي قريبًا",
+    "expiringDescription": "سينتهي اشتراكك في {date}. يرجى التجديد لتجنب انقطاع الخدمة.",
+    "accessRestricted": "الوصول مقيد",
+    "subscriptionExpired": "انتهت صلاحية اشتراكك. يرجى التجديد لاستعادة الوصول إلى جميع الميزات.",
+    "renewSubscription": "تجديد الاشتراك",
+    "backToOrganizations": "العودة إلى المؤسسات",
+    "refreshSubscription": "تحديث حالة الاشتراك",
+    "loading": "جاري تحميل حالة الاشتراك..."
+  },
+  "Reports": {
+    "title": "التقارير",
+    "subtitle": "عرض التحليلات والإحصاءات لأعمالك",
+    "exportReport": "تصدير",
+    "noData": "لا توجد بيانات متاحة",
+    "noDataAvailable": "لا توجد بيانات متاحة للفترة المحددة",
+
+    "financialReports": "مالية",
+    "salesReports": "مبيعات",
+    "inventoryReports": "مخزون",
+    "taxReports": "ضرائب",
+
+    "profitAndLoss": "الربح والخسارة",
+    "profitAndLossDesc": "عرض الإيرادات والمصروفات والأرباح",
+    "balanceSheet": "الميزانية العمومية",
+    "balanceSheetDesc": "عرض الأصول والخصوم",
+    "cashFlow": "التدفق النقدي",
+    "cashFlowDesc": "تتبع الأموال الداخلة والخارجة",
+
+    "salesSummary": "ملخص المبيعات",
+    "salesSummaryDesc": "نظرة عامة على جميع المبيعات",
+    "topProducts": "أفضل المنتجات",
+    "topProductsDesc": "المنتجات الأكثر مبيعًا",
+    "customers": "العملاء",
+    "customersDesc": "أعلى مشتريات العملاء",
+
+    "inventory": "المخزون",
+    "inventoryDesc": "تتبع قيمة المخزون وعدده",
+    "lowStock": "المخزون المنخفض",
+    "lowStockDesc": "المنتجات التي تحتاج إلى إعادة التخزين",
+
+    "revenue": "الإيرادات",
+    "costOfGoodsSold": "تكلفة البضاعة المباعة",
+    "grossProfit": "الربح الإجمالي",
+    "expenses": "المصاريف",
+    "netProfit": "صافي الربح",
+
+    "assets": "الأصول",
+    "liabilities": "الخصوم",
+    "liabilitiesAndEquity": "الخصوم وحقوق الملكية",
+    "equity": "حقوق الملكية",
+    "inventory": "المخزون",
+    "fixedAssets": "الأصول الثابتة",
+    "totalAssets": "إجمالي الأصول",
+    "accountsPayable": "حسابات الدفع",
+    "totalLiabilities": "إجمالي الخصوم",
+    "totalLiabilitiesEquity": "إجمالي الخصوم وحقوق الملكية",
+
+    "cashFlowSummary": "ملخص التدفق النقدي",
+    "cashInflow": "التدفق النقدي الداخل",
+    "cashOutflow": "التدفق النقدي الخارج",
+    "netCashFlow": "صافي التدفق النقدي",
+    "positiveNetCashDescription": "يشير التدفق النقدي الإيجابي إلى صحة مالية قوية والقدرة على الاستثمار في النمو.",
+    "negativeNetCashDescription": "يتطلب التدفق النقدي السلبي الاهتمام. فكر في تقليل النفقات أو زيادة المبيعات.",
+
+    "salesByType": "المبيعات حسب النوع",
+    "salesByStatus": "المبيعات حسب الحالة",
+    "salesSummary": "ملخص المبيعات",
+    "salesByTypeDetails": "تفاصيل المبيعات حسب النوع",
+    "type": "النوع",
+    "status": "الحالة",
+    "count": "العدد",
+    "amount": "المبلغ",
+    "totalSales": "إجمالي المبيعات",
+    "subTotal": "المجموع الفرعي",
+    "taxes": "الضرائب",
+    "discount": "الخصم",
+    "grandTotal": "المجموع الكلي",
+
+    "topSellingProducts": "المنتجات الأكثر مبيعًا",
+    "topSellingProductsDetails": "تفاصيل المنتجات الأكثر مبيعًا",
+    "product": "المنتج",
+    "sku": "رمز المنتج",
+    "unitPrice": "سعر الوحدة",
+    "quantity": "الكمية",
+    "totalSales": "إجمالي المبيعات",
+    "salesAmount": "مبلغ المبيعات",
+
+    "topCustomers": "كبار العملاء",
+    "topCustomersDetails": "تفاصيل كبار العملاء",
+    "customer": "العميل",
+    "email": "البريد الإلكتروني",
+    "orderCount": "الطلبات",
+    "totalPurchases": "إجمالي المشتريات",
+    "inSales": "في المبيعات",
+    "inPurchases": "في المشتريات",
+
+    "inventorySummary": "ملخص المخزون",
+    "totalProducts": "إجمالي المنتجات",
+    "inventoryCost": "تكلفة المخزون",
+    "retailValue": "القيمة البيعية",
+    "products": "المنتجات",
+    "value": "القيمة",
+    "byCategory": "حسب الفئة",
+    "byWarehouse": "حسب المستودع",
+    "category": "الفئة",
+    "warehouse": "المستودع",
+    "costValue": "قيمة التكلفة",
+    "potentialProfit": "الربح المحتمل",
+    "total": "الإجمالي",
+    "noCategories": "لم يتم العثور على فئات",
+    "noWarehouses": "لم يتم العثور على مستودعات",
+
+    "lowStockItems": "العناصر ذات المخزون المنخفض",
+    "showingItemsBelow": "عرض العناصر أقل من",
+    "units": "وحدات",
+    "items": "عناصر",
+    "stockLevel": "مستوى المخزون",
+    "noLowStockItems": "لم يتم العثور على عناصر ذات مخزون منخفض",
+    "lowStockDescription": "قد تحتاج العناصر ذات المخزون المنخفض إلى إعادة طلبها قريبًا لمنع نفاد المخزون.",
+    "uncategorized": "غير مصنف",
+    "noWarehouse": "لا يوجد مستودع",
+
+    "period": "الفترة",
+    "threshold": "الحد",
+    "itemsLowStock": "عناصر منخفضة في المخزون",
+
+    "saleTypeSALE": "بيع",
+    "saleTypeINVOICE": "فاتورة",
+    "saleTypeCREDIT_NOTE": "إشعار دائن",
+    "saleTypeESTIMATED_SALE": "تقدير بيع",
+
+    "statusUNPAID": "غير مدفوع",
+    "statusPAID": "مدفوع",
+    "statusPARTIALLY_PAID": "مدفوع جزئيًا"
+  }
+}

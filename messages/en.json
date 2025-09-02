@@ -1,0 +1,3738 @@
+{
+  "Breadcrumbs": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "reports": "Reports",
+    "products": "Products",
+    "new product": "New Product",
+    "edit product": "Edit Product",
+    "categories": "Categories",
+    "edit category": "Edit Category",
+    "new category": "New Category",
+    "import-products": "Import Products",
+    "purchases": "Purchases",
+    "new purchase": "New Purchase",
+    "edit purchase": "Edit Purchase",
+    "bills": "Bills",
+    "new bill": "New Bill",
+    "edit bill": "Edit Bill",
+    "debit-notes": "Debit Notes",
+    "debit notes": "Debit Notes",
+    "new debit note": "New Debit Note",
+    "edit debit note": "Edit Debit Note",
+    "purchase-estimate": "Purchase Estimates",
+    "purchase estimate": "Purchase Estimates",
+    "new purchase estimate": "New Purchase Estimate",
+    "edit purchase estimate": "Edit Purchase Estimate",
+    "warehouses": "Warehouses",
+    "new warehouse": "New Warehouse",
+    "edit warehouse": "Edit Warehouse",
+    "storage": "Storage & Warehouses",
+    "vendors": "Vendors",
+    "suppliers": "Suppliers",
+    "new supplier": "New Supplier",
+    "edit supplier": "Edit Supplier",
+    "import-suppliers": "Import Suppliers",
+    "settings": "Settings",
+    "help": "Help & Support",
+    "sales": "Sales",
+    "new sale": "New Sale",
+    "edit sale": "Edit Sale",
+    "invoices": "Invoices",
+    "process payment": "Process Payment",
+    "credit note": "Credit Note",
+    "new credit note": "New Credit Note",
+    "edit credit note": "Edit Credit Note",
+    "estimated sale": "Estimated Sale",
+    "new estimated sale": "New Estimated Sale",
+    "edit estimated sale": "Edit Estimated Sale",
+    "customers": "Customers",
+    "new customer": "New Customer",
+    "edit customer": "Edit Customer",
+    "expenses": "Expenses",
+    "expense categories": "Expense Categories",
+    "expense subcategories": "Expense Subcategories",
+    "running expenses": "Running Expenses",
+    "employees": "Employees",
+    "create employee": "Create Employee",
+    "edit employee": "Edit Employee",
+    "payrolls": "Payrolls",
+    "pay": "Pay",
+    "sales tax": "Sales Taxes",
+    "sales-taxes": "Sales Taxes",
+    "taxes": "Taxes",
+    "accounting": "Accounting",
+    "fixed assets": "Fixed Assets",
+    "fixed-assets": "Fixed Assets",
+    "new asset": "New Asset",
+    "coa": "Chart of Accounts",
+    "chart of accounts": "Chart of Accounts",
+    "users": "Users",
+    "access denied": "Access Denied",
+    "bank statement": "Bank Statement",
+    "revenue": "Revenue"
+  },
+  "Labels": {
+    "analytics": "Analytics",
+    "products_and_services": "Products & Services",
+    "inventory": "Inventory",
+    "purchases": "Purchases",
+    "vendors": "Vendors",
+    "business_analytics": "Business Analytics",
+    "warehouse_management": "Warehouse Management",
+    "procurement_management": "Procurement Management",
+    "financial_management": "Financial Management",
+    "system": "System",
+    "sales": "Sales",
+    "sales_management": "Sales Management",
+    "invoices": "Invoices",
+    "credit note": "Credit Note",
+    "estimated sales": "Estimated Sales",
+    "customers": "Customers Service",
+    "expenses": "Expenses Management",
+    "employees": "Employees Management",
+    "payroll": "Payroll Management",
+    "taxes": "Taxes Management",
+    "accounting": "Accounting Management",
+    "fixed-assets": "Fixed Assets",
+    "coa": "Chart of Accounts",
+    "users": "Users Management",
+    "sales_and_revenue": "Sales & Revenue",
+    "purchases_and_procurement": "Purchases & Procurement", 
+    "inventory_management": "Inventory Management",
+    "expenses_and_costs": "Expenses & Costs",
+    "human_resources": "Human Resources",
+    "financial_accounting": "Financial Accounting"
+  },
+  "Purchases": {
+    "title": "Purchases",
+    "subtitle": "Manage your purchases, suppliers, and track shipments.",
+    "back": "Back",
+    "columns": {
+      "uuid": "UUID",
+      "supplier": "Supplier",
+      "purchaseDate": "Purchase Date",
+      "expectedShipmentDate": "Expected Shipment",
+      "grandTotal": "Grand Total",
+      "paymentRemaining": "Payment Remaining",
+      "terms": "Terms",
+      "status": "Status",
+      "openMenu": "Open Menu",
+      "info": "View Details",
+      "processPayment": "Process Payment",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "new": "New Purchase",
+      "searchPlaceholder": "Search purchases...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No purchases found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "deleteDialog": {
+      "title": "Delete Purchase",
+      "description": "Are you sure you want to delete this purchase? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "infoDrawer": {
+      "title": "Purchase Details",
+      "description": "Complete information about this purchase",
+      "supplierInfo": "Supplier Information",
+      "supplierEmail": "Supplier Email",
+      "terms": "Terms",
+      "dates": "Dates",
+      "purchaseDate": "Purchase Date",
+      "expectedShipmentDate": "Expected Shipment",
+      "addresses": "Addresses",
+      "billingAddress": "Billing Address",
+      "shippingAddress": "Shipping Address",
+      "items": "Purchase Items",
+      "productName": "Product",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "total": "Total",
+      "summary": "Summary",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "notes": "Notes",
+      "close": "Close"
+    },
+    "export": {
+      "title": "Purchases Report",
+      "sheetName": "Purchases",
+      "fileName": "purchases-report",
+      "supplier": "Supplier",
+      "purchaseDate": "Purchase Date",
+      "expectedShipmentDate": "Expected Shipment",
+      "terms": "Terms",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "status": "Status"
+    },
+    "newPurchase": {
+      "title": "New Purchase",
+      "subtitle": "Create a new purchase order",
+      "sections": {
+        "supplierInfo": "Supplier Information",
+        "dates": "Purchase Dates",
+        "addresses": "Addresses",
+        "items": "Purchase Items",
+        "summary": "Purchase Summary",
+        "additionalInfo": "Additional Information",
+        "itemsDescription": "Add products to your purchase order"
+      },
+      "fields": {
+        "supplierId": "Supplier ID",
+        "supplierEmail": "Supplier Email",
+        "terms": "Payment Terms",
+        "purchaseDate": "Purchase Date",
+        "expectedShipmentDate": "Expected Shipment Date",
+        "billingAddress": "Billing Address",
+        "billingStreet": "Street Address",
+        "billingCity": "City",
+        "billingState": "State/Province",
+        "billingZip": "ZIP/Postal Code",
+        "billingCountry": "Country",
+        "shippingAddress": "Shipping Address",
+        "shippingStreet": "Street Address",
+        "shippingCity": "City",
+        "shippingState": "State/Province",
+        "shippingZip": "ZIP/Postal Code",
+        "shippingCountry": "Country",
+        "copyBillingAddress": "Same as billing address",
+        "items": "Items",
+        "productName": "Product Name",
+        "quantity": "Quantity",
+        "unitPrice": "Unit Price",
+        "itemTotal": "Total",
+        "addItem": "Add Item",
+        "removeItem": "Remove",
+        "subtotal": "Subtotal",
+        "salesTax": "Sales Tax (%)",
+        "salesTaxAmount": "Sales Tax Amount",
+        "discount": "Discount (%)",
+        "discountAmount": "Discount Amount",
+        "grandTotal": "Grand Total",
+        "notes": "Additional Notes",
+        "status": "Status",
+        "product": "Product",
+        "total": "Total"
+      },
+      "placeholders": {
+        "supplierId": "Enter supplier ID",
+        "supplierEmail": "Enter supplier email",
+        "selectTerms": "Select payment terms",
+        "billingStreet": "Enter street address",
+        "billingCity": "Enter city",
+        "billingState": "Enter state/province",
+        "billingZip": "Enter ZIP/postal code",
+        "billingCountry": "Enter country",
+        "shippingStreet": "Enter street address",
+        "shippingCity": "Enter city",
+        "shippingState": "Enter state/province",
+        "shippingZip": "Enter ZIP/postal code",
+        "shippingCountry": "Enter country",
+        "productName": "Enter product name",
+        "quantity": "0",
+        "unitPrice": "0.00",
+        "notes": "Enter any additional notes or information",
+        "selectProduct": "Select a product",
+        "searchProducts": "Search products..."
+      },
+      "buttons": {
+        "save": "Create",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "supplierEmailRequired": "Supplier email is required",
+        "termsRequired": "Payment terms are required",
+        "purchaseDateRequired": "Purchase date is required",
+        "expectedShipmentDateRequired": "Expected shipment date is required",
+        "billingStreetRequired": "Billing street is required",
+        "billingCityRequired": "Billing city is required",
+        "billingStateRequired": "Billing state is required",
+        "billingZipRequired": "Billing ZIP/postal code is required",
+        "billingCountryRequired": "Billing country is required",
+        "shippingStreetRequired": "Shipping street is required",
+        "shippingCityRequired": "Shipping city is required",
+        "shippingStateRequired": "Shipping state is required",
+        "shippingZipRequired": "Shipping ZIP/postal code is required",
+        "shippingCountryRequired": "Shipping country is required",
+        "itemsRequired": "At least one item is required",
+        "productNameRequired": "Product name is required",
+        "quantityRequired": "Quantity is required",
+        "quantityPositive": "Quantity must be greater than 0",
+        "unitPriceRequired": "Unit price is required",
+        "unitPricePositive": "Unit price must be greater than 0",
+        "taxRateRange": "Tax rate must be between 0 and 100",
+        "discountRateRange": "Discount rate must be between 0 and 100"
+      },
+      "successMessage": "Purchase created successfully",
+      "errorMessage": "Error creating purchase",
+      "messages": {
+        "noProductsFound": "No products found"
+      },
+      "actions": {
+        "addItem": "Add Item"
+      }
+    },
+    "editPurchase": {
+      "title": "Edit",
+      "subtitle": "Update purchase order details",
+      "buttons": {
+        "save": "Update",
+        "cancel": "Cancel"
+      },
+      "successMessage": "Purchase updated successfully",
+      "errorMessage": "Error updating purchase"
+    },
+    "processPayment": {
+      "title": "Process Payment",
+      "paymentDetails": "Payment Details",
+      "completePayment": "Complete the payment process for this purchase",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "totalDue": "Total Due",
+      "status": "Status",
+      "dueDate": "Expected Shipment Date",
+      "paid": "Paid",
+      "print": "Print Invoice",
+      "exportPDF": "Export PDF",
+      "confirmPayment": "Confirm Payment",
+      "processing": "Processing...",
+      "paymentComplete": "Payment Complete",
+      "returnToList": "Return to Purchase List"
+    },
+    "invoice": {
+      "title": "Invoice",
+      "number": "Invoice Number",
+      "date": "Purchase Date",
+      "due": "Expected Shipment Date",
+      "from": "From",
+      "to": "To",
+      "items": "Items",
+      "item": "Item",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "amount": "Amount",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "total": "Total",
+      "notes": "Notes",
+      "terms": "Terms & Conditions",
+      "termsText": "Payment is due within the terms specified. Please make payment via bank transfer to the account details provided separately.",
+      "footer": "Thank you for your business"
+    }
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Your business performance overview and analytics.",
+    "profit": "Profit",
+    "total_sales": "Total Sales",
+    "total_purchase": "Total Purchase",
+    "products": "Products",
+    "invoices": "Invoices",
+    "customers": "Customers"
+  },
+  "Charts": {
+    "new_customers": "New Customers",
+    "new_customers_period": "January - June 2025",
+    "customer_trend": "Trending up by 5.2% this month",
+    "customer_summary": "Showing total new Customers for the last 6 months",
+    "product_performance": "Product Performance",
+    "product_subtitle": "Sales and revenue by product",
+    "sales": "Sales",
+    "revenue": "Revenue",
+    "revenue_profit": "Revenue & Profit",
+    "revenue_subtitle": "Monthly revenue and profit breakdown",
+    "top_products": "Top Products",
+    "traffic_distribution": "Distribution of traffic by source"
+  },
+  "UserMenu": {
+    "upgrade": "Upgrade to Pro",
+    "account": "Account",
+    "billing": "Billing",
+    "notifications": "Notifications",
+    "logout": "Log out",
+    "changeOrgnaization": "Change Organization"
+  },
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "We encountered an error while processing your request",
+    "message": "Don't worry, it's not your fault. Try refreshing the page or navigate back to the dashboard.",
+    "error_code": "Error code:",
+    "try_again": "Try again",
+    "back_to_dashboard": "Back to Dashboard"
+  },
+  "NotFound": {
+    "title": "Page Not Found",
+    "description": "We couldn't find the page you're looking for",
+    "message": "The page you are trying to access may have been moved, deleted, or might never have existed.",
+    "search": "Search",
+    "back_to_dashboard": "Back to Dashboard"
+  },
+  "Products": {
+    "title": "Products",
+    "subtitle": "Manage your products, view inventory, and update product information.",
+    "columns": {
+      "uuid": "ID",
+      "name": "Name",
+      "sku": "SKU",
+      "barcode": "Barcode",
+      "category": "Category",
+      "warehouse": "Warehouse",
+      "quantity": "Quantity",
+      "description": "Description",
+      "purchasePrice": "Purchase Price",
+      "salePrice": "Sale Price",
+      "tax": "Tax",
+      "taxCode": "Tax Code",
+      "total": "Total"
+    },
+    "actions": {
+      "title": "Actions",
+      "copyId": "Copy ID",
+      "view": "View product",
+      "edit": "Edit product",
+      "delete": "Delete product"
+    },
+    "dialogs": {
+      "view": {
+        "description": "View detailed information about this product",
+        "close": "Close"
+      },
+      "delete": {
+        "title": "Delete Product",
+        "description": "Are you sure you want to delete {productName}? This action cannot be undone.",
+        "permanentAction": "This action is permanent and cannot be undone.",
+        "cancel": "Cancel",
+        "confirm": "Delete",
+        "deleting": "Deleting..."
+      }
+    },
+    "sections": {
+      "pricing": "Pricing",
+      "margin": "Profit Margin",
+      "noDescription": "No description provided"
+    },
+    "table": {
+      "new": "New Product",
+      "searchPlaceholder": "Search products...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No results found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page",
+      "outOfStock": "Out of Stock",
+      "lowStock": "Low Stock",
+      "inStock": "In Stock",
+      "undefined": "Undefined"
+    }
+  },
+  "NewProduct": {
+    "title": {
+      "product": "New Product",
+      "service": "New Service"
+    },
+    "subtitle": {
+      "product": "Add a new product to your inventory",
+      "service": "Add a new service to your inventory"
+    },
+    "back": "Back",
+    "sections": {
+      "productType": {
+        "title": "Product Type",
+        "description": "Select whether you are adding a product or service"
+      },
+      "generalInfo": {
+        "title": "General Information",
+        "description": "Basic details about your {productType}"
+      },
+      "inventory": {
+        "title": "Inventory",
+        "description": "Manage your product inventory"
+      },
+      "taxInfo": {
+        "title": "Tax Information",
+        "description": "Configure tax settings for this {productType}"
+      },
+      "pricing": {
+        "title": "Pricing",
+        "description": "Set pricing for this {productType}"
+      }
+    },
+    "fields": {
+      "productType": {
+        "product": "Product",
+        "service": "Service"
+      },
+      "name": "Name",
+      "category": "Category",
+      "warehouse": "Warehous",
+      "sku": "SKU",
+      "barcode": "Barcode",
+      "description": "Description",
+      "initialQuantity": {
+        "label": "Initial Quantity",
+        "description": "The initial stock quantity of this product"
+      },
+      "taxType": {
+        "label": "Tax Type",
+        "taxable": "Taxable",
+        "nonTaxable": "Non-Taxable"
+      },
+      "taxCode": "Tax Code",
+      "purchasePrice": "Purchase Price",
+      "salesPrice": "Sales Price"
+    },
+    "placeholders": {
+      "name": "Enter name",
+      "selectCategory": "Select category",
+      "selectWarehouse": "Select warehouse",
+      "sku": "Enter SKU",
+      "barcode": "Enter barcode",
+      "description": "Enter description",
+      "selectTaxCode": "Select tax code"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "save": "Save {productType}"
+    },
+    "notifications": {
+      "success": "Saved successfully"
+    }
+  },
+  "Categories": {
+    "title": "Categories",
+    "subtitle": "Manage product categories and view connected products.",
+    "categoryNotFound": "Category not found",
+    "breadcrumb": {
+      "home": "Home",
+      "categories": "Categories",
+      "newCategory": "New Category",
+      "editCategory": "Edit Category"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "Name",
+      "numberOfProducts": "Products"
+    },
+    "actions": {
+      "viewProducts": "View Products",
+      "edit": "Edit Category",
+      "delete": "Delete Category"
+    },
+    "deleteDialog": {
+      "title": "Delete Category",
+      "description": "Are you sure you want to delete this category?",
+      "confirmText": "You are about to delete category:",
+      "warning": "This category contains",
+      "product": "product",
+      "products": "products",
+      "cancel": "Cancel",
+      "confirm": "Delete",
+      "deleting": "Deleting..."
+    },
+    "newCategory": {
+      "title": "New Category",
+      "description": "Create a new product category"
+    },
+    "editCategory": {
+      "title": "Edit Category",
+      "description": "Update category information"
+    },
+    "table": {
+      "new": "New Category",
+      "searchPlaceholder": "Search categories...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No categories found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    }
+  },
+  "Warehouses": {
+    "title": "Warehouses",
+    "subtitle": "Manage warehouses and view stored products.",
+    "warehouseNotFound": "Warehouse not found",
+    "breadcrumb": {
+      "home": "Home",
+      "warehouses": "Warehouses",
+      "newWarehouse": "New Warehouse",
+      "editWarehouse": "Edit Warehouse"
+    },
+    "columns": {
+      "id": "ID",
+      "name": "Name",
+      "numberOfProducts": "Products"
+    },
+    "actions": {
+      "viewProducts": "View Products",
+      "edit": "Edit Warehouse",
+      "delete": "Delete Warehouse"
+    },
+    "deleteDialog": {
+      "title": "Delete Warehouse",
+      "description": "Are you sure you want to delete this warehouse?",
+      "confirmText": "You are about to delete warehouse:",
+      "warning": "This warehouse contains",
+      "product": "product",
+      "products": "products",
+      "cancel": "Cancel",
+      "confirm": "Delete",
+      "deleting": "Deleting..."
+    },
+    "newWarehouse": {
+      "title": "New Warehouse",
+      "description": "Create a new warehouse for product storage"
+    },
+    "editWarehouse": {
+      "title": "Edit Warehouse",
+      "description": "Update warehouse information"
+    },
+    "viewProducts": {
+      "title": "Warehouse Products",
+      "description": "View products stored in this warehouse",
+      "product": "product",
+      "products": "products",
+      "noProducts": "No products found in this warehouse"
+    },
+    "form": {
+      "warehouseName": "Warehouse Name",
+      "warehouseNamePlaceholder": "Enter warehouse name",
+      "warehouseNameDescription": "The name of the warehouse that will be displayed across the system",
+      "createWarehouse": "Create Warehouse",
+      "updateWarehouse": "Update Warehouse"
+    },
+    "table": {
+      "new": "New Warehouse",
+      "searchPlaceholder": "Search warehouses...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No warehouses found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    }
+  },
+  "Bills": {
+    "title": "Bills",
+    "subtitle": "Manage your bills, suppliers, and track shipments.",
+    "back": "Back",
+    "columns": {
+      "uuid": "UUID",
+      "supplier": "Supplier",
+      "billDate": "Bill Date",
+      "expectedShipmentDate": "Expected Shipment",
+      "grandTotal": "Grand Total",
+      "paymentRemaining": "Payment Remaining",
+      "terms": "Terms",
+      "status": "Status",
+      "openMenu": "Open Menu",
+      "info": "View Details",
+      "processPayment": "Process Payment",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "new": "New Bill",
+      "searchPlaceholder": "Search bills...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No bills found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "deleteDialog": {
+      "title": "Delete Bill",
+      "description": "Are you sure you want to delete this bill? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "infoDrawer": {
+      "title": "Bill Details",
+      "description": "Complete information about this bill",
+      "supplierInfo": "Supplier Information",
+      "supplierEmail": "Supplier Email",
+      "terms": "Terms",
+      "dates": "Dates",
+      "billDate": "Bill Date",
+      "expectedShipmentDate": "Expected Shipment",
+      "addresses": "Addresses",
+      "billingAddress": "Billing Address",
+      "shippingAddress": "Shipping Address",
+      "items": "Bill Items",
+      "productName": "Product",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "total": "Total",
+      "summary": "Summary",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "notes": "Notes",
+      "close": "Close"
+    },
+    "export": {
+      "title": "Bills Report",
+      "sheetName": "Bills",
+      "fileName": "bills-report",
+      "supplier": "Supplier",
+      "billDate": "Bill Date",
+      "expectedShipmentDate": "Expected Shipment",
+      "terms": "Terms",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "status": "Status"
+    },
+    "newBill": {
+      "title": "New Bill",
+      "subtitle": "Create a new bill",
+      "sections": {
+        "supplierInfo": "Supplier Information",
+        "dates": "Bill Dates",
+        "addresses": "Addresses",
+        "items": "Bill Items",
+        "summary": "Bill Summary",
+        "additionalInfo": "Additional Information",
+        "itemsDescription": "Add products to your bill"
+      },
+      "fields": {
+        "supplierId": "Supplier ID",
+        "supplierEmail": "Supplier Email",
+        "terms": "Payment Terms",
+        "billDate": "Bill Date",
+        "expectedShipmentDate": "Expected Shipment Date",
+        "billingAddress": "Billing Address",
+        "billingStreet": "Street Address",
+        "billingCity": "City",
+        "billingState": "State/Province",
+        "billingZip": "ZIP/Postal Code",
+        "billingCountry": "Country",
+        "shippingAddress": "Shipping Address",
+        "shippingStreet": "Street Address",
+        "shippingCity": "City",
+        "shippingState": "State/Province",
+        "shippingZip": "ZIP/Postal Code",
+        "shippingCountry": "Country",
+        "copyBillingAddress": "Same as billing address",
+        "items": "Items",
+        "productName": "Product Name",
+        "quantity": "Quantity",
+        "unitPrice": "Unit Price",
+        "itemTotal": "Total",
+        "addItem": "Add Item",
+        "removeItem": "Remove",
+        "subtotal": "Subtotal",
+        "salesTax": "Sales Tax (%)",
+        "salesTaxAmount": "Sales Tax Amount",
+        "discount": "Discount (%)",
+        "discountAmount": "Discount Amount",
+        "grandTotal": "Grand Total",
+        "notes": "Additional Notes",
+        "status": "Status",
+        "product": "Product",
+        "total": "Total"
+      },
+      "placeholders": {
+        "supplierId": "Enter supplier ID",
+        "supplierEmail": "Enter supplier email",
+        "selectTerms": "Select payment terms",
+        "billingStreet": "Enter street address",
+        "billingCity": "Enter city",
+        "billingState": "Enter state/province",
+        "billingZip": "Enter ZIP/postal code",
+        "billingCountry": "Enter country",
+        "shippingStreet": "Enter street address",
+        "shippingCity": "Enter city",
+        "shippingState": "Enter state/province",
+        "shippingZip": "Enter ZIP/postal code",
+        "shippingCountry": "Enter country",
+        "productName": "Enter product name",
+        "quantity": "0",
+        "unitPrice": "0.00",
+        "notes": "Enter any additional notes or information",
+        "selectProduct": "Select a product",
+        "searchProducts": "Search products..."
+      },
+      "buttons": {
+        "save": "Create Bill",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "supplierEmailRequired": "Supplier email is required",
+        "termsRequired": "Payment terms are required",
+        "purchaseDateRequired": "Bill date is required",
+        "expectedShipmentDateRequired": "Expected shipment date is required",
+        "billingStreetRequired": "Billing street is required",
+        "billingCityRequired": "Billing city is required",
+        "billingStateRequired": "Billing state is required",
+        "billingZipRequired": "Billing ZIP/postal code is required",
+        "billingCountryRequired": "Billing country is required",
+        "shippingStreetRequired": "Shipping street is required",
+        "shippingCityRequired": "Shipping city is required",
+        "shippingStateRequired": "Shipping state is required",
+        "shippingZipRequired": "Shipping ZIP/postal code is required",
+        "shippingCountryRequired": "Shipping country is required",
+        "itemsRequired": "At least one item is required",
+        "productNameRequired": "Product name is required",
+        "quantityRequired": "Quantity is required",
+        "quantityPositive": "Quantity must be greater than 0",
+        "unitPriceRequired": "Unit price is required",
+        "unitPricePositive": "Unit price must be greater than 0",
+        "taxRateRange": "Tax rate must be between 0 and 100",
+        "discountRateRange": "Discount rate must be between 0 and 100"
+      },
+      "successMessage": "Bill created successfully",
+      "errorMessage": "Error creating bill",
+      "messages": {
+        "noProductsFound": "No products found"
+      },
+      "actions": {
+        "addItem": "Add Item"
+      }
+    },
+    "editBill": {
+      "title": "Edit Bill",
+      "subtitle": "Update bill details",
+      "buttons": {
+        "save": "Update Bill",
+        "cancel": "Cancel"
+      },
+      "successMessage": "Bill updated successfully",
+      "errorMessage": "Error updating bill"
+    },
+    "processPayment": {
+      "title": "Process Payment",
+      "paymentDetails": "Payment Details",
+      "completePayment": "Complete the payment process for this bill",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "totalDue": "Total Due",
+      "status": "Status",
+      "dueDate": "Due Date",
+      "paid": "Paid",
+      "print": "Print Invoice",
+      "exportPDF": "Export PDF",
+      "confirmPayment": "Confirm Payment",
+      "processing": "Processing...",
+      "paymentComplete": "Payment Complete",
+      "returnToList": "Return to Bill List"
+    },
+    "invoice": {
+      "title": "Invoice",
+      "number": "Invoice Number",
+      "date": "Invoice Date",
+      "due": "Due Date",
+      "from": "From",
+      "to": "To",
+      "items": "Items",
+      "item": "Item",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "amount": "Amount",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "total": "Total",
+      "notes": "Notes",
+      "terms": "Terms & Conditions",
+      "termsText": "Payment is due within the terms specified. Please make payment via bank transfer to the account details provided separately.",
+      "footer": "Thank you for your business"
+    }
+  },
+  "DebitNotes": {
+    "title": "Debit Notes",
+    "subtitle": "Manage your debit notes, suppliers, and track shipments.",
+    "back": "Back",
+    "columns": {
+      "uuid": "UUID",
+      "supplier": "Supplier",
+      "purchaseDate": "Debit Note Date",
+      "expectedShipmentDate": "Expected Shipment",
+      "grandTotal": "Grand Total",
+      "paymentRemaining": "Payment Remaining",
+      "terms": "Payment Terms",
+      "status": "Status",
+      "openMenu": "Open Menu",
+      "info": "View Details",
+      "processPayment": "Process Payment",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "new": "New Debit Note",
+      "searchPlaceholder": "Search debit notes...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No debit notes found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "deleteDialog": {
+      "title": "Delete Debit Note",
+      "description": "Are you sure you want to delete this debit note? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "infoDrawer": {
+      "title": "Debit Note Details",
+      "description": "Complete information about this debit note",
+      "supplierInfo": "Supplier Information",
+      "supplierEmail": "Supplier Email",
+      "terms": "Payment Terms",
+      "dates": "Dates",
+      "billingAddress": "Billing Address",
+      "purchaseDate": "Debit Note Date",
+      "expectedShipmentDate": "Expected Shipment",
+      "addresses": "Addresses",
+      "debitNoteAddress": "Debit Note Address",
+      "shippingAddress": "Shipping Address",
+      "items": "Debit Note Items",
+      "productName": "Product",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "total": "Total",
+      "summary": "Summary",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "notes": "Notes",
+      "close": "Close"
+    },
+    "export": {
+      "title": "Debit Notes Report",
+      "sheetName": "Debit Notes",
+      "fileName": "debit-notes-report",
+      "supplier": "Supplier",
+      "debitNoteDate": "Debit Note Date",
+      "expectedShipmentDate": "Expected Shipment",
+      "paymentTerms": "Payment Terms",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "status": "Status"
+    },
+    "newDebitNote": {
+      "title": "New Debit Note",
+      "subtitle": "Create a new debit note",
+      "sections": {
+        "supplierInfo": "Supplier Information",
+        "dates": "Debit Note Dates",
+        "addresses": "Addresses",
+        "items": "Debit Note Items",
+        "summary": "Debit Note Summary",
+        "additionalInfo": "Additional Information",
+        "itemsDescription": "Add products to your debit note"
+      },
+      "fields": {
+        "supplierId": "Supplier ID",
+        "supplierEmail": "Supplier Email",
+        "paymentTerms": "Payment Terms",
+        "debitNoteDate": "Debit Note Date",
+        "expectedShipmentDate": "Expected Shipment Date",
+        "debitNoteAddress": "Debit Note Address",
+        "debitNoteStreet": "Street Address",
+        "debitNoteCity": "City",
+        "debitNoteState": "State/Province",
+        "debitNoteZip": "ZIP/Postal Code",
+        "debitNoteCountry": "Country",
+        "shippingAddress": "Shipping Address",
+        "shippingStreet": "Street Address",
+        "shippingCity": "City",
+        "shippingState": "State/Province",
+        "shippingZip": "ZIP/Postal Code",
+        "shippingCountry": "Country",
+        "copyDebitNoteAddress": "Same as debit note address",
+        "items": "Items",
+        "productName": "Product Name",
+        "quantity": "Quantity",
+        "unitPrice": "Unit Price",
+        "itemTotal": "Total",
+        "addItem": "Add Item",
+        "removeItem": "Remove",
+        "subtotal": "Subtotal",
+        "salesTax": "Sales Tax (%)",
+        "salesTaxAmount": "Sales Tax Amount",
+        "discount": "Discount (%)",
+        "discountAmount": "Discount Amount",
+        "grandTotal": "Grand Total",
+        "notes": "Additional Notes",
+        "status": "Status",
+        "product": "Product",
+        "total": "Total"
+      },
+      "placeholders": {
+        "supplierId": "Enter supplier ID",
+        "supplierEmail": "Enter supplier email",
+        "selectTerms": "Select payment terms",
+        "debitNoteStreet": "Enter street address",
+        "debitNoteCity": "Enter city",
+        "debitNoteState": "Enter state/province",
+        "debitNoteZip": "Enter ZIP/postal code",
+        "debitNoteCountry": "Enter country",
+        "shippingStreet": "Enter street address",
+        "shippingCity": "Enter city",
+        "shippingState": "Enter state/province",
+        "shippingZip": "Enter ZIP/postal code",
+        "shippingCountry": "Enter country",
+        "productName": "Enter product name",
+        "quantity": "0",
+        "unitPrice": "0.00",
+        "notes": "Enter any additional notes or information",
+        "selectProduct": "Select a product",
+        "searchProducts": "Search products..."
+      },
+      "buttons": {
+        "save": "Create Debit Note",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "supplierEmailRequired": "Supplier email is required",
+        "termsRequired": "Payment terms are required",
+        "debitNoteDateRequired": "Debit note date is required",
+        "expectedShipmentDateRequired": "Expected shipment date is required",
+        "debitNoteStreetRequired": "Debit note street is required",
+        "debitNoteCityRequired": "Debit note city is required",
+        "debitNoteStateRequired": "Debit note state is required",
+        "debitNoteZipRequired": "Debit note ZIP/postal code is required",
+        "debitNoteCountryRequired": "Debit note country is required",
+        "shippingStreetRequired": "Shipping street is required",
+        "shippingCityRequired": "Shipping city is required",
+        "shippingStateRequired": "Shipping state is required",
+        "shippingZipRequired": "Shipping ZIP/postal code is required",
+        "shippingCountryRequired": "Shipping country is required",
+        "itemsRequired": "At least one item is required",
+        "productNameRequired": "Product name is required",
+        "quantityRequired": "Quantity is required",
+        "quantityPositive": "Quantity must be greater than 0",
+        "unitPriceRequired": "Unit price is required",
+        "unitPricePositive": "Unit price must be greater than 0",
+        "taxRateRange": "Tax rate must be between 0 and 100",
+        "discountRateRange": "Discount rate must be between 0 and 100"
+      },
+      "successMessage": "Debit note created successfully",
+      "errorMessage": "Error creating debit note",
+      "messages": {
+        "noProductsFound": "No products found"
+      },
+      "actions": {
+        "addItem": "Add Item"
+      }
+    },
+    "editDebitNote": {
+      "title": "Edit Debit Note",
+      "subtitle": "Update debit note details",
+      "buttons": {
+        "save": "Update Debit Note",
+        "cancel": "Cancel"
+      },
+      "successMessage": "Debit note updated successfully",
+      "errorMessage": "Error updating debit note"
+    },
+    "processPayment": {
+      "title": "Process Payment",
+      "paymentDetails": "Payment Details",
+      "completePayment": "Complete the payment process for this debit note",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "totalDue": "Total Due",
+      "status": "Status",
+      "dueDate": "Due Date",
+      "paid": "Paid",
+      "print": "Print Invoice",
+      "exportPDF": "Export PDF",
+      "confirmPayment": "Confirm Payment",
+      "processing": "Processing...",
+      "paymentComplete": "Payment Complete",
+      "returnToList": "Return to Debit Note List"
+    },
+    "invoice": {
+      "title": "Invoice",
+      "number": "Invoice Number",
+      "date": "Invoice Date",
+      "due": "Due Date",
+      "from": "From",
+      "to": "To",
+      "items": "Items",
+      "item": "Item",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "amount": "Amount",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "total": "Total",
+      "notes": "Notes",
+      "terms": "Terms & Conditions",
+      "termsText": "Payment is due within the terms specified. Please make payment via bank transfer to the account details provided separately.",
+      "footer": "Thank you for your business"
+    }
+  },
+  "OrganizationManager": {
+    "title": "Manage Organizations",
+    "loading": "Loading Organizations",
+    "error": {
+      "title": "Oops! Something went wrong",
+      "retry": "Try Again"
+    },
+    "emptyState": {
+      "title": "Organizations",
+      "subtitle": "Your workspace awaits",
+      "heading": "Let's build something amazing",
+      "description": "Create your first organization to start collaborating with your team, manage your business, and unlock powerful features that will transform your workflow.",
+      "cta": "Create Your Organization",
+      "footer": "Free to start • No credit card required • Set up in minutes"
+    },
+    "filters": {
+      "all": "All",
+      "owner": "Owned",
+      "member": "Member",
+      "searchPlaceholder": "Search organizations..."
+    },
+    "card": {
+      "ownerBadge": "Owner",
+      "memberBadge": "Member",
+      "members": "{count, plural, one {member} other {members}}",
+      "active": "Active",
+      "manageButton": "Manage Organization",
+      "settingsTooltip": "Settings for {name}",
+      "demo": "Demo Mode",
+      "expired": "Expired",
+      "subscriptionExpired": "Your subscription has expired. Please renew to access this organization.",
+      "subscriptionRequired": "Subscribe",
+      "demoMode": "Demo Mode",
+      "expiresOn": "Expires on {date}",
+      "expiredOn": "Expired on {date}"
+    },
+    "createButton": "Create Organization"
+  },
+  "Common": {
+    "active": "Active",
+    "products": "Products",
+    "productsInCategory": "This category contains {count} products",
+    "id": "ID",
+    "name": "Name",
+    "sku": "SKU",
+    "price": "Price",
+    "noProductsFound": "No products found in this category",
+    "close": "Close",
+    "categoryName": "Category Name",
+    "categoryNamePlaceholder": "Enter category name",
+    "categoryNameDescription": "The name of the category that will be displayed across the system",
+    "createCategory": "Create Category",
+    "updateCategory": "Update Category",
+    "subCategoriesCount": "SubCategories count {count}",
+    "expenses": "Expenses",
+    "expenseCategories": "Expense Categories",
+    "expenseSubCategories": "Expense SubCategories",
+    "noExpensesFound": "No expenses found in this subcategory",
+    "noSubCategoriesFound": "No subcategories found in this category"
+  },
+  "Customers": {
+    "title": "Customers",
+    "subtitle": "Manage your customers and their information.",
+    "columns": {
+      "deposit": "Deposit",
+      "depositHistory": "Deposit History",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "openMenu": "Open Menu",
+      "currency": "Currency",
+      "taxNumber": "Tax Number",
+      "info": "View Details",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "new": "New Customer",
+      "searchPlaceholder": "Search customers...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No suppliers found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "deleteDialog": {
+      "title": "Delete Customer",
+      "description": "Are you sure you want to delete this customer? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "infoDrawer": {
+      "title": "Customer Details",
+      "description": "Complete information about this customer",
+      "basicInfo": "Basic Information",
+      "name": "Name",
+      "contact": "Contact",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "currency": "Currency",
+      "taxInfo": "Tax Information",
+      "antityCode": "Antity Code",
+      "exemptionNumber": "Exemption Number",
+      "taxNumber": "Tax Number",
+      "addressInfo": "Address Information",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "postCode": "Post Code",
+      "close": "Close",
+      "edit": "Edit"
+    },
+    "export": {
+      "title": "Suppliers Report",
+      "sheetName": "Suppliers",
+      "fileName": "suppliers-report",
+      "name": "Name",
+      "contact": "Contact",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "currency": "Currency",
+      "antityCode": "Antity Code",
+      "exemptionNumber": "Exemption Number",
+      "taxNumber": "Tax Number",
+      "openingBalance": "Opening Balance",
+      "outstandingBalance": "Outstanding Balance",
+      "address": "Address",
+      "postCode": "Post Code",
+      "state": "State",
+      "city": "City"
+    },
+    "newCustomer": {
+      "title": "New Customer",
+      "subtitle": "Create a new customer"
+    },
+    "editCustomer": {
+      "title": "Edit Customer",
+      "subtitle": "Update customer information",
+      "notFound": "Customer not found.",
+      "backToList": "Back to Customers List"
+    },
+    "depositHistoryForm": {
+      "title": "Deposit History",
+      "subtitle": "View deposit history"
+    },
+    "depositForm": {
+      "title": "Deposit",
+      "subtitle": "Create a new deposit",
+      "success": {
+        "title": "Deposit created successfully",
+        "description": "Deposit created successfully"
+      },
+      "error": {
+        "title": "Deposit creation failed",
+        "description": "Deposit creation failed"
+      },
+      "paymentDate": {
+        "label": "Payment Date",
+        "placeholder": "Enter payment date",
+        "required": "Payment date is required"
+      },
+      "paidBy": {
+        "label": "Paid By",
+        "placeholder": "Enter paid by",
+        "required": "Paid by is required"
+      },
+      "amount": {
+        "label": "Amount",
+        "placeholder": "Enter amount",
+        "min": "Amount must be at least 0.01"
+      },
+      "note": {
+        "label": "Note",
+        "placeholder": "Enter note"
+      },
+      "buttons": {
+        "save": "Save",
+        "cancel": "Cancel"
+      }
+    },
+    "form": {
+      "tabs": {
+        "basic": "Basic Info",
+        "tax": "Tax Info",
+        "address": "Address Info"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter customer name",
+        "description": "The full name of the customer."
+      },
+      "website": {
+        "label": "Website",
+        "placeholder": "Enter website address",
+        "description": "The main website address for the customer."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter email address",
+        "description": "The main email address for the customer."
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "Enter phone number",
+        "description": "The main phone number for the customer."
+      },
+      "taxNumber": {
+        "label": "Tax Number",
+        "placeholder": "Enter tax number",
+        "description": "The tax number for this customer (if applicable)."
+      },
+      "address": {
+        "label": "Address",
+        "placeholder": "Enter address",
+        "description": "The main address for this customer."
+      },
+      "currency": {
+        "label": "Currency",
+        "placeholder": "Enter currency",
+        "description": "The currency for this customer (if applicable)."
+      },
+      "antityCode": {
+        "label": "Antity Code",
+        "placeholder": "Enter antity code",
+        "description": "The antity code for this customer (if applicable)."
+      },
+      "exemptionNumber": {
+        "label": "Exemption Number",
+        "placeholder": "Enter exemption number",
+        "description": "The exemption number for this customer (if applicable)."
+      },
+      "city": {
+        "label": "City",
+        "placeholder": "Enter city"
+      },
+      "state": {
+        "label": "State",
+        "placeholder": "Enter state"
+      },
+      "postCode": {
+        "label": "Post Code",
+        "placeholder": "Enter post code"
+      },
+      "country": {
+        "label": "Country",
+        "placeholder": "Enter country"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "create": "Create Customer",
+        "update": "Update Customer"
+      }
+    }
+  },
+  "Sales": {
+    "title": "Sales",
+    "subtitle": "Manage your sales, customers, and track deliveries.",
+    "back": "Back",
+    "columns": {
+      "customer": "Customer",
+      "saleDate": "Sale Date",
+      "expectedDeliveryDate": "Expected Delivery",
+      "grandTotal": "Grand Total",
+      "terms": "Terms",
+      "status": "Status",
+      "openMenu": "Open Menu",
+      "info": "View Details",
+      "processPayment": "Process Payment",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "new": "New Sale",
+      "searchPlaceholder": "Search sales...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No sales found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "deleteDialog": {
+      "title": "Delete Sale",
+      "description": "Are you sure you want to delete this sale? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "infoDrawer": {
+      "title": "Sale Details",
+      "description": "Complete information about this sale",
+      "customerInfo": "Customer Information",
+      "customerEmail": "Customer Email",
+      "terms": "Terms",
+      "dates": "Dates",
+      "saleDate": "Sale Date",
+      "expectedDeliveryDate": "Expected Delivery",
+      "addresses": "Addresses",
+      "billingAddress": "Billing Address",
+      "shippingAddress": "Shipping Address",
+      "items": "Sale Items",
+      "productName": "Product",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "total": "Total",
+      "summary": "Summary",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "notes": "Notes",
+      "close": "Close"
+    },
+    "export": {
+      "title": "Sales Report",
+      "sheetName": "Sales",
+      "fileName": "sales-report",
+      "customer": "Customer",
+      "saleDate": "Sale Date",
+      "expectedDeliveryDate": "Expected Delivery",
+      "terms": "Terms",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "status": "Status"
+    },
+    "newSale": {
+      "title": "New Sale",
+      "subtitle": "Create a new sale",
+      "sections": {
+        "customerInfo": "Customer Information",
+        "dates": "Sale Dates",
+        "addresses": "Addresses",
+        "items": "Sale Items",
+        "summary": "Sale Summary",
+        "additionalInfo": "Additional Information",
+        "itemsDescription": "Add products to your sale"
+      },
+      "fields": {
+        "customerId": "Customer ID",
+        "customerEmail": "Customer Email",
+        "terms": "Payment Terms",
+        "saleDate": "Sale Date",
+        "expectedDeliveryDate": "Expected Delivery Date",
+        "expectedShipmentDate": "Expected Shipping Date",
+        "billingAddress": "Billing Address",
+        "billingStreet": "Street Address",
+        "billingCity": "City",
+        "billingState": "State/Province",
+        "billingZip": "ZIP/Postal Code",
+        "billingCountry": "Country",
+        "shippingAddress": "Shipping Address",
+        "shippingStreet": "Street Address",
+        "shippingCity": "City",
+        "shippingState": "State/Province",
+        "shippingZip": "ZIP/Postal Code",
+        "shippingCountry": "Country",
+        "copyBillingAddress": "Same as billing address",
+        "items": "Items",
+        "productName": "Product Name",
+        "quantity": "Quantity",
+        "unitPrice": "Unit Price",
+        "itemTotal": "Total",
+        "addItem": "Add Item",
+        "removeItem": "Remove",
+        "subtotal": "Subtotal",
+        "salesTax": "Sales Tax (%)",
+        "salesTaxAmount": "Sales Tax Amount",
+        "discount": "Discount (%)",
+        "discountAmount": "Discount Amount",
+        "grandTotal": "Grand Total",
+        "notes": "Additional Notes",
+        "status": "Status",
+        "product": "Product",
+        "total": "Total"
+      },
+      "placeholders": {
+        "customerId": "Enter customer ID",
+        "customerEmail": "Enter customer email",
+        "selectTerms": "Select payment terms",
+        "billingStreet": "Enter street address",
+        "billingCity": "Enter city",
+        "billingState": "Enter state/province",
+        "billingZip": "Enter ZIP/postal code",
+        "billingCountry": "Enter country",
+        "shippingStreet": "Enter street address",
+        "shippingCity": "Enter city",
+        "shippingState": "Enter state/province",
+        "shippingZip": "Enter ZIP/postal code",
+        "shippingCountry": "Enter country",
+        "productName": "Enter product name",
+        "quantity": "0",
+        "unitPrice": "0.00",
+        "notes": "Enter any additional notes or information",
+        "selectProduct": "Select a product",
+        "searchProducts": "Search products..."
+      },
+      "buttons": {
+        "save": "Create Sale",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "customerEmailRequired": "Customer email is required",
+        "termsRequired": "Payment terms are required",
+        "saleDateRequired": "Sale date is required",
+        "expectedDeliveryDateRequired": "Expected delivery date is required",
+        "billingStreetRequired": "Billing street is required",
+        "billingCityRequired": "Billing city is required",
+        "billingStateRequired": "Billing state is required",
+        "billingZipRequired": "Billing ZIP/postal code is required",
+        "billingCountryRequired": "Billing country is required",
+        "shippingStreetRequired": "Shipping street is required",
+        "shippingCityRequired": "Shipping city is required",
+        "shippingStateRequired": "Shipping state is required",
+        "shippingZipRequired": "Shipping ZIP/postal code is required",
+        "shippingCountryRequired": "Shipping country is required",
+        "itemsRequired": "At least one item is required",
+        "productNameRequired": "Product name is required",
+        "quantityRequired": "Quantity is required",
+        "quantityPositive": "Quantity must be greater than 0",
+        "unitPriceRequired": "Unit price is required",
+        "unitPricePositive": "Unit price must be greater than 0",
+        "taxRateRange": "Tax rate must be between 0 and 100",
+        "discountRateRange": "Discount rate must be between 0 and 100"
+      },
+      "successMessage": "Sale created successfully",
+      "errorMessage": "Error creating sale",
+      "messages": {
+        "noProductsFound": "No products found"
+      },
+      "actions": {
+        "addItem": "Add Item"
+      }
+    },
+    "editSale": {
+      "title": "Edit Sale",
+      "subtitle": "Update sale details",
+      "buttons": {
+        "save": "Update Sale",
+        "cancel": "Cancel"
+      },
+      "successMessage": "Sale updated successfully",
+      "errorMessage": "Error updating sale"
+    },
+    "processPayment": {
+      "title": "Process Payment",
+      "paymentDetails": "Payment Details",
+      "completePayment": "Complete the payment process for this sale",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "totalDue": "Total Due",
+      "status": "Status",
+      "dueDate": "Due Date",
+      "paid": "Paid",
+      "print": "Print Invoice",
+      "exportPDF": "Export PDF",
+      "confirmPayment": "Confirm Payment",
+      "processing": "Processing...",
+      "paymentComplete": "Payment Complete",
+      "returnToList": "Return to Sale List"
+    },
+    "invoice": {
+      "title": "Invoice",
+      "number": "Invoice Number",
+      "date": "Invoice Date",
+      "due": "Due Date",
+      "from": "From",
+      "to": "To",
+      "items": "Items",
+      "item": "Item",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "amount": "Amount",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "total": "Total",
+      "notes": "Notes",
+      "terms": "Terms & Conditions",
+      "termsText": "Payment is due within the terms specified. Please make payment via bank transfer to the account details provided separately.",
+      "footer": "Thank you for your business"
+    }
+  },
+  "Invoices": {
+    "title": "Invoices",
+    "subtitle": "Manage your invoices, customers, and track deliveries.",
+    "back": "Back",
+    "columns": {
+      "customer": "Customer",
+      "saleDate": "Invoice Date",
+      "expectedDeliveryDate": "Expected Delivery",
+      "grandTotal": "Grand Total",
+      "terms": "Terms",
+      "status": "Status",
+      "openMenu": "Open Menu",
+      "info": "View Details",
+      "processPayment": "Process Payment",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "new": "New Invoice",
+      "searchPlaceholder": "Search invoices...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No sales found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "deleteDialog": {
+      "title": "Delete Invoice",
+      "description": "Are you sure you want to delete this invoice? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "infoDrawer": {
+      "title": "Invoice Details",
+      "description": "Complete information about this invoice",
+      "customerInfo": "Customer Information",
+      "customerEmail": "Customer Email",
+      "terms": "Terms",
+      "dates": "Dates",
+      "saleDate": "Invoice Date",
+      "expectedDeliveryDate": "Expected Delivery",
+      "addresses": "Addresses",
+      "billingAddress": "Billing Address",
+      "shippingAddress": "Shipping Address",
+      "items": "Invoice Items",
+      "productName": "Product",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "total": "Total",
+      "summary": "Summary",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "notes": "Notes",
+      "close": "Close"
+    },
+    "export": {
+      "title": "Invoices Report",
+      "sheetName": "Invoices",
+      "fileName": "invoices-report",
+      "customer": "Customer",
+      "saleDate": "Invoice Date",
+      "expectedDeliveryDate": "Expected Delivery",
+      "terms": "Terms",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "status": "Status"
+    },
+    "newSale": {
+      "title": "New Invoice",
+      "subtitle": "Create a new invoice",
+      "sections": {
+        "customerInfo": "Customer Information",
+        "dates": "Invoice Dates",
+        "addresses": "Addresses",
+        "items": "Invoice Items",
+        "summary": "Invoice Summary",
+        "additionalInfo": "Additional Information",
+        "itemsDescription": "Add products to your invoice"
+      },
+      "fields": {
+        "customerId": "Customer ID",
+        "customerEmail": "Customer Email",
+        "terms": "Payment Terms",
+        "saleDate": "Invoice Date",
+        "expectedDeliveryDate": "Expected Delivery Date",
+        "expectedShipmentDate": "Expected Shipping Date",
+        "billingAddress": "Billing Address",
+        "billingStreet": "Street Address",
+        "billingCity": "City",
+        "billingState": "State/Province",
+        "billingZip": "ZIP/Postal Code",
+        "billingCountry": "Country",
+        "shippingAddress": "Shipping Address",
+        "shippingStreet": "Street Address",
+        "shippingCity": "City",
+        "shippingState": "State/Province",
+        "shippingZip": "ZIP/Postal Code",
+        "shippingCountry": "Country",
+        "copyBillingAddress": "Same as billing address",
+        "items": "Invoice Items",
+        "productName": "Product Name",
+        "quantity": "Quantity",
+        "unitPrice": "Unit Price",
+        "itemTotal": "Total",
+        "addItem": "Add Item",
+        "removeItem": "Remove",
+        "subtotal": "Subtotal",
+        "salesTax": "Sales Tax (%)",
+        "salesTaxAmount": "Sales Tax Amount",
+        "discount": "Discount (%)",
+        "discountAmount": "Discount Amount",
+        "grandTotal": "Grand Total",
+        "notes": "Additional Notes",
+        "status": "Status",
+        "product": "Product",
+        "total": "Total"
+      },
+      "placeholders": {
+        "customerId": "Enter customer ID",
+        "customerEmail": "Enter customer email",
+        "selectTerms": "Select payment terms",
+        "billingStreet": "Enter street address",
+        "billingCity": "Enter city",
+        "billingState": "Enter state/province",
+        "billingZip": "Enter ZIP/postal code",
+        "billingCountry": "Enter country",
+        "shippingStreet": "Enter street address",
+        "shippingCity": "Enter city",
+        "shippingState": "Enter state/province",
+        "shippingZip": "Enter ZIP/postal code",
+        "shippingCountry": "Enter country",
+        "productName": "Enter product name",
+        "quantity": "0",
+        "unitPrice": "0.00",
+        "notes": "Enter any additional notes or information",
+        "selectProduct": "Select a product",
+        "searchProducts": "Search products..."
+      },
+      "buttons": {
+        "save": "Create Invoice",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "customerEmailRequired": "Customer email is required",
+        "termsRequired": "Payment terms are required",
+        "saleDateRequired": "Invoice date is required",
+        "expectedDeliveryDateRequired": "Expected delivery date is required",
+        "billingStreetRequired": "Billing street is required",
+        "billingCityRequired": "Billing city is required",
+        "billingStateRequired": "Billing state is required",
+        "billingZipRequired": "Billing ZIP/postal code is required",
+        "billingCountryRequired": "Billing country is required",
+        "shippingStreetRequired": "Shipping street is required",
+        "shippingCityRequired": "Shipping city is required",
+        "shippingStateRequired": "Shipping state is required",
+        "shippingZipRequired": "Shipping ZIP/postal code is required",
+        "shippingCountryRequired": "Shipping country is required",
+        "itemsRequired": "At least one item is required",
+        "productNameRequired": "Product name is required",
+        "quantityRequired": "Quantity is required",
+        "quantityPositive": "Quantity must be greater than 0",
+        "unitPriceRequired": "Unit price is required",
+        "unitPricePositive": "Unit price must be greater than 0",
+        "taxRateRange": "Tax rate must be between 0 and 100",
+        "discountRateRange": "Discount rate must be between 0 and 100"
+      },
+      "successMessage": "Invoice created successfully",
+      "errorMessage": "Error creating invoice",
+      "messages": {
+        "noProductsFound": "No products found"
+      },
+      "actions": {
+        "addItem": "Add Item"
+      }
+    },
+    "editSale": {
+      "title": "Edit Invoice",
+      "subtitle": "Update invoice details",
+      "buttons": {
+        "save": "Update Invoice",
+        "cancel": "Cancel"
+      },
+      "successMessage": "Invoice updated successfully",
+      "errorMessage": "Error updating invoice"
+    },
+    "processPayment": {
+      "title": "Process Payment",
+      "paymentDetails": "Payment Details",
+      "completePayment": "Complete the payment process for this invoice",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "totalDue": "Total Due",
+      "status": "Status",
+      "dueDate": "Due Date",
+      "paid": "Paid",
+      "print": "Print Invoice",
+      "exportPDF": "Export PDF",
+      "confirmPayment": "Confirm Payment",
+      "processing": "Processing...",
+      "paymentComplete": "Payment Complete",
+      "returnToList": "Return to Invoice List"
+    },
+    "invoice": {
+      "title": "Invoice",
+      "number": "Invoice Number",
+      "date": "Invoice Date",
+      "due": "Due Date",
+      "from": "From",
+      "to": "To",
+      "items": "Items",
+      "item": "Item",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "amount": "Amount",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "total": "Total",
+      "notes": "Notes",
+      "terms": "Terms & Conditions",
+      "termsText": "Payment is due within the terms specified. Please make payment via bank transfer to the account details provided separately.",
+      "footer": "Thank you for your business"
+    }
+  },
+  "CreditNote": {
+    "title": "Credit Notes",
+    "subtitle": "Manage your credit notes, customers, and track deliveries.",
+    "back": "Back",
+    "columns": {
+      "customer": "Customer",
+      "saleDate": "Credit Note Date",
+      "expectedDeliveryDate": "Expected Delivery",
+      "grandTotal": "Grand Total",
+      "terms": "Terms",
+      "status": "Status",
+      "openMenu": "Open Menu",
+      "info": "View Details",
+      "processPayment": "Process Payment",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "new": "New Credit Note",
+      "searchPlaceholder": "Search credit notes...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No sales found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "deleteDialog": {
+      "title": "Delete Credit Note",
+      "description": "Are you sure you want to delete this credit note? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "infoDrawer": {
+      "title": "Credit Note Details",
+      "description": "Complete information about this credit note",
+      "customerInfo": "Customer Information",
+      "customerEmail": "Customer Email",
+      "terms": "Terms",
+      "dates": "Dates",
+      "saleDate": "Credit Note Date",
+      "expectedDeliveryDate": "Expected Delivery",
+      "addresses": "Addresses",
+      "billingAddress": "Billing Address",
+      "shippingAddress": "Shipping Address",
+      "items": "Credit Note Items",
+      "productName": "Product",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "total": "Total",
+      "summary": "Summary",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "notes": "Notes",
+      "close": "Close"
+    },
+    "export": {
+      "title": "Credit Notes Report",
+      "sheetName": "Credit Notes",
+      "fileName": "credit-notes-report",
+      "customer": "Customer",
+      "saleDate": "Credit Note Date",
+      "expectedDeliveryDate": "Expected Delivery",
+      "terms": "Terms",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "status": "Status"
+    },
+    "newSale": {
+      "title": "New Credit Note",
+      "subtitle": "Create a new credit note",
+      "sections": {
+        "customerInfo": "Customer Information",
+        "dates": "Credit Note Dates",
+        "addresses": "Addresses",
+        "items": "Credit Note Items",
+        "summary": "Credit Note Summary",
+        "additionalInfo": "Additional Information",
+        "itemsDescription": "Add products to your credit note"
+      },
+      "fields": {
+        "customerId": "Customer ID",
+        "customerEmail": "Customer Email",
+        "terms": "Payment Terms",
+        "saleDate": "Credit Note Date",
+        "expectedDeliveryDate": "Expected Delivery Date",
+        "expectedShipmentDate": "Expected Shipping Date",
+        "billingAddress": "Billing Address",
+        "billingStreet": "Street Address",
+        "billingCity": "City",
+        "billingState": "State/Province",
+        "billingZip": "ZIP/Postal Code",
+        "billingCountry": "Country",
+        "shippingAddress": "Shipping Address",
+        "shippingStreet": "Street Address",
+        "shippingCity": "City",
+        "shippingState": "State/Province",
+        "shippingZip": "ZIP/Postal Code",
+        "shippingCountry": "Country",
+        "copyBillingAddress": "Same as billing address",
+        "items": "Credit Note Items",
+        "productName": "Product Name",
+        "quantity": "Quantity",
+        "unitPrice": "Unit Price",
+        "itemTotal": "Total",
+        "addItem": "Add Item",
+        "removeItem": "Remove",
+        "subtotal": "Subtotal",
+        "salesTax": "Sales Tax (%)",
+        "salesTaxAmount": "Sales Tax Amount",
+        "discount": "Discount (%)",
+        "discountAmount": "Discount Amount",
+        "grandTotal": "Grand Total",
+        "notes": "Additional Notes",
+        "status": "Status",
+        "product": "Product",
+        "total": "Total"
+      },
+      "placeholders": {
+        "customerId": "Enter customer ID",
+        "customerEmail": "Enter customer email",
+        "selectTerms": "Select payment terms",
+        "billingStreet": "Enter street address",
+        "billingCity": "Enter city",
+        "billingState": "Enter state/province",
+        "billingZip": "Enter ZIP/postal code",
+        "billingCountry": "Enter country",
+        "shippingStreet": "Enter street address",
+        "shippingCity": "Enter city",
+        "shippingState": "Enter state/province",
+        "shippingZip": "Enter ZIP/postal code",
+        "shippingCountry": "Enter country",
+        "productName": "Enter product name",
+        "quantity": "0",
+        "unitPrice": "0.00",
+        "notes": "Enter any additional notes or information",
+        "selectProduct": "Select a product",
+        "searchProducts": "Search products..."
+      },
+      "buttons": {
+        "save": "Create Credit Note",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "customerEmailRequired": "Customer email is required",
+        "termsRequired": "Payment terms are required",
+        "saleDateRequired": "Credit Note date is required",
+        "expectedDeliveryDateRequired": "Expected delivery date is required",
+        "billingStreetRequired": "Billing street is required",
+        "billingCityRequired": "Billing city is required",
+        "billingStateRequired": "Billing state is required",
+        "billingZipRequired": "Billing ZIP/postal code is required",
+        "billingCountryRequired": "Billing country is required",
+        "shippingStreetRequired": "Shipping street is required",
+        "shippingCityRequired": "Shipping city is required",
+        "shippingStateRequired": "Shipping state is required",
+        "shippingZipRequired": "Shipping ZIP/postal code is required",
+        "shippingCountryRequired": "Shipping country is required",
+        "itemsRequired": "At least one item is required",
+        "productNameRequired": "Product name is required",
+        "quantityRequired": "Quantity is required",
+        "quantityPositive": "Quantity must be greater than 0",
+        "unitPriceRequired": "Unit price is required",
+        "unitPricePositive": "Unit price must be greater than 0",
+        "taxRateRange": "Tax rate must be between 0 and 100",
+        "discountRateRange": "Discount rate must be between 0 and 100"
+      },
+      "successMessage": "Credit Note created successfully",
+      "errorMessage": "Error creating credit note",
+      "messages": {
+        "noProductsFound": "No products found"
+      },
+      "actions": {
+        "addItem": "Add Item"
+      }
+    },
+    "editSale": {
+      "title": "Edit Credit Note",
+      "subtitle": "Update credit note details",
+      "buttons": {
+        "save": "Update Credit Note",
+        "cancel": "Cancel"
+      },
+      "successMessage": "Credit Note updated successfully",
+      "errorMessage": "Error updating credit note"
+    },
+    "processPayment": {
+      "title": "Process Payment",
+      "paymentDetails": "Payment Details",
+      "completePayment": "Complete the payment process for this credit note",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "totalDue": "Total Due",
+      "status": "Status",
+      "dueDate": "Due Date",
+      "paid": "Paid",
+      "print": "Print Credit Note",
+      "exportPDF": "Export PDF",
+      "confirmPayment": "Confirm Payment",
+      "processing": "Processing...",
+      "paymentComplete": "Payment Complete",
+      "returnToList": "Return to Credit Note List"
+    },
+    "invoice": {
+      "title": "Credit Note",
+      "number": "Credit Note Number",
+      "date": "Credit Note Date",
+      "due": "Due Date",
+      "from": "From",
+      "to": "To",
+      "items": "Items",
+      "item": "Item",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "amount": "Amount",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "total": "Total",
+      "notes": "Notes",
+      "terms": "Terms & Conditions",
+      "termsText": "Payment is due within the terms specified. Please make payment via bank transfer to the account details provided separately.",
+      "footer": "Thank you for your business"
+    }
+  },
+  "EstimatedSale": {
+    "title": "Estimated Sales",
+    "subtitle": "Manage your estimated sales, customers, and track deliveries.",
+    "back": "Back",
+    "columns": {
+      "customer": "Customer",
+      "saleDate": "Estimated Sale Date",
+      "expectedDeliveryDate": "Expected Delivery Date",
+      "grandTotal": "Grand Total",
+      "terms": "Terms",
+      "status": "Status",
+      "openMenu": "Open Menu",
+      "info": "View Details",
+      "processPayment": "Process Payment",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "new": "New Estimated Sale",
+      "searchPlaceholder": "Search estimated sales...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No sales found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "deleteDialog": {
+      "title": "Delete Estimated Sale",
+      "description": "Are you sure you want to delete this estimated sale? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "infoDrawer": {
+      "title": "Estimated Sale Details",
+      "description": "Complete information about this estimated sale",
+      "customerInfo": "Customer Information",
+      "customerEmail": "Customer Email",
+      "terms": "Terms",
+      "dates": "Dates",
+      "saleDate": "Estimated Sale Date",
+      "expectedDeliveryDate": "Expected Delivery Date",
+      "addresses": "Addresses",
+      "billingAddress": "Billing Address",
+      "shippingAddress": "Shipping Address",
+      "items": "Estimated Sale Items",
+      "productName": "Product",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "total": "Total",
+      "summary": "Summary",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "notes": "Notes",
+      "close": "Close"
+    },
+    "export": {
+      "title": "Estimated Sales Report",
+      "sheetName": "Estimated Sales",
+      "fileName": "estimated-sales-report",
+      "customer": "Customer",
+      "saleDate": "Estimated Sale Date",
+      "expectedDeliveryDate": "Expected Delivery Date",
+      "terms": "Terms",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "grandTotal": "Grand Total",
+      "status": "Status"
+    },
+    "newSale": {
+      "title": "New Estimated Sale",
+      "subtitle": "Create a new estimated sale",
+      "sections": {
+        "customerInfo": "Customer Information",
+        "dates": "Estimated Sale Dates",
+        "addresses": "Addresses",
+        "items": "Estimated Sale Items",
+        "summary": "Estimated Sale Summary",
+        "additionalInfo": "Additional Information",
+        "itemsDescription": "Add products to your estimated sale"
+      },
+      "fields": {
+        "customerId": "Customer ID",
+        "customerEmail": "Customer Email",
+        "terms": "Payment Terms",
+        "saleDate": "Estimated Sale Date",
+        "expectedDeliveryDate": "Expected Delivery Date",
+        "expectedShipmentDate": "Expected Shipping Date",
+        "billingAddress": "Billing Address",
+        "billingStreet": "Street Address",
+        "billingCity": "City",
+        "billingState": "State/Province",
+        "billingZip": "ZIP/Postal Code",
+        "billingCountry": "Country",
+        "shippingAddress": "Shipping Address",
+        "shippingStreet": "Street Address",
+        "shippingCity": "City",
+        "shippingState": "State/Province",
+        "shippingZip": "ZIP/Postal Code",
+        "shippingCountry": "Country",
+        "copyBillingAddress": "Same as billing address",
+        "items": "Estimated Sale Items",
+        "productName": "Product Name",
+        "quantity": "Quantity",
+        "unitPrice": "Unit Price",
+        "itemTotal": "Total",
+        "addItem": "Add Item",
+        "removeItem": "Remove",
+        "subtotal": "Subtotal",
+        "salesTax": "Sales Tax (%)",
+        "salesTaxAmount": "Sales Tax Amount",
+        "discount": "Discount (%)",
+        "discountAmount": "Discount Amount",
+        "grandTotal": "Grand Total",
+        "notes": "Additional Notes",
+        "status": "Status",
+        "product": "Product",
+        "total": "Total"
+      },
+      "placeholders": {
+        "customerId": "Enter customer ID",
+        "customerEmail": "Enter customer email",
+        "selectTerms": "Select payment terms",
+        "billingStreet": "Enter street address",
+        "billingCity": "Enter city",
+        "billingState": "Enter state/province",
+        "billingZip": "Enter ZIP/postal code",
+        "billingCountry": "Enter country",
+        "shippingStreet": "Enter street address",
+        "shippingCity": "Enter city",
+        "shippingState": "Enter state/province",
+        "shippingZip": "Enter ZIP/postal code",
+        "shippingCountry": "Enter country",
+        "productName": "Enter product name",
+        "quantity": "0",
+        "unitPrice": "0.00",
+        "notes": "Enter any additional notes or information",
+        "selectProduct": "Select a product",
+        "searchProducts": "Search products..."
+      },
+      "buttons": {
+        "save": "Create Estimated Sale",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "customerEmailRequired": "Customer email is required",
+        "termsRequired": "Payment terms are required",
+        "saleDateRequired": "Estimated sale date is required",
+        "expectedDeliveryDateRequired": "Expected delivery date is required",
+        "billingStreetRequired": "Billing street is required",
+        "billingCityRequired": "Billing city is required",
+        "billingStateRequired": "Billing state is required",
+        "billingZipRequired": "Billing ZIP/postal code is required",
+        "billingCountryRequired": "Billing country is required",
+        "shippingStreetRequired": "Shipping street is required",
+        "shippingCityRequired": "Shipping city is required",
+        "shippingStateRequired": "Shipping state is required",
+        "shippingZipRequired": "Shipping ZIP/postal code is required",
+        "shippingCountryRequired": "Shipping country is required",
+        "itemsRequired": "At least one item is required",
+        "productNameRequired": "Product name is required",
+        "quantityRequired": "Quantity is required",
+        "quantityPositive": "Quantity must be greater than 0",
+        "unitPriceRequired": "Unit price is required",
+        "unitPricePositive": "Unit price must be greater than 0",
+        "taxRateRange": "Tax rate must be between 0 and 100",
+        "discountRateRange": "Discount rate must be between 0 and 100"
+      },
+      "successMessage": "Estimated Sale created successfully",
+      "errorMessage": "Error creating estimated sale",
+      "messages": {
+        "noProductsFound": "No products found"
+      },
+      "actions": {
+        "addItem": "Add Item"
+      }
+    },
+    "editSale": {
+      "title": "Edit Estimated Sale",
+      "subtitle": "Update estimated sale details",
+      "buttons": {
+        "save": "Update Estimated Sale",
+        "cancel": "Cancel"
+      },
+      "successMessage": "Estimated Sale updated successfully",
+      "errorMessage": "Error updating estimated sale"
+    },
+    "processPayment": {
+      "title": "Process Payment",
+      "paymentDetails": "Payment Details",
+      "completePayment": "Complete the payment process for this estimated sale",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "totalDue": "Total Due",
+      "status": "Status",
+      "dueDate": "Due Date",
+      "paid": "Paid",
+      "print": "Print Estimated Sale",
+      "exportPDF": "Export PDF",
+      "confirmPayment": "Confirm Payment",
+      "processing": "Processing...",
+      "paymentComplete": "Payment Complete",
+      "returnToList": "Return to Estimated Sale List"
+    },
+    "invoice": {
+      "title": "Invoice",
+      "number": "Invoice Number",
+      "date": "Invoice Date",
+      "due": "Due Date",
+      "from": "From",
+      "to": "To",
+      "items": "Items",
+      "item": "Item",
+      "quantity": "Quantity",
+      "unitPrice": "Unit Price",
+      "amount": "Amount",
+      "subtotal": "Subtotal",
+      "salesTax": "Sales Tax",
+      "discount": "Discount",
+      "total": "Total",
+      "notes": "Notes",
+      "terms": "Terms & Conditions",
+      "termsText": "Payment is due within the terms specified. Please make payment via bank transfer to the account details provided separately.",
+      "footer": "Thank you for your business"
+    }
+  },
+  "Suppliers": {
+    "title": "Suppliers",
+    "subtitle": "Manage your suppliers and their information.",
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "contact": "Contact",
+      "country": "Country",
+      "openingBalance": "Opening Balance",
+      "outstandingBalance": "Outstanding Balance",
+      "openMenu": "Open Menu",
+      "addPayment": "Add Payment",
+      "info": "View Details",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "new": "New Supplier",
+      "searchPlaceholder": "Search suppliers...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No suppliers found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "deleteDialog": {
+      "title": "Delete Supplier",
+      "description": "Are you sure you want to delete this supplier? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "infoDrawer": {
+      "title": "Supplier Details",
+      "description": "Complete information about this supplier",
+      "basicInfo": "Basic Information",
+      "name": "Name",
+      "contact": "Contact",
+      "email": "Email",
+      "openingBalance": "Opening Balance",
+      "outstandingBalance": "Outstanding Balance",
+      "taxInfo": "Tax Information",
+      "gstNumber": "GST Number",
+      "taxNumber": "Tax Number",
+      "addressInfo": "Address Information",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "postCode": "Post Code",
+      "country": "Country",
+      "close": "Close",
+      "edit": "Edit"
+    },
+    "export": {
+      "title": "Suppliers Report",
+      "sheetName": "Suppliers",
+      "fileName": "suppliers-report",
+      "name": "Name",
+      "contact": "Contact",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "currency": "Currency",
+      "antityCode": "Antity Code",
+      "exemptionNumber": "Exemption Number",
+      "taxNumber": "Tax Number",
+      "openingBalance": "Opening Balance",
+      "outstandingBalance": "Outstanding Balance",
+      "address": "Address",
+      "postCode": "Post Code",
+      "state": "State",
+      "city": "City"
+    },
+    "newSupplier": {
+      "title": "New Supplier",
+      "subtitle": "Create a new supplier"
+    },
+    "editSupplier": {
+      "title": "Edit Supplier",
+      "subtitle": "Update supplier information",
+      "notFound": "Supplier not found.",
+      "backToList": "Back to Suppliers List"
+    },
+    "form": {
+      "tabs": {
+        "basic": "Basic Info",
+        "tax": "Tax Info",
+        "address": "Address Info"
+      },
+      "name": {
+        "label": "Name",
+        "placeholder": "Enter supplier name",
+        "description": "The full name of the supplier."
+      },
+      "contact": {
+        "label": "Contact",
+        "placeholder": "Enter contact number",
+        "description": "The main contact number for the supplier."
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Enter email address",
+        "description": "The main email address for the supplier."
+      },
+      "openingBalance": {
+        "label": "Opening Balance",
+        "placeholder": "0.00",
+        "description": "The opening balance for this supplier."
+      },
+      "outstandingBalance": {
+        "label": "Outstanding Balance",
+        "placeholder": "0.00",
+        "description": "The outstanding balance for this supplier."
+      },
+      "gstNumber": {
+        "label": "GST Number",
+        "placeholder": "Enter GST number",
+        "description": "The GST number for this supplier (if applicable)."
+      },
+      "taxNumber": {
+        "label": "Tax Number",
+        "placeholder": "Enter tax number",
+        "description": "The tax number for this supplier (if applicable)."
+      },
+      "address": {
+        "label": "Address",
+        "placeholder": "Enter address",
+        "description": "The main address for this supplier."
+      },
+      "city": {
+        "label": "City",
+        "placeholder": "Enter city"
+      },
+      "state": {
+        "label": "State",
+        "placeholder": "Enter state"
+      },
+      "postCode": {
+        "label": "Post Code",
+        "placeholder": "Enter post code"
+      },
+      "country": {
+        "label": "Country",
+        "placeholder": "Enter country"
+      },
+      "buttons": {
+        "cancel": "Cancel",
+        "create": "Create Supplier",
+        "update": "Update Supplier"
+      }
+    },
+    "paymentForm": {
+      "title": "Add Payment",
+      "subtitle": "Add a payment for this supplier",
+      "paymentDate": {
+        "label": "Payment Date",
+        "placeholder": "Select payment date",
+        "required": "Payment date is required"
+      },
+      "reference": {
+        "label": "Reference #",
+        "placeholder": "Enter reference number",
+        "required": "Reference # is required"
+      },
+      "amount": {
+        "label": "Payment Amount",
+        "placeholder": "Enter amount",
+        "required": "Amount is required",
+        "min": "Amount must be greater than 0"
+      },
+      "paymentType": {
+        "label": "Payment Type",
+        "placeholder": "Select payment type",
+        "required": "Payment type is required",
+        "cash": "Cash",
+        "paytm": "Paytm",
+        "card": "Card",
+        "finance": "Finance"
+      },
+      "note": {
+        "label": "Note",
+        "placeholder": "Add any notes (optional)"
+      },
+      "buttons": {
+        "save": "Save",
+        "cancel": "Cancel"
+      }
+    }
+  },
+  "Expenses": {
+    "title": "Expenses",
+    "subtitle": "Manage your expenses and their information.",
+    "runningExpenses": {
+      "title": "Running Expenses",
+      "subtitle": "Manage your running expenses and their information."
+    },
+    "columns": {
+      "run": "Run",
+      "reference": "Reference",
+      "type": "Type",
+      "expenseFor": "Expense For",
+      "amount": "Amount",
+      "category": "Category",
+      "repeatEvery": "Repeat Every",
+      "startDate": "Start Date",
+      "lastGenerated": "Last Generated",
+      "instances": "Total Instances",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "delete": "Delete",
+      "openMenu": "Open Menu",
+      "edit": "Edit",
+      "date": "Date",
+      "info": "Info"
+    },
+    "actions": {
+      "openMenu": "Details",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "infoDrawer": {
+      "title": "Expense Details",
+      "description": "Complete information about this expense",
+      "basicInfo": "Basic Information",
+      "reference": "Reference",
+      "type": "Type",
+      "expenseFor": "Expense For",
+      "amount": "Amount",
+      "category": "Category",
+      "repeatEvery": "Repeat Every",
+      "startDate": "Start Date",
+      "lastGenerated": "Last Generated",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "edit": "Edit",
+      "close": "Close"
+    },
+    "table": {
+      "new": "New Expense",
+      "searchPlaceholder": "Search expenses...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No expenses found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "form": {
+      "title": "New Expense",
+      "subtitle": "Create a new expense",
+      "reference": "Reference",
+      "type": "Type",
+      "expenseFor": "Expense For",
+      "amount": "Amount",
+      "category": "Category",
+      "subCategory": "Sub Category",
+      "repeatEvery": "Repeat Every",
+      "startDate": "Start Date",
+      "save": "Save",
+      "edit": "Edit",
+      "cancel": "Cancel"
+    },
+    "editForm": {
+      "title": "Edit Expense",
+      "subtitle": "Update expense information"
+    },
+    "deleteDialog": {
+      "title": "Delete Expense",
+      "description": "Are you sure you want to delete this expense? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "runDialog": {
+      "title": "Run Expense",
+      "description": "Are you sure you want to run this expense?",
+      "cancel": "Cancel",
+      "confirm": "Run"
+    }
+  },
+  "ExpenseCategories": {
+    "title": "Expenses Categories",
+    "subtitle": "Manage your expenses categories and their information.",
+    "subCategoriesCount": "SubCategories count {count}",
+    "columns": {
+      "name": "Name",
+      "total": "Total SubCategories",
+      "createdAt": "Created At"
+    },
+    "actions": {
+      "openMenu": "Details",
+      "edit": "Edit",
+      "delete": "Delete",
+      "viewSubCategories": "View SubCategories"
+    },
+    "infoDrawer": {
+      "title": "Expense Category Details",
+      "description": "Complete information about this category",
+      "basicInfo": "Basic Information",
+      "name": "Name",
+      "total": "Total SubCategories",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "edit": "Edit",
+      "close": "Close"
+    },
+    "table": {
+      "new": "New Category",
+      "searchPlaceholder": "Search categories...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No categories found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "form": {
+      "title": "New Category",
+      "subtitle": "Create a new category",
+      "name": "Name",
+      "save": "Save",
+      "edit": "Edit",
+      "cancel": "Cancel"
+    },
+    "editForm": {
+      "title": "Edit Category",
+      "subtitle": "Update category information"
+    },
+    "deleteDialog": {
+      "title": "Delete Category",
+      "description": "Are you sure you want to delete this category? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    }
+  },
+  "ExpenseSubCategories": {
+    "title": "Expenses SubCategories",
+    "subtitle": "Manage your expenses subcategories and their information.",
+    "expensesCount": "Expenses count {count}",
+    "noExpensesFound": "No expenses found in this subcategory",
+    "ExpenseView": {
+      "amount": "Amount",
+      "reference": "Reference",
+      "startDate": "Start Date",
+      "expenseFor": "Expense For",
+      "repeatEvery": "Repeat Every",
+      "type": "Type",
+      "expenses": "Expenses",
+      "close": "Close"
+    },
+    "columns": {
+      "parentCategory": "Parent Category",
+      "name": "Name",
+      "total": "Total Expenses",
+      "createdAt": "Created At"
+    },
+    "actions": {
+      "openMenu": "Details",
+      "edit": "Edit",
+      "delete": "Delete",
+      "viewExpenses": "View Expenses"
+    },
+    "infoDrawer": {
+      "title": "Expense SubCategory Details",
+      "description": "Complete information about this subcategory",
+      "basicInfo": "Basic Information",
+      "name": "Name",
+      "total": "Total SubCategories",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "edit": "Edit",
+      "close": "Close"
+    },
+    "table": {
+      "new": "New SubCategory",
+      "searchPlaceholder": "Search subcategories...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No categories found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "form": {
+      "title": "New SubCategory",
+      "subtitle": "Create a new subcategory",
+      "category": "Category",
+      "name": "Name",
+      "save": "Save",
+      "edit": "Edit",
+      "cancel": "Cancel"
+    },
+    "editForm": {
+      "title": "Edit SubCategory",
+      "subtitle": "Update subcategory information"
+    },
+    "deleteDialog": {
+      "title": "Delete SubCategory",
+      "description": "Are you sure you want to delete this subcategory? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    }
+  },
+
+  "Revenue": {
+    "title": "Revenue",
+    "subtitle": "Manage your revenue and income sources.",
+    "columns": {
+      "amount": "Amount",
+      "date": "Date",
+      "description": "Description",
+      "category": "Category",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "actions": "Actions",
+      "delete": "Delete",
+      "openMenu": "Open Menu",
+      "edit": "Edit"
+    },
+    "actions": {
+      "openMenu": "Details",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "new": "New Revenue",
+      "searchPlaceholder": "Search revenue...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No revenue found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "form": {
+      "title": "New Revenue",
+      "subtitle": "Create a new revenue entry",
+      "amount": "Amount",
+      "date": "Date",
+      "description": "Description",
+      "descriptionPlaceholder": "Enter revenue description (optional)",
+      "mainCategory": "Main Category",
+      "mainCategoryPlaceholder": "Select main category (optional)",
+      "subCategory": "Sub Category", 
+      "subCategoryPlaceholder": "Select sub category (optional)",
+      "category": "Category",
+      "categoryPlaceholder": "Select category (optional)",
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "new": "New Revenue",
+      "validation": {
+        "amountMin": "Amount must be at least 0.01",
+        "dateRequired": "Date is required"
+      }
+    },
+    "deleteDialog": {
+      "title": "Delete Revenue",
+      "description": "Are you sure you want to delete this revenue entry? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    }
+  },
+
+  "Employee": {
+    "title": "Employees",
+    "subtitle": "Manage your employees and their information.",
+    "payroll": {
+      "title": "Payrolls",
+      "subtitle": "Manage your employees payrolls and their information.",
+      "new": {
+        "title": "New Payroll",
+        "subtitle": "Create a new payroll"
+      }
+    },
+    "columns": {
+      "employeeId": "Employee ID",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "SSN": "Social Security Number",
+      "status": "Status",
+      "hireDate": "Hire Date",
+      "workLocation": "Work Location",
+      "jobTitle": "Job Title",
+      "workerCompClass": "Worker Comp Class",
+      "address": "Address",
+      "city": "City",
+      "postCode": "Post Code",
+      "country": "Country",
+      "state": "State",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "info": "View Details",
+      "openMenu": "Open Menu",
+      "total": "Total Employees",
+      "run": "Run Payroll",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "table": {
+      "new": "New Employee",
+      "searchPlaceholder": "Search employees...",
+      "searchPlaceholderPayroll": "Search payrolls...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No employees found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    },
+    "deleteDialog": {
+      "title": "Delete Employee",
+      "description": "Are you sure you want to delete this employee? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete"
+    },
+    "infoDrawer": {
+      "title": "Employee Details",
+      "description": "Complete information about this employee",
+      "basicInfo": "Basic Information",
+      "employeeId": "Employee ID",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "SSN": "Social Security Number",
+      "status": "Status",
+      "hireDate": "Hire Date",
+      "workLocation": "Work Location",
+      "jobTitle": "Job Title",
+      "workerCompClass": "Worker Comp Class",
+      "address": "Address",
+      "city": "City",
+      "postCode": "Post Code",
+      "country": "Country",
+      "state": "State",
+      "paymentInformation": "Payment Information",
+      "paySchedule": "Pay Schedule",
+      "payType": "Pay Type",
+
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "close": "Close",
+      "edit": "Edit"
+    },
+    "export": {
+      "title": "Employees Report",
+      "sheetName": "Employees",
+      "fileName": "employees-report",
+      "name": "Name",
+      "contact": "Contact",
+      "email": "Email",
+      "gstNumber": "GST Number",
+      "taxNumber": "Tax Number",
+      "openingBalance": "Opening Balance",
+      "outstandingBalance": "Outstanding Balance",
+      "address": "Address",
+      "postCode": "Post Code",
+      "country": "Country",
+      "state": "State",
+      "city": "City"
+    },
+    "createEmployee": {
+      "title": "New Employee",
+      "subtitle": "Create a new employee"
+    },
+    "form": {
+      "title": {
+        "edit": "Edit employee",
+        "create": "Create employee"
+      },
+      "taxes": {
+        "label": "Taxes",
+        "placeholder": "Enter taxes",
+        "description": "Enter taxes"
+      },
+
+      "tabs": {
+        "details": "Details",
+        "payment": "Payment",
+        "payType": "Pay type",
+        "payTypes": "Additional pay types"
+      },
+
+      "buttons": {
+        "cancel": "Cancel",
+        "update": "Update",
+        "create": "Create"
+      },
+
+      "sections": {
+        "address": "Address",
+        "paySchedule": "Pay schedule",
+        "payType": "Pay type",
+        "commonPayTypes": "Common pay types",
+        "additionalPayTypes": "Additional pay types",
+        "paymentDeposit": "Payment deposit method",
+        "directDeposit": "Direct deposit details"
+      },
+
+      "hourPerDay": {
+        "label": "Hour per day",
+        "placeholder": "e.g. 8",
+        "description": "Number of hours worked per day"
+      },
+      "dayPerWeek": {
+        "label": "Day per week",
+        "placeholder": "e.g. 5",
+        "description": "Number of days worked per week"
+      },
+
+      "paymentDeposit": {
+        "label": "Payment deposit method",
+        "placeholder": "Choose payment deposit method",
+        "description": "Payment deposit method",
+        "options": {
+          "directDeposit": "Direct deposit",
+          "paperCheck": "Paper check"
+        }
+      },
+
+      "directDepositMethod": {
+        "label": "Direct deposit details",
+        "placeholder": "Choose direct deposit details",
+        "description": "Direct deposit details",
+        "options": {
+          "oneAccount": "One account",
+          "multipleAccounts": "Multiple accounts"
+        }
+      },
+
+      "accountType": {
+        "label": "Account type",
+        "placeholder": "Choose account type",
+        "description": "Account type",
+        "options": {
+          "saving": "Saving",
+          "checking": "Checking"
+        }
+      },
+
+      "routingNumber": {
+        "label": "Routing number",
+        "placeholder": "e.g. 123456789",
+        "description": "Routing number"
+      },
+
+      "accountNumber": {
+        "label": "Account number",
+        "placeholder": "e.g. 123456789",
+        "description": "Account number"
+      },
+      "employeeId": {
+        "label": "Employee ID",
+        "placeholder": "e.g. EMP-001",
+        "description": "Unique company employee identifier"
+      },
+      "name": {
+        "label": "Full name",
+        "placeholder": "John Doe",
+        "description": "Employee's legal name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "name@example.com",
+        "description": "Work or personal email address"
+      },
+      "phone": {
+        "label": "Phone number",
+        "placeholder": "(555) 123-4567",
+        "description": "Primary contact number"
+      },
+      "ssn": {
+        "label": "SSN",
+        "placeholder": "123-45-6789",
+        "description": "U.S. Social Security Number"
+      },
+      "status": {
+        "label": "Employment status",
+        "placeholder": "Choose status",
+        "description": "Current employment state",
+        "options": {
+          "active": "Active",
+          "draft": "Draft",
+          "terminated": "Terminated"
+        }
+      },
+      "hireDate": {
+        "label": "Hire date",
+        "placeholder": "Select hire date",
+        "description": "First working day"
+      },
+      "jobTitle": {
+        "label": "Job title",
+        "placeholder": "Software Engineer",
+        "description": "Official position"
+      },
+      "workLocation": {
+        "label": "Work location",
+        "placeholder": "San Francisco HQ",
+        "description": "Primary workplace"
+      },
+      "workerCompClass": {
+        "label": "Workers' comp class",
+        "placeholder": "Class code",
+        "description": "Insurance classification"
+      },
+
+      "commonPayTypes": {
+        "label": "Common pay types",
+        "placeholder": "Select common pay types",
+        "description": "Common pay types",
+        "options": {
+          "overtimePay": "Overtime pay",
+          "doubleOvertimePay": "Double overtime pay",
+          "holidayBonus": "Holiday bonus",
+          "bonus": "Bonus",
+          "commission": "Commission"
+        }
+      },
+      "additionalPayTypes": {
+        "label": "Additional pay types",
+        "placeholder": "Select additional pay types",
+        "description": "Additional pay types",
+        "options": {
+          "allowance": "Allowance",
+          "reimbursement": "Reimbursement",
+          "cashTips": "Cash tips",
+          "payCheckTips": "Pay check tips",
+          "clergyHousingCash": "Clergy housing cash",
+          "clergyHousingInHand": "Clergy housing in hand",
+          "nontaxablePerDiem": "Nontaxable per diem",
+          "groupTermLifeInsurance": "Group term life insurance",
+          "sCorpOwnerHealthInsurance": "S-corp owner health insurance",
+          "companyHSAContributions": "Company HSA contributions",
+          "personalUseOfCompanyCar": "Personal use of company car",
+          "bereavementPay": "Bereavement pay"
+        }
+      },
+
+      "address": {
+        "label": "Street address",
+        "placeholder": "123 Main St",
+        "description": "Residential or mailing address"
+      },
+      "city": { "label": "City", "placeholder": "City" },
+      "state": { "label": "State / Province", "placeholder": "State" },
+      "postCode": { "label": "Postal code", "placeholder": "ZIP / Post code" },
+      "country": { "label": "Country", "placeholder": "Country" },
+
+      "payFrequency": {
+        "label": "Pay frequency",
+        "placeholder": "Select frequency",
+        "description": "How often the employee is paid",
+        "options": {
+          "weekly": "Weekly",
+          "twice_a_month": "Twice a month",
+          "monthly": "Monthly"
+        }
+      },
+      "nextPayDate": {
+        "label": "Next pay date",
+        "placeholder": "Select date",
+        "description": "Upcoming paycheck date"
+      },
+      "isDefault": {
+        "label": "Default schedule",
+        "description": "Make this the default pay schedule"
+      },
+
+      "payType": {
+        "label": "Pay type",
+        "placeholder": "Select pay type",
+        "description": "Primary method of pay",
+        "options": {
+          "hourly": "Hourly",
+          "salary": "Salary",
+          "commission_only": "Commission only"
+        }
+      },
+      "ratePerHour": {
+        "label": "Rate per hour",
+        "placeholder": "0.00",
+        "description": "Hourly wage"
+      },
+      "salary": {
+        "label": "Salary",
+        "placeholder": "0.00",
+        "description": "Annual salary"
+      }
+    }
+  },
+  "coa": {
+    "title": "Chart of Accounts",
+    "form": {
+      "accountType": {
+        "label": "Account Type",
+        "placeholder": "Select account type",
+        "options": {
+          "asset": "Asset",
+          "liability": "Liability",
+          "equity": "Equity",
+          "revenue": "Revenue",
+          "expense": "Expense"
+        }
+      },
+      "accountDetail": {
+        "label": "Account Detail",
+        "placeholder": "Select account detail",
+        "options": {
+          "cash": "Cash",
+          "bank": "Bank",
+          "credit": "Credit Card"
+        }
+      },
+      "accountName": {
+        "label": "Account Name",
+        "placeholder": "Enter account name"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Enter description"
+      },
+      "balance": {
+        "label": "Balance",
+        "placeholder": "0.00"
+      },
+      "payOf": {
+        "label": "Pay Of",
+        "placeholder": "Select date"
+      },
+      "buttons": {
+        "save": "Save",
+        "saving": "Saving...",
+        "cancel": "Cancel"
+      },
+      "validation": {
+        "required": "This field is required",
+        "invalidNumber": "Please enter a valid number"
+      }
+    },
+    "success": {
+      "created": "Account created successfully",
+      "updated": "Account updated successfully",
+      "deleted": "Account deleted successfully"
+    },
+    "error": {
+      "notFound": "Account not found",
+      "fetchError": "Error fetching accounts",
+      "createError": "Error creating account",
+      "updateError": "Error updating account",
+      "deleteError": "Error deleting account"
+    }
+  },
+  "fixedAssets": {
+    "title": "Fixed Assets",
+    "description": "Manage your fixed assets and depreciation",
+    "addAsset": "Add Asset",
+    "editAsset": "Edit Asset",
+    "viewAsset": "View Asset",
+    "deleteAsset": "Delete Asset",
+    "confirmDelete": "Are you sure you want to delete this asset? This action cannot be undone.",
+    "noAssets": "No assets found",
+    "table": {
+      "search": "Search assets...",
+      "showing": "Showing {from} to {to} of {total} results",
+      "to": "to",
+      "of": "of",
+      "results": "results",
+      "previous": "Previous",
+      "next": "Next",
+      "noResults": "No results found.",
+      "rowsPerPage": "Rows per page",
+      "rowsSelected": "row(s) selected",
+      "filters": "Filters",
+      "clearFilters": "Clear filters",
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "copyId": "Copy ID",
+      "assetName": "Asset Name",
+      "assetCategory": "Category",
+      "purchaseDate": "Purchase Date",
+      "purchaseCost": "Purchase Cost",
+      "currentValue": "Current Value",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "form": {
+      "generalDetails": "General Details",
+      "depreciationDetails": "Depreciation Details",
+      "assetName": {
+        "label": "Asset Name",
+        "placeholder": "Enter asset name"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Enter description"
+      },
+      "purchaseDate": {
+        "label": "Purchase Date",
+        "placeholder": "Select purchase date"
+      },
+      "purchaseCost": {
+        "label": "Purchase Cost",
+        "placeholder": "0.00"
+      },
+      "assetCategory": {
+        "label": "Asset Category",
+        "placeholder": "Select category",
+        "options": {
+          "buildings": "Buildings",
+          "equipment": "Equipment",
+          "vehicles": "Vehicles",
+          "furniture": "Furniture & Fixtures",
+          "computers": "Computers & Software",
+          "machinery": "Machinery",
+          "land": "Land",
+          "other": "Other"
+        }
+      },
+      "depreciationMethod": {
+        "label": "Depreciation Method",
+        "placeholder": "Select method",
+        "options": {
+          "straight-line": "Straight Line",
+          "declining-balance": "Declining Balance",
+          "double-declining": "Double Declining",
+          "units-of-production": "Units of Production",
+          "sum-of-years": "Sum of the Years' Digits"
+        }
+      },
+      "usefulLife": {
+        "label": "Useful Life (Years)",
+        "placeholder": "e.g., 5"
+      },
+      "salvageValue": {
+        "label": "Salvage Value",
+        "placeholder": "0.00"
+      },
+      "currentValue": {
+        "label": "Current Value",
+        "placeholder": "0.00"
+      },
+      "location": {
+        "label": "Location",
+        "placeholder": "Enter location"
+      },
+      "status": {
+        "label": "Status",
+        "placeholder": "Select status",
+        "options": {
+          "active": "Active",
+          "inactive": "Inactive",
+          "disposed": "Disposed",
+          "lost": "Lost/Stolen",
+          "sold": "Sold"
+        }
+      },
+      "notes": {
+        "label": "Notes",
+        "placeholder": "Enter additional notes"
+      },
+      "buttons": {
+        "save": "Save Asset",
+        "saving": "Saving...",
+        "cancel": "Cancel",
+        "delete": "Delete Asset",
+        "deleting": "Deleting...",
+        "close": "Close"
+      }
+    },
+    "success": {
+      "created": "Asset created successfully",
+      "updated": "Asset updated successfully",
+      "deleted": "Asset deleted successfully"
+    },
+    "error": {
+      "fetchError": "Error fetching assets",
+      "createError": "Error creating asset",
+      "updateError": "Error updating asset",
+      "deleteError": "Error deleting asset"
+    }
+  },
+  "SalesTax": {
+    "title": "Sales Tax",
+    "subtitle": "Manage your tax rates and settings",
+    "cardTitle": "Tax Rates",
+    "cardDescription": "Configure tax rates for your products",
+    "columns": {
+      "name": "Tax Name",
+      "rate": "Tax Rate",
+      "applyOn": "Apply On",
+      "description": "Description"
+    },
+    "actions": {
+      "new": "New Tax",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "deleteDialog": {
+      "title": "Delete Tax",
+      "description": "Are you sure you want to delete the tax \"{name}\"? This action cannot be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete",
+      "deleting": "Deleting..."
+    },
+    "form": {
+      "title": "New Tax",
+      "subtitle": "Create a new tax rate",
+      "name": "Tax Name",
+      "rate": "Tax Rate (%)",
+      "description": "Description",
+      "applyOn": "Apply On",
+      "allProducts": "All Products",
+      "specificProducts": "Specific Products",
+      "selectProducts": "Select Products",
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel"
+    },
+    "editForm": {
+      "title": "Edit Tax",
+      "subtitle": "Update tax information"
+    },
+    "table": {
+      "new": "New Tax",
+      "searchPlaceholder": "Search taxes...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "noResults": "No taxes found.",
+      "rowsSelected": "of row(s) selected.",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "Go to first page",
+      "previousPage": "Go to previous page",
+      "nextPage": "Go to next page",
+      "lastPage": "Go to last page"
+    }
+  },
+  "Users": {
+    "title": "User Management",
+    "subtitle": "Manage users and their permissions for this organization",
+    "backToUsers": "Back to Users",
+    
+    "columns": {
+      "id": "ID",
+      "username": "Username",
+      "email": "Email",
+      "permissions": "Permissions"
+    },
+    
+    "actions": {
+      "edit": "Edit User",
+      "delete": "Delete User"
+    },
+    
+    "deleteDialog": {
+      "title": "Delete User",
+      "description": "This will remove the user from this organization and revoke all permissions.",
+      "confirmText": "Are you sure you want to remove",
+      "warning": "This action cannot be undone.",
+      "cancel": "Cancel",
+      "delete": "Remove User",
+      "deleting": "Removing..."
+    },
+    
+    "form": {
+      "email": "User Email",
+      "emailDesc": "Search for an existing user to add to this organization.",
+      "emailEditDesc": "Email address cannot be changed.",
+      "searchUser": "Search",
+      "permissionsTitle": "User Permissions",
+      "quickActions": "Quick actions:",
+      "selectAll": "Select All",
+      "selectNone": "Select None",
+      "allView": "All View",
+      "allCreate": "All Create",
+      "allEdit": "All Edit",
+      "allDelete": "All Delete",
+      "feature": "Feature",
+      "view": "View",
+      "create": "Create",
+      "edit": "Edit",
+      "delete": "Delete",
+      "saving": "Saving...",
+      "updatePermissions": "Update Permissions",
+      "addUser": "Add User"
+    },
+    
+    "newUser": {
+      "title": "Add New User",
+      "subtitle": "Add an existing user to this organization and set permissions"
+    },
+    
+    "editUser": {
+      "title": "Edit User Permissions",
+      "subtitle": "Update user access and permissions for this organization",
+      "userNotFound": "User Not Found",
+      "userNotFoundDescription": "The requested user could not be found or does not belong to this organization.",
+      "returnToUsers": "Return to User List"
+    },
+    
+    "table": {
+      "noResults": "No users found",
+      "new": "Add User",
+      "searchPlaceholder": "Search users...",
+      "filters": "Filters",
+      "filterColumns": "Filter Columns",
+      "reset": "Reset",
+      "print": "Print",
+      "export": "Export",
+      "excel": "Excel",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "rowsSelected": "rows selected",
+      "rowsPerPage": "Rows per page:",
+      "page": "Page",
+      "of": "of",
+      "firstPage": "First page",
+      "previousPage": "Previous page",
+      "nextPage": "Next page",
+      "lastPage": "Last page"
+    }
+  },
+  "Permissions": {
+    "access_denied": "Access Denied",
+    "no_permission_description": "You don't have permission to access this feature",
+    "contact_admin": "Please contact your organization administrator if you need access to this feature.",
+    "go_back": "Go Back",
+    "go_to_dashboard": "Go to Dashboard"
+  },
+  "Subscription": {
+    "unknown": "Unknown status",
+    "demoMode": "Demo Mode",
+    "expired": "Subscription Expired",
+    "activePlan": "Active Subscription",
+    "expiringIn": "Expires in {days} days",
+    "expiringTitle": "Subscription Expiring Soon",
+    "expiringDescription": "Your subscription will expire on {date}. Please renew to avoid service interruption.",
+    "accessRestricted": "Access Restricted",
+    "subscriptionExpired": "Your subscription has expired. Please renew to regain access to all features.",
+    "renewSubscription": "Renew Subscription",
+    "backToOrganizations": "Back to Organizations",
+    "refreshSubscription": "Refresh Subscription Status",
+    "loading": "Loading subscription status..."
+  },
+  "Reports": {
+    "title": "Reports",
+    "subtitle": "View insights and analytics for your business",
+    "exportReport": "Export",
+    "noData": "No data available",
+    "noDataAvailable": "No data available for the selected period",
+    
+    "financialReports": "Financial",
+    "salesReports": "Sales",
+    "inventoryReports": "Inventory",
+    "taxReports": "Tax",
+    
+    "profitAndLoss": "Profit & Loss",
+    "profitAndLossDesc": "View income, expenses and profit",
+    "balanceSheet": "Balance Sheet",
+    "balanceSheetDesc": "View assets and liabilities",
+    "cashFlow": "Cash Flow",
+    "cashFlowDesc": "Track money in and out",
+    
+    "salesSummary": "Sales Summary",
+    "salesSummaryDesc": "Overview of all sales",
+    "topProducts": "Top Products",
+    "topProductsDesc": "Best selling products",
+    "customers": "Customers",
+    "customersDesc": "Top customer purchases",
+    
+    "inventory": "Inventory",
+    "inventoryDesc": "Track stock value and count",
+    "lowStock": "Low Stock",
+    "lowStockDesc": "Products that need restocking",
+    
+    "revenue": "Revenue",
+    "costOfGoodsSold": "Cost of Goods Sold",
+    "grossProfit": "Gross Profit",
+    "expenses": "Expenses",
+    "netProfit": "Net Profit",
+    
+    "assets": "Assets",
+    "liabilities": "Liabilities",
+    "liabilitiesAndEquity": "Liabilities & Equity",
+    "equity": "Equity",
+    "inventory": "Inventory",
+    "fixedAssets": "Fixed Assets",
+    "totalAssets": "Total Assets",
+    "accountsPayable": "Accounts Payable",
+    "totalLiabilities": "Total Liabilities",
+    "totalLiabilitiesEquity": "Total Liabilities & Equity",
+    
+    "cashFlowSummary": "Cash Flow Summary",
+    "cashInflow": "Cash Inflow",
+    "cashOutflow": "Cash Outflow",
+    "netCashFlow": "Net Cash Flow",
+    "positiveNetCashDescription": "Positive cash flow indicates strong financial health and ability to invest in growth.",
+    "negativeNetCashDescription": "Negative cash flow requires attention. Consider reducing expenses or increasing sales.",
+    
+    "salesByType": "Sales by Type",
+    "salesByStatus": "Sales by Status",
+    "salesSummary": "Sales Summary",
+    "salesByTypeDetails": "Sales by Type Details",
+    "type": "Type",
+    "status": "Status",
+    "count": "Count",
+    "amount": "Amount",
+    "totalSales": "Total Sales",
+    "subTotal": "Sub Total",
+    "taxes": "Taxes",
+    "discount": "Discount",
+    "grandTotal": "Grand Total",
+    
+    "topSellingProducts": "Top Selling Products",
+    "topSellingProductsDetails": "Top Selling Products Details",
+    "product": "Product",
+    "sku": "SKU",
+    "unitPrice": "Unit Price",
+    "quantity": "Quantity",
+    "totalSales": "Total Sales",
+    "salesAmount": "Sales Amount",
+    
+    "topCustomers": "Top Customers",
+    "topCustomersDetails": "Top Customers Details",
+    "customer": "Customer",
+    "email": "Email",
+    "orderCount": "Orders",
+    "totalPurchases": "Total Purchases",
+    "inSales": "in sales",
+    "inPurchases": "in purchases",
+    
+    "inventorySummary": "Inventory Summary",
+    "totalProducts": "Total Products",
+    "inventoryCost": "Inventory Cost",
+    "retailValue": "Retail Value",
+    "products": "Products",
+    "value": "Value",
+    "byCategory": "By Category",
+    "byWarehouse": "By Warehouse",
+    "category": "Category",
+    "warehouse": "Warehouse",
+    "costValue": "Cost Value",
+    "potentialProfit": "Potential Profit",
+    "total": "Total",
+    "noCategories": "No categories found",
+    "noWarehouses": "No warehouses found",
+    
+    "lowStockItems": "Low Stock Items",
+    "showingItemsBelow": "Showing items below",
+    "units": "units",
+    "items": "items",
+    "stockLevel": "Stock Level",
+    "noLowStockItems": "No low stock items found",
+    "lowStockDescription": "Items with low stock may need to be reordered soon to prevent stockouts.",
+    "uncategorized": "Uncategorized",
+    "noWarehouse": "No Warehouse",
+    
+    "period": "Period",
+    "threshold": "Threshold",
+    "itemsLowStock": "items low in stock",
+
+    "saleTypeSALE": "Sale",
+    "saleTypeINVOICE": "Invoice",
+    "saleTypeCREDIT_NOTE": "Credit Note",
+    "saleTypeESTIMATED_SALE": "Estimated Sale",
+    
+    "statusUNPAID": "Unpaid",
+    "statusPAID": "Paid",
+    "statusPARTIALLY_PAID": "Partially Paid"
+  }
+}
