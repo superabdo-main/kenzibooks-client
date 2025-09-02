@@ -1,4 +1,4 @@
-# Next.js & Shadcn-uii
+# Next.js & Shadcn-ui
 
 ## Technologies Used
 
